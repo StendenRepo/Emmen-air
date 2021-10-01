@@ -1,4 +1,380 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  background-color: #191971;
+  color: #616161;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  animation: fadeInAnimation ease 1s;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.77);
+}
+
+/* header en nav */
+
+header {
+  height: 8vh;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+header i {
+  font-size: 2rem;
+}
+
+.logo h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+.nav-mobile {
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  transition: top 1s ease;
+  z-index: 10;
+}
+
+.nav-mobile a {
+  text-decoration: none;
+  color: #616161;
+  font-size: 1.25rem;
+  padding: 1rem 0;
+}
+
+.nav-desktop {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-desktop a {
+  font-family: "Montserrat", sans-serif;
+  padding: 0 2rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #616161;
+}
+
+.openMenu {
+  display: none;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 4rem;
+}
+
+/* informatie */
+
+.info {
+  margin-left: 4rem;
+  background-color: #f4f4f4;
+  margin-top: 4rem;
+  width: 75%;
+  padding-bottom: 2.5rem;
+}
+
+.info img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image {
+  width: 50%;
+  margin-right: 0.5rem;
+}
+
+.info-header {
+  margin: 0 auto;
+  width: 95%;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #616161;
+}
+
+.info-menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  width: 95%;
+  margin-top: 0.5rem;
+  grid-gap: 0.5rem 4rem;
+}
+
+.info-element {
+  display: flex;
+  height: 100%;
+}
+
+.info-text {
+  display: grid;
+  align-content: space-between;
+}
+
+.info-text h2 {
+  text-decoration: underline #616161;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #616161;
+}
+
+/* snelle links */
+
+.links {
+  margin-right: 4rem;
+  background-color: #f4f4f4;
+  margin-top: 4rem;
+  width: 80%;
+}
+
+.link-header {
+  width: 80%;
+  margin: 0.5rem auto;
+  font-size: 1.25rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.25rem;
+}
+
+.links a {
+  color: gray;
+}
+
+.links p {
+  margin: 0 auto;
+  width: 80%;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid black;
+}
+
+.links p:last-child {
+  border-bottom: none;
+}
+
+/* news */
+
+.news {
+  margin-left: 4rem;
+  background-color: #f4f4f4;
+  width: 75%;
+  padding-bottom: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.news-header {
+  margin: 0 auto;
+  width: 95%;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #616161;
+  margin-bottom: 0.25rem;
+}
+
+.news-image {
+  width: 100%;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.news-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.news-text {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.news-text h2 {
+  text-decoration: underline #616161;
+  border-bottom: 1px solid #616161;
+  padding-bottom: 0.5rem;
+}
+
+/* evenementen en studentnummer */
+
+.event-number {
+  margin-bottom: 4rem;
+  margin-right: 4rem;
+  /* background-color: #f4f4f4; */
+  width: 80%;
+}
+
+/* evenementen */
+
+.event {
+  background-color: #f4f4f4;
+  /* width: 80%; */
+  padding-bottom: 2.5rem;
+}
+
+.event-header {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  border-bottom: 1px solid #616161;
+  /* padding-bottom: 0.25rem; */
+  padding: 0.5rem 0;
+}
+
+.event-element {
+  display: flex;
+  border-bottom: 1px solid #616161;
+  margin-left: 10%;
+  width: 70%;
+}
+
+.event-date {
+  margin: 0.25rem 0;
+  font-size: 0.75rem;
+  background-color: #87ceeb;
+  color: #f4f4f4;
+  border-radius: 50%;
+  width: 3rem;
+  text-align: center;
+  padding: 0.25rem;
+}
+
+.event-time {
+  padding-bottom: 0.25rem;
+  margin: 0 0.75rem;
+}
+
+.event-time p {
+  padding-top: 0.25rem;
+}
+
+/* studentnummer */
+
+.number {
+  background-color: #f4f4f4;
+  /* width: 80%; */
+  margin-top: 4rem;
+  padding-bottom: 2.5rem;
+}
+
+.number-header {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  padding: 0.5rem 0;
+}
+
+.number-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #191971;
+  color: #f4f4f4;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+.number-search i {
+  font-size: 1.25rem;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  bottom: 0;
+  height: 3vh;
+  background-color: green;
+  /* position: absolute; */
+}
+
+/* custom animaties voor de donkere overlay van het mobiele navigatiemenu */
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* mobiel gedeelte */
+
+@media (max-width: 768px) {
+  .openMenu {
+    display: flex;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .home {
+    grid-template-columns: 1fr;
+  }
+
+  .info {
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .info-menu {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+
+  .info-element {
+    display: block;
+  }
+
+  .info-text {
+    padding-top: 0.25rem;
+  }
+
+  .links {
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  .news {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .event-number {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
 }

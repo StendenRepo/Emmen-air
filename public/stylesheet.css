@@ -4,6 +4,7 @@
   width: 100%;
   height: 100%;
 }
+/* Styling voor pagina berichten */
 #container-berichten {
 	display: flex;
 	justify-content: center;
@@ -16,8 +17,6 @@
 }
 .item-2 {
 	background-color: #f4f4f4;
-	text-align: left;
-	font-size: 10px;
 	margin: 10px auto;
 	max-width: 75%;
 	max-height: 35%;
@@ -41,3 +40,4 @@ input[type="file"], input[type="submit"] {
 	max-height: 55px;
 	line-height: 50px;
 }
+/* Einde styling voor pagina berichten */

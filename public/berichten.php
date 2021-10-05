@@ -10,7 +10,7 @@ Opdracht: Project, berichten pagina. -->
 	<style>
 	@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 	</style>
-	<title>berichten</title>
+	<title>Berichten</title>
 </head>
 <body>
 	<div id="container-berichten">
@@ -19,7 +19,8 @@ Opdracht: Project, berichten pagina. -->
             <input id="fotoFile" type="file">
 		</div>
 		<div class="item-2">
-			<h1>Bericht</h1>
+            <label for="textareaBerichten"></label>
+            <textarea id="textareaBerichten" name=textarea placeholder="Vul hier uw bericht in..."></textarea>
 		</div>
 		<div class="item-3">
 			<label class="submitImageButton" for="submitImage">Plaats afbeelding</label> 
@@ -27,4 +28,4 @@ Opdracht: Project, berichten pagina. -->
 		</div>
 	</div>
 </body>
-</html>
+</html> 

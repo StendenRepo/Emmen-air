@@ -4,26 +4,6 @@
   width: 100%;
   height: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Styling voor berichten page */
 #container-berichten {
 	display: flex;
 	justify-content: center;
@@ -61,4 +41,3 @@ input[type="file"], input[type="submit"] {
 	max-height: 55px;
 	line-height: 50px;
 }
-/* Einde styling Berichten page */

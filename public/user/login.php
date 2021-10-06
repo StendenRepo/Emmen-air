@@ -9,7 +9,15 @@ if (isset($_POST["submit"])) {
 
     if(authUser($email, $pwd)){
       echo "user is authenticated";
+      /**
+       * TODO: set cookies and redirect to the dashboard.
+       */
     }
+      /**
+      * TODO: return back to login screen. with error message : incorrect login details.
+      */
   }
-    echo "Incorrect login credentials...";
+  /**
+   * TODO: return back to login screen. with error message : please fill in all fields.
+   */
 }

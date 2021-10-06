@@ -10,7 +10,6 @@ if (isset($_POST["submit"])) {
     if(authUser($email, $pwd)){
       echo "user is authenticated";
     }
-  } else {
-    echo "Incorrect login credentials...";
   }
+    echo "Incorrect login credentials...";
 }

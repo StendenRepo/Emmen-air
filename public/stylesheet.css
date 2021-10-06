@@ -34,6 +34,7 @@ header {
 }
 
 header i {
+  display: flex;
   font-size: 2rem;
 }
 
@@ -43,27 +44,32 @@ header i {
 }
 
 .nav-mobile {
-  background-color: white;
   display: none;
   flex-direction: column;
-  justify-content: center;
+  list-style: none;
   align-items: center;
+  justify-content: center;
   position: fixed;
   left: 0;
   right: 0;
   transition: top 1s ease;
+  background-color: white;
   z-index: 10;
+}
+
+.nav-mobile li {
+  font-size: 1.25rem;
+  padding: 1rem 0;
 }
 
 .nav-mobile a {
   text-decoration: none;
   color: #616161;
-  font-size: 1.25rem;
-  padding: 1rem 0;
 }
 
 .nav-desktop {
   display: flex;
+  list-style: none;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;

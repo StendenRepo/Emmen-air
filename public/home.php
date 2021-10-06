@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-<div id="container">
+    <div id="container">
         <div class="overlay"></div>
         <header>
             <div class="logo">
@@ -18,20 +18,20 @@
             <div class="openMenu">
                 <i class="fa fa-bars"></i>
             </div>
-            <nav class="nav-desktop">
-                <a href="#">Home</a>
-                <a href="#">Berichten</a>
-                <a href="#">Vliegroutes</a>
-                <a href="#">Galerij</a>
-                <a href="#">Uitloggen</a>
-            </nav>
-            <nav class="nav-mobile">
-                <a href="#">Home</a>
-                <a href="#">Berichten</a>
-                <a href="#">Vliegroutes</a>
-                <a href="#">Galerij</a>
-                <a href="#">Uitloggen</a>
-            </nav>
+            <ul class="nav-desktop">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Berichten</a></li>
+                <li><a href="#">Vliegroutes</a></li>
+                <li><a href="#">Galerij</a></li>
+                <li><a href="#">Uitloggen</a>
+            </ul>
+            <ul class="nav-mobile">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Berichten</a></li>
+                <li><a href="#">Vliegroutes</a></li>
+                <li><a href="#">Galerij</a></li>
+                <li><a href="#">Uitloggen</a></li>
+            </ul>
         </header>
         <script type="text/javascript" src="app.js"></script>
         <main class="home">

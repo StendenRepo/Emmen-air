@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <script src="https://kit.fontawesome.com/644a2942c8.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <?php include "../templates/header.php"; ?>
 </head>
 <body>
     <div class="overlay"></div>
@@ -32,7 +27,6 @@
                 <li><a href="#">Uitloggen</a></li>
             </ul>
         </header>
-        <script type="text/javascript" src="app.js"></script>
     <div id="container">
         <main class="home">
             <div class="info">
@@ -176,13 +170,19 @@
                     </div>
                 </div>
                 <div class="number">
-                    <div class="number-header">
-                        <h2>Zoek uw schoolgenoten op</h2>
-                    </div>
-                    <div class="number-search">
-                        <h2>Zoek...</h2>
-                        <i class="fas fa-search"></i>
-                    </div>
+                    <form action="flight.php">
+                        <div class="number-header">
+                            <h2>Zoek uw schoolgenoten op</h2>
+                        </div>
+                        <div class="number-input">
+                            <input
+                            type="text"
+                            name="number-finder"
+                            id="number-finder"
+                            placeholder="Zoek..."
+                            >
+                        </div>
+                    </form>
                 </div>
             </div>
         </main>

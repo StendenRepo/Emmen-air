@@ -27,7 +27,6 @@
             </ul>
         </header>
         <div id=container>
-            <script type="text/javascript" src="app.js"></script>
             <main class=infopagina>
                 <div class=artikel-box>
                     <div class="artikel-veld">

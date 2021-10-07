@@ -4,7 +4,6 @@
         <?php include "../templates/header.php"; ?>
     </head>
     <body>
-        <div id=container>
         <header>
             <div class="logo">
                 <h1>Emmen Air</h1>
@@ -27,7 +26,8 @@
                 <li><a href="#">Uitloggen</a></li>
             </ul>
         </header>
-        <script type="text/javascript" src="app.js"></script>
+        <div id=container>
+            <script type="text/javascript" src="app.js"></script>
             <main class=infopagina>
                 <div class=artikel-box>
                     <div class="artikel-veld">
@@ -81,11 +81,11 @@
                     </div>
                 </div>
             </main>
-            <footer>
-                <p>
-                    copyright
-                </p>
-            </footer> 
         </div>
+        <footer>
+            <p>
+                copyright
+            </p>
+        </footer> 
     </body>
 </html>

@@ -9,8 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="container">
-        <div class="overlay"></div>
+    <div class="overlay"></div>
         <header>
             <div class="logo">
                 <h1>Emmen Air</h1>
@@ -34,6 +33,7 @@
             </ul>
         </header>
         <script type="text/javascript" src="app.js"></script>
+    <div id="container">
         <main class="home">
             <div class="info">
                 <div class="info-header">

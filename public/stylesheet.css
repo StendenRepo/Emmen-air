@@ -5,13 +5,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-#container {
-  height: 100%;
-  width: 100%;
-  background-color: #191971;
-  color: #616161;
-}
-
 .overlay {
   display: none;
   position: fixed;
@@ -87,25 +80,27 @@ header i {
   display: none;
 }
 
+#container {
+  background-color: #191971;
+  color: #616161;
+}
+
 .home {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 4rem;
+  padding: 4rem;
 }
 
 /* informatie */
 
 .info {
-  margin-left: 4rem;
   background-color: #f4f4f4;
-  margin-top: 4rem;
-  width: 75%;
   padding-bottom: 2.5rem;
 }
 
 .info img {
   width: 100%;
-  border-radius: 10px;
 }
 
 .image {
@@ -127,6 +122,7 @@ header i {
   width: 95%;
   margin-top: 0.5rem;
   grid-gap: 0.5rem 4rem;
+  background-color: #f4f4f4;
 }
 
 .info-element {
@@ -134,12 +130,13 @@ header i {
   height: 100%;
 }
 
-.info-text {
+/* .info-text {
   display: grid;
   align-content: space-between;
-}
+} */
 
 .info-text h2 {
+  margin-bottom: 1rem;
   text-decoration: underline #616161;
   padding-bottom: 0.25rem;
   border-bottom: 1px solid #616161;
@@ -148,10 +145,7 @@ header i {
 /* snelle links */
 
 .links {
-  margin-right: 4rem;
   background-color: #f4f4f4;
-  margin-top: 4rem;
-  width: 80%;
 }
 
 .link-header {
@@ -180,11 +174,8 @@ header i {
 /* news */
 
 .news {
-  margin-left: 4rem;
   background-color: #f4f4f4;
-  width: 75%;
   padding-bottom: 2.5rem;
-  margin-bottom: 4rem;
 }
 
 .news-header {
@@ -203,7 +194,6 @@ header i {
 
 .news-image img {
   width: 100%;
-  border-radius: 10px;
 }
 
 .news-text {
@@ -217,20 +207,10 @@ header i {
   padding-bottom: 0.5rem;
 }
 
-/* evenementen en studentnummer */
-
-.event-number {
-  margin-bottom: 4rem;
-  margin-right: 4rem;
-  /* background-color: #f4f4f4; */
-  width: 80%;
-}
-
 /* evenementen */
 
 .event {
   background-color: #f4f4f4;
-  /* width: 80%; */
   padding-bottom: 2.5rem;
 }
 
@@ -239,7 +219,6 @@ header i {
   margin: 0 auto;
   font-size: 1.25rem;
   border-bottom: 1px solid #616161;
-  /* padding-bottom: 0.25rem; */
   padding: 0.5rem 0;
 }
 
@@ -274,7 +253,6 @@ header i {
 
 .number {
   background-color: #f4f4f4;
-  /* width: 80%; */
   margin-top: 4rem;
   padding-bottom: 2.5rem;
 }
@@ -348,7 +326,6 @@ footer {
 
   .info {
     margin: 0 auto;
-    margin-top: 3rem;
   }
 
   .image {
@@ -368,19 +345,7 @@ footer {
     padding-top: 0.25rem;
   }
 
-  .links {
-    margin: 0 auto;
-    width: 75%;
-  }
-
   .news {
-    width: 75%;
     margin: 0 auto;
-  }
-
-  .event-number {
-    width: 75%;
-    margin: 0 auto;
-    margin-bottom: 4rem;
   }
 }

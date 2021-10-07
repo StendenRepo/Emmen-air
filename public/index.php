@@ -14,8 +14,9 @@
       <input type="password" name="inputPwd">
 
       <input name="submit" type="submit">
-      <?php echo $_SESSION["error"]; ?>
   </div>
   </form>
+
+  <?php echo "<span>".$_SESSION["error"]."</span>" ?>
 </body>
 </html>

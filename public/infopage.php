@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class=artikel-box>
-                    <div class="artikel-veld">
+                    <div class=artikel-veld>
                         <div class=afbeelding>
                             <img src=assets/vliegtuig.png alt="vliegtuig"/>
                         </div>

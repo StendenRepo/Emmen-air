@@ -20,6 +20,11 @@ header {
   padding: 0 1.5rem;
 }
 
+.logo h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
 .nav-desktop a {
   font-family: "Roboto", sans-serif;
   padding: 0 2rem;
@@ -74,13 +79,18 @@ main {
   font-size: medium;
 }
 
+.upload div {
+  width: 100%;
+}
+
 button {
   background-color: #191971;
   color: white;
   border: none;
   text-decoration: none;
-  width: 138vh;
+  width: 95%;
   height: 7vh;
   text-align: center;
-  font-size: xx-large;
+  font-size: 1.7rem;
+  padding: 5px;
 }

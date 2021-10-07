@@ -5,24 +5,18 @@
 body {
 	background-color: #191971;
 }
-/* Styling voor main container en properties */
-
 #container-berichten {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	background-color: #191971;
 	margin: 5%;
 }
-/* Styling voor berichtenveld */
-
 .item-2 {
 	background-color: #f4f4f4;
 	margin: 10px auto;
 	max-width: 75%;
 	color: gray;
 }
-/* Item-1 valt onder block "Upload afbeelding" Item-3 valt onder block "Submit" */
-
 .item-1 {
 	background-color: #f4f4f4;
 	margin: 50px auto;
@@ -38,8 +32,6 @@ body {
 input[type="file"], input[type="submit"] {
 	display: none;
 }
-/* Styling voor upload en submit buttons */
-
 .uploadImage, .submitImageButton {
 	background-color: #191971;
 	color: white;
@@ -48,7 +40,6 @@ input[type="file"], input[type="submit"] {
 	width: 95%;
 	max-height: 75%;
 	line-height: 50px;
-
 }
 #textareaBerichten {
 	resize: none;
@@ -69,8 +60,6 @@ input[type="file"], input[type="submit"] {
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
 }
-/* Header styling */
-
 header {
 	height: 8vh;
 	background-color: #f4f4f4;
@@ -105,4 +94,3 @@ header i {
 	text-decoration: none;
 	color: #616161;
 }
-/* Einde styling berichten page */

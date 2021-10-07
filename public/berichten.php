@@ -17,21 +17,21 @@ Opdracht: Project, berichten pagina.
 </head>
 <body>
 <!-- Start van header -->
-	<header>
-		<div class="logo">
-			<h1>Emmen Air</h1>
-		</div>
-		<div class="openMenu">
-			<i class="fa fa-bars"></i>
-		</div>
-		<nav class="nav-desktop">
-			<a href="#">Home</a> 
-			<a href="#">Berichten</a> 
-			<a href="#">Vliegroutes</a> 
-			<a href="#">Galerij</a> 
-			<a href="#">Uitloggen</a>
-		</nav>
-	</header>
+<header>
+	<div class="logo">
+    	<h1>Emmen Air</h1>
+    </div>
+    	<div class="openMenu">
+        	 <i class="fa fa-bars"></i>
+        </div>
+            <ul class="nav-desktop">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Berichten</a></li>
+                <li><a href="#">Vliegroutes</a></li>
+                <li><a href="#">Galerij</a></li>
+                <li><a href="#">Uitloggen</a>
+			</ul>
+</header>
 <!-- Einde header -->
 
 <!-- Eerst container upload afbeelding -->
@@ -44,8 +44,8 @@ Opdracht: Project, berichten pagina.
 		
 		<!-- Start tweede container textarea -->
 		<div class="item-2">
-			<form action="berichten.php">
-				<textarea id="textareaBerichten" name="textarea" placeholder="Vul hier uw bericht in..."></textarea> 
+			<form action="berichten.php" onSubmit="alert('Uw afbeelding is geplaatst!');" >
+				<textarea id="textareaBerichten" name="textarea" placeholder="Vul hier uw bericht in..." required></textarea> 
 				<input id="submitImage" type="submit">
 			</form>
 		</div>

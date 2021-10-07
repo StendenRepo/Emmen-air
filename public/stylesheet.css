@@ -1,48 +1,59 @@
 * {
 	margin: 0;
 	padding: 0;
-	width: 100%;
-	height: 100%;
 }
-
-/* Styling voor main container en properties */
-#container-berichten {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	text-align: center;
-	width: 100%;
-	height: 100%;
-	font-family: 'Roboto', sans-serif;
+body {
 	background-color: #191971;
 }
+/* Styling voor main container en properties */
+
+#container-berichten {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: #191971;
+	margin: 5%;
+}
 /* Styling voor berichtenveld */
+
 .item-2 {
 	background-color: #f4f4f4;
 	margin: 10px auto;
 	max-width: 75%;
-	max-height: 35%;
 	color: gray;
 }
 /* Item-1 valt onder block "Upload afbeelding" Item-3 valt onder block "Submit" */
-.item-1, .item-3 {
+
+.item-1 {
 	background-color: #f4f4f4;
-	margin: 10px auto;
+	margin: 50px auto;
 	max-width: 75%;
-	max-height: 10%;
+	height: 100px;
+}
+.item-3 {
+	background-color: #f4f4f4;
+	margin: 50px auto;
+	max-width: 75%;
+	height: 100px;
 }
 input[type="file"], input[type="submit"] {
 	display: none;
 }
 /* Styling voor upload en submit buttons */
+
 .uploadImage, .submitImageButton {
 	background-color: #191971;
 	color: white;
 	display: inline-block;
-	max-width: 90%;
-	margin-top: 20px;
-	max-height: 55px;
+	margin-top: 25px;
+	width: 95%;
+	max-height: 75%;
 	line-height: 50px;
+
+}
+#textareaBerichten {
+	resize: none;
+	width: 100%;
+	height: 200px;
 }
 .submitImageButton:hover {
 	background-color: #282875;
@@ -59,6 +70,7 @@ input[type="file"], input[type="submit"] {
 	transform: translateY(4px);
 }
 /* Header styling */
+
 header {
 	height: 8vh;
 	background-color: #f4f4f4;
@@ -67,15 +79,30 @@ header {
 	justify-content: space-between;
 	padding: 0 1.5rem;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
-  }
-  header i {
+}
+header i {
+	display: flex;
 	font-size: 2rem;
-  }
-  
-  .logo h1 {
+}
+.logo h1 {
 	font-family: "Montserrat", sans-serif;
 	font-size: 1.5rem;
-  }
-  
-
+}
+.nav-desktop {
+	display: flex;
+	list-style: none;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-desktop li {
+	display: inline-block;
+}
+.nav-desktop a {
+	font-family: "Montserrat", sans-serif;
+	padding: 0 2rem;
+	font-size: 1.25rem;
+	text-decoration: none;
+	color: #616161;
+}
 /* Einde styling berichten page */

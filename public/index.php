@@ -1,7 +1,8 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <?php include "../templates/header.php"; ?>
+  <?php include "../templates/header.php" ?>
 </head>
 <body>
   <div id="container">
@@ -13,6 +14,7 @@
       <input type="password" name="inputPwd">
 
       <input name="submit" type="submit">
+      <?php echo $_SESSION["error"]; ?>
   </div>
   </form>
 </body>

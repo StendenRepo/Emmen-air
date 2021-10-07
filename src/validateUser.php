@@ -1,11 +1,5 @@
 <?php
 
-// why does it read from the login.php file path..
-// $data = file_get_contents("../../data/user.json");
-// echo "<pre>";
-// var_dump($data["users"]);
-// echo "</pre>";
-
 function authUser($email, $pwd) {
   $userData = json_decode(file_get_contents(dirname(__FILE__)."/../data/user.json"), true)["users"];
 

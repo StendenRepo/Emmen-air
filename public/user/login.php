@@ -10,15 +10,10 @@ if (isset($_POST["submit"])) {
     $pwd = $_POST["inputPwd"];
 
     if(authUser($email, $pwd)){
+      session_destroy();
       header("Location: ../home.php");
       exit;
-      /**
-       * TODO: set cookies and redirect to the dashboard.
-       */
     }
-      /**
-      * TODO: return back to login screen. with error message : incorrect login details.
-      */
       header("Location: ../index.php");
       $_SESSION["error"] = "Incorrect login details";
       exit;
@@ -26,7 +21,4 @@ if (isset($_POST["submit"])) {
   $_SESSION["error"] = "Please fill in all fields.";
   header("Location: ../index.php");
   exit;
-  /**
-   * TODO: return back to login screen. with error message : please fill in all fields.
-   */
 }

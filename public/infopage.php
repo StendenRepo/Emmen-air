@@ -132,10 +132,5 @@
                 </div>
             </main>
         </div>
-        <footer>
-            <p>
-                copyright
-            </p>
-        </footer> 
     </body>
 </html>

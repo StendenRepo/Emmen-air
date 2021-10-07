@@ -1,4 +1,86 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  color: #616161;
+}
+
+header {
+  height: 8vh;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.nav-desktop a {
+  font-family: "Roboto", sans-serif;
+  padding: 0 2rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #616161;
+}
+
+main {
+  background-color: #191971;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#main-body {
+  height: 92vh;
+  background-color: #191971;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+#main-column {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1100px;
+  grid-template-rows: repeat(3, 150px);
+  row-gap: 30px;
+  background-color: #191971;
+  margin-top: -100px;
+}
+
+.upload {
+  text-align: center;
+  background-color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bericht {
+  text-align: center;
+  background-color: white;
+  height: 200px;
+  margin-top: -50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  font-size: medium;
+}
+
+button {
+  background-color: #191971;
+  color: white;
+  border: none;
+  text-decoration: none;
+  width: 138vh;
+  height: 7vh;
+  text-align: center;
+  font-size: xx-large;
 }

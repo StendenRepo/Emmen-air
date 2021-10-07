@@ -26,18 +26,18 @@
                 <li><a href="#">Uitloggen</a></li>
             </ul>
         </header>
-        <div id=container>
-            <main class=infopagina>
-                <div class=artikel-box>
+        <div id="container">
+            <main class="infopagina">
+                <div class="artikel-box">
                     <div class="artikel-veld">
-                        <div class=afbeelding>
+                        <div class="afbeelding">
                             <img src=assets/vliegtuig.png alt="vliegtuig"/>
                         </div>
-                        <div class=titel>
+                        <div class="titel">
                             <h2><u>Titel</u></h2>
                         </div>
                         <hr>
-                        <div class=artikel>
+                        <div class="artikel">
                             <b>
                             Lorem ipsum dolor sit amet, consectetur adipiscing 
                             elit. Curabitur at erat at tortor imperdiet maximus 
@@ -79,16 +79,16 @@
                         </div>
                     </div>
                 </div>
-                <div class=artikel-box>
-                    <div class=artikel-veld>
-                        <div class=afbeelding>
+                <div class="artikel-box">
+                    <div class="artikel-veld">
+                        <div class="afbeelding">
                             <img src=assets/vliegtuig.png alt="vliegtuig"/>
                         </div>
-                        <div class=titel>
+                        <div class="titel">
                             <h2><u>Titel</u></h2>
                         </div>
                         <hr>
-                        <div class=artikel>
+                        <div class="artikel">
                             <b>
                             Lorem ipsum dolor sit amet, consectetur adipiscing 
                             elit. Curabitur at erat at tortor imperdiet maximus 

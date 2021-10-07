@@ -1,4 +1,131 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  background-color: #191971;
+  color: #616161;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  animation: fadeInAnimation ease 1s;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.77);
+}
+
+/* header en nav */
+
+header {
+  height: 8vh;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+header i {
+  display: flex;
+  font-size: 2rem;
+}
+
+.logo h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+.nav-mobile {
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  transition: top 1s ease;
+  background-color: white;
+  z-index: 10;
+}
+
+.nav-mobile li {
+  font-size: 1.25rem;
+  padding: 1rem 0;
+}
+
+.nav-mobile a {
+  text-decoration: none;
+  color: #616161;
+}
+
+.nav-desktop {
+  display: flex;
+  list-style: none;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-desktop a {
+  font-family: "Montserrat", sans-serif;
+  padding: 0 2rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #616161;
+}
+
+.openMenu {
+  display: none;
+}
+
+/* informatie */
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.artikel-box {
+  background-color: #f4f4f4;
+  max-width: 70%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.artikel-veld {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.afbeelding img {
+  width: 100%;
+}
+
+.artikel {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+hr {
+  margin-top: 8px;
+}
+
+/* footer*/
+
+footer {
+  width: 100%;
+  bottom: 0;
+  height: 3vh;
+  background-color: green;
+  /* position: absolute; */
 }

@@ -17,6 +17,10 @@
   </div>
   </form>
 
-  <?php echo "<span>".$_SESSION["error"]."</span>" ?>
+  <?php
+  if(isset($_SESSION["error"])){
+    echo "<span>".$_SESSION["error"]."</span>";
+   }
+  ?>
 </body>
 </html>

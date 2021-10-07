@@ -360,4 +360,96 @@ footer {
   .news {
     margin: 0 auto;
   }
+  
+body {
+	background-color: #191971;
+}
+#container-berichten {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: #191971;
+	margin: 5%;
+}
+.item-2 {
+	background-color: #f4f4f4;
+	margin: 10px auto;
+	max-width: 75%;
+	color: gray;
+}
+.item-1 {
+	background-color: #f4f4f4;
+	margin: 50px auto;
+	max-width: 75%;
+	height: 100px;
+}
+.item-3 {
+	background-color: #f4f4f4;
+	margin: 50px auto;
+	max-width: 75%;
+	height: 100px;
+}
+input[type="file"], input[type="submit"] {
+	display: none;
+}
+.uploadImage, .submitImageButton {
+	background-color: #191971;
+	color: white;
+	display: inline-block;
+	margin-top: 25px;
+	width: 95%;
+	max-height: 75%;
+	line-height: 50px;
+}
+#textareaBerichten {
+	resize: none;
+	width: 100%;
+	height: 200px;
+}
+.submitImageButton:hover {
+	background-color: #282875;
+}
+.submitImageButton:active {
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+.uploadImage:hover {
+	background-color: #282875;
+}
+.uploadImage:active {
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+header {
+	height: 8vh;
+	background-color: #f4f4f4;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1.5rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+header i {
+	display: flex;
+	font-size: 2rem;
+}
+.logo h1 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.5rem;
+}
+.nav-desktop {
+	display: flex;
+	list-style: none;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-desktop li {
+	display: inline-block;
+}
+.nav-desktop a {
+	font-family: "Montserrat", sans-serif;
+	padding: 0 2rem;
+	font-size: 1.25rem;
+	text-decoration: none;
+	color: #616161;
 }

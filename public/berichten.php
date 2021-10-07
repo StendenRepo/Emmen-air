@@ -15,36 +15,36 @@ Opdracht: Project, berichten pagina.
 	</style>
 		<title>Berichten</title>
 	</head>
-		<body>
-			<header>
-				<div class="logo">
-    				<h1>Emmen Air</h1>
-   				</div>
-				<div class="openMenu">
-     				<i class="fa fa-bars"></i>
-    			</div>
-    			<ul class="nav-desktop">
-               		<li><a href="#">Home</a></li>
-                	<li><a href="#">Berichten</a></li>
-                	<li><a href="#">Vliegroutes</a></li>
-                	<li><a href="#">Galerij</a></li>
-                	<li><a href="#">Uitloggen</a>
-				</ul>
-			</header>
-			<div id="container-berichten">
-				<div class="item-1">
-					<label class="uploadImage" for="fotoFile">Upload een afbeelding</label> 
-					<input id="fotoFile" type="file">
-				</div>
-				<div class="item-2">
-					<form action="berichten.php" onSubmit="alert('Uw afbeelding is geplaatst!');" >
-						<textarea id="textareaBerichten" name="textarea" placeholder="Vul hier uw bericht in..." required></textarea> 
-						<input id="submitImage" type="submit">
-					</form>
-				</div>
-				<div class="item-3">
-					<label class="submitImageButton" for="submitImage">Plaats afbeelding</label>
-				</div>
+	<body>
+		<header>
+			<div class="logo">
+				<h1>Emmen Air</h1>
 			</div>
+			<div class="openMenu">
+				<i class="fa fa-bars"></i>
+			</div>
+			<ul class="nav-desktop">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Berichten</a></li>
+				<li><a href="#">Vliegroutes</a></li>
+				<li><a href="#">Galerij</a></li>
+				<li><a href="#">Uitloggen</a>
+			</ul>
+		</header>
+		<div id="container-berichten">
+			<div class="item-1">
+				<label class="uploadImage" for="fotoFile">Upload een afbeelding</label> 
+				<input id="fotoFile" type="file">
+			</div>
+			<div class="item-2">
+				<form action="berichten.php" onSubmit="alert('Uw afbeelding is geplaatst!');" >
+					<textarea id="textareaBerichten" name="textarea" placeholder="Vul hier uw bericht in..." required></textarea> 
+					<input id="submitImage" type="submit">
+				</form>
+			</div>
+			<div class="item-3">
+				<label class="submitImageButton" for="submitImage">Plaats afbeelding</label>
+			</div>
+		</div>
 	</body>
 </html>

@@ -113,9 +113,14 @@ main {
   border-radius: 5%;
 }
 
+.titel {
+  font-family: "Roboto", sans-serif;
+}
+
 .artikel {
   padding-bottom: 20px;
   padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 hr {

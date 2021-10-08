@@ -16,6 +16,7 @@ Opdracht: Project, berichten pagina.
 		<title>Berichten</title>
 	</head>
 	<body>
+		<div class="overlay"></div>
 		<header>
 			<div class="logo">
 				<h1>Emmen Air</h1>
@@ -24,12 +25,19 @@ Opdracht: Project, berichten pagina.
 				<i class="fa fa-bars"></i>
 			</div>
 			<ul class="nav-desktop">
-				<li><a href="#">Home</a></li>
+				<li><a href="home.php">Home</a></li>
 				<li><a href="#">Berichten</a></li>
 				<li><a href="#">Vliegroutes</a></li>
 				<li><a href="#">Galerij</a></li>
 				<li><a href="#">Uitloggen</a>
 			</ul>
+			<ul class="nav-mobile">
+                <li><a href="home.php">Home</a></li>
+                <li><a href="#">Berichten</a></li>
+                <li><a href="#">Vliegroutes</a></li>
+                <li><a href="#">Galerij</a></li>
+                <li><a href="#">Uitloggen</a></li>
+            </ul>
 		</header>
 		<div id="container-berichten">
 			<div class="item-1">

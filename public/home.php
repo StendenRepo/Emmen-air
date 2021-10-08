@@ -1,3 +1,7 @@
+<!--
+    programmeur: Victor Peters
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,14 +18,14 @@
             </div>
             <ul class="nav-desktop">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Berichten</a></li>
+                <li><a href="berichten.php">Berichten</a></li>
                 <li><a href="#">Vliegroutes</a></li>
                 <li><a href="#">Galerij</a></li>
                 <li><a href="#">Uitloggen</a>
             </ul>
             <ul class="nav-mobile">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Berichten</a></li>
+                <li><a href="berichten.php">Berichten</a></li>
                 <li><a href="#">Vliegroutes</a></li>
                 <li><a href="#">Galerij</a></li>
                 <li><a href="#">Uitloggen</a></li>
@@ -61,7 +65,7 @@
                             <p>vind hier meer informatie over dit onderwerp</p>
                         </div>
                     </div>
-                    <div class="info-element">
+                    <!-- <div class="info-element">
                         <div class="image">
                             <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
                         </div>
@@ -105,7 +109,7 @@
                             <h2>Lorem Ipsum</h2>
                             <p>vind hier meer informatie over dit onderwerp</p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="links">

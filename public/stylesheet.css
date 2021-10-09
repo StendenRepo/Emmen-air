@@ -89,7 +89,7 @@ header i {
 
 /* informatie */
 
-main {
+.infopagina {
   display: flex;
   align-items: center;
   flex-direction: column;

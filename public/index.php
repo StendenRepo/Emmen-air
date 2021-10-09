@@ -5,22 +5,23 @@
   <?php include "../templates/header.php" ?>
 </head>
 <body>
-  <div id="container">
-    <form method="POST" action="user/login.php">
-      <label for="inputEmail">Email</label>
+  <div class="login-wrapper">
+    <div class="logo-wrapper"></div>
+    <form method="POST" action="user/login.php" id="login-form">
+      <label class="login-label" for="inputEmail">Email</label>
       <input type="text" name="inputEmail">
 
-      <label for="inputPwd">Wachtwoord</label>
+      <label class="login-label" for="inputPwd">Wachtwoord</label>
       <input type="password" name="inputPwd">
 
-      <input name="submit" type="submit">
-  </div>
-  </form>
+      <input class="login-btn" name="submit" type="submit">
+      <?php
+        if(isset($_SESSION["error"])){
+          echo "<span>".$_SESSION["error"]."</span>";
+        }
+      ?>
+    </form>
 
-  <?php
-  if(isset($_SESSION["error"])){
-    echo "<span>".$_SESSION["error"]."</span>";
-   }
-  ?>
+  </div>
 </body>
 </html>

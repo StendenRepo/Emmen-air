@@ -17,20 +17,9 @@ Opdracht: Project, berichten pagina.
 	</head>
 	<body>
 		<header>
-			<div class="logo">
-				<h1>Emmen Air</h1>
-			</div>
-			<div class="openMenu">
-				<i class="fa fa-bars"></i>
-			</div>
-			<ul class="nav-desktop">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Berichten</a></li>
-				<li><a href="#">Vliegroutes</a></li>
-				<li><a href="#">Galerij</a></li>
-				<li><a href="#">Uitloggen</a>
-			</ul>
+			<?php include '../templates/navbar.php'; ?>
 		</header>
+		<script type="text/javascript" src="app.js"></script>
 		<div id="container-berichten">
 			<div class="item-1">
 				<label class="uploadImage" for="fotoFile">Upload een afbeelding</label> 

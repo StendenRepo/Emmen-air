@@ -24,20 +24,19 @@
     <main>
       <div id="main-body">
         <div id="main-column">
-          <div class="upload">
-            <div>
-              <button type="button">Upload een afbeelding</button>
-            </div>
+          <div class="upload">      
+            <button type="button">Upload een afbeelding</button>       
           </div>
-          <div class="bericht">
-            <div>
-              <p>Bericht</p>
-            </div>
+          <div class="message">     
+            <div class="English">
+              <textarea name="bericht" id="berichtArea" placeholder="EN"></textarea> 
+            </div>   
+            <div class="Dutch">
+              <textarea name="bericht" id="berichtArea" placeholder="NL"></textarea> 
+            </div>          
           </div>
-          <div class="upload">
-            <div>
-              <button type="button">Plaats afbeelding</button>
-            </div>
+          <div class="upload">           
+            <button type="button">Plaats afbeelding</button>            
           </div>
         </div>
 

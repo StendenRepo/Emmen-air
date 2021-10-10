@@ -152,7 +152,7 @@
                     </div>
                 </div>
                 <div class="number">
-                    <form action="flight.php">
+                    <form action="flight.php" method="POST">
                         <div class="number-header">
                             <h2>Zoek uw schoolgenoten op</h2>
                         </div>

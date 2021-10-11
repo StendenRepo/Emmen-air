@@ -3,6 +3,12 @@
 
 * {
   padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
   margin: 0;
   box-sizing: border-box;
 }
@@ -282,6 +288,52 @@ footer {
   height: 3vh;
   background-color: green;
 }
+
+/* informatie */
+
+.infopagina {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.artikel-box {
+  background-color: #f4f4f4;
+  max-width: 70%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.artikel-veld {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.artikel-veld hr {
+  margin-top: 8px;
+}
+
+.info_afbeelding img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+.info_artikel {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.artikel p {
+  font-weight: bold;
 
 /* mobiel gedeelte */
 

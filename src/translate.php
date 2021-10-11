@@ -14,9 +14,6 @@ if (!empty($_SESSION['language'])) {
         case "eng":
             include('../public/lang/eng.php');
         break;
-        case "nl":
-            include('../public/lang/nl.php');
-        break;
         default:
             include('../public/lang/nl.php');
         }    

@@ -1,23 +1,35 @@
 <?php
+/* ---- example ---- */
+//nav
+$lang['lang-eng'] = 'English';
+$lang['lang-fre'] = 'French';
+$lang['lang-ger'] = 'German';
+
+//index
+$lang['index-title'] = 'Language Demo';
+$lang['index-welcome'] = 'Welcome to the language demo';
+$lang['index-text-1'] = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+$lang['demo'] = 'Return to the tutorial';
+/* ---- example ---- */
 
 /* ----- BEGIN GENERAL SECTION ------ */
 // page language var, set as <html> </html> attribute
-$lang = "en";
+
 // title variable - set in <head> </head> section
-$title = "Emmen air - internal website";
+
 /* ----- END GENERAL SECTION (General usage) ----- */ 
 
 /* ----- BEGIN   SECTION ------ */
-$text = "This is the english text for the website of Emmen Air";
+
 /* ----- END  SECTION ------ */
 
 
 /* ----- BEGIN HOME SECTION ------ */
-$infoText = "find more information on this subject";
+
 /* ----- END HOME SECTION ------ */
 
 /* ----- BEGIN BERICHTEN SECTION ------ */
-$submitLable = "upload image";
+
 /* ----- END BERICHTEN SECTION ------ */
 
 /* ----- BEGIN VLIEGROUTES SECTION ------ */

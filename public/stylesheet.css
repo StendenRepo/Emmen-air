@@ -334,37 +334,36 @@ p {
 
 .artikel p {
   font-weight: bold;
+}
 
-  /* mobiel gedeelte */
+/* mobiel gedeelte */
+@media (max-width: 768px) {
+  .home {
+    grid-template-columns: 1fr;
+  }
 
-  @media (max-width: 768px) {
-    .home {
-      grid-template-columns: 1fr;
-    }
+  .info {
+    margin: 0 auto;
+  }
 
-    .info {
-      margin: 0 auto;
-    }
+  .image {
+    width: 100%;
+  }
 
-    .image {
-      width: 100%;
-    }
+  .info-menu {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
 
-    .info-menu {
-      grid-template-columns: 1fr;
-      grid-gap: 2rem;
-    }
+  .info-element {
+    display: block;
+  }
 
-    .info-element {
-      display: block;
-    }
+  .info-text {
+    padding-top: 0.25rem;
+  }
 
-    .info-text {
-      padding-top: 0.25rem;
-    }
-
-    .news {
-      margin: 0 auto;
-    }
+  .news {
+    margin: 0 auto;
   }
 }

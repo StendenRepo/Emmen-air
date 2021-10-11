@@ -8,15 +8,15 @@
             <main class="infopagina">
                 <div class="artikel-box">
                     <div class="artikel-veld">
-                        <div class="afbeelding">
+                        <div class="info_afbeelding">
                             <img src=assets/vliegtuig.png alt="vliegtuig"/>
                         </div>
-                        <div class="titel">
+                        <div class="info_titel">
                             <h2><u>Titel</u></h2>
                         </div>
                         <hr>
-                        <div class="artikel">
-                            <b>
+                        <div class="info_artikel">
+                            <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing 
                             elit. Curabitur at erat at tortor imperdiet maximus 
                             consequat et sem. Fusce finibus dolor non augue 
@@ -53,21 +53,21 @@
                             efficitur id urna nec bibendum. Nam sollicitudin, nulla 
                             et accumsan blandit, lectus urna porttitor felis, sed 
                             tempor nisl sapien ut tellus. Sed pellentesque lectus 
-                            </b>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="artikel-box">
                     <div class="artikel-veld">
-                        <div class="afbeelding">
+                        <div class="info_afbeelding">
                             <img src=assets/vliegtuig.png alt="vliegtuig"/>
                         </div>
-                        <div class="titel">
+                        <div class="info_titel">
                             <h2><u>Titel</u></h2>
                         </div>
                         <hr>
-                        <div class="artikel">
-                            <b>
+                        <div class="info_artikel">
+                            <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing 
                             elit. Curabitur at erat at tortor imperdiet maximus 
                             consequat et sem. Fusce finibus dolor non augue 
@@ -104,7 +104,7 @@
                             efficitur id urna nec bibendum. Nam sollicitudin, nulla 
                             et accumsan blandit, lectus urna porttitor felis, sed 
                             tempor nisl sapien ut tellus. Sed pellentesque lectus 
-                            </b>
+                            </p>
                         </div>
                     </div>
                 </div>

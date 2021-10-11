@@ -13,9 +13,11 @@ $text = "This is the english text for the website of Emmen Air";
 
 
 /* ----- BEGIN HOME SECTION ------ */
+$infoText = "find more information on this subject";
 /* ----- END HOME SECTION ------ */
 
 /* ----- BEGIN BERICHTEN SECTION ------ */
+$submitLable = "upload image";
 /* ----- END BERICHTEN SECTION ------ */
 
 /* ----- BEGIN VLIEGROUTES SECTION ------ */

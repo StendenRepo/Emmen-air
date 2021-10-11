@@ -24,7 +24,8 @@ Opdracht: Project, berichten pagina.
 				<i class="fa fa-bars"></i>
 			</div>
 			<ul class="nav-desktop">
-				<li><a href="#">Home</a></li>
+				<li><a href="home.php">Home</a></li>
+				<li><a href="?language=eng">eng</a>/<a href="?language=nl">nl</a></li>
 				<li><a href="#">Berichten</a></li>
 				<li><a href="#">Vliegroutes</a></li>
 				<li><a href="#">Galerij</a></li>
@@ -43,7 +44,7 @@ Opdracht: Project, berichten pagina.
 				</form>
 			</div>
 			<div class="item-3">
-				<label class="submitImageButton" for="submitImage">Plaats afbeelding</label>
+				<label class="submitImageButton" for="submitImage"><?php echo $submitLable; ?></label>
 			</div>
 		</div>
 	</body>

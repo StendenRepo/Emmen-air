@@ -6,6 +6,7 @@
 </div>
 <ul class="nav-desktop">
     <li><a href="#">Home</a></li>
+    <li><a href="?language=eng">EN</a>/<a href="?language=nl">NL</a></li>
     <li><a href="berichten.php">Berichten</a></li>
     <li><a href="#">Vliegroutes</a></li>
     <li><a href="#">Galerij</a></li>

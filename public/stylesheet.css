@@ -13,24 +13,7 @@
 
 header {
   height: 8vh;
-  background-color: #f4f4f4;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 1.5rem;
-}
-
-.logo h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 2rem;
-}
-
-.nav-desktop a {
-  font-family: "Roboto", sans-serif;
-  padding: 0 2rem;
-  font-size: 1.25rem;
-  text-decoration: none;
-  color: #616161;
+  background-color: #191971;
 }
 
 main {

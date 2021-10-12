@@ -10,16 +10,6 @@
 <body>
   <div id="container-galerij">
     <header>
-      <div class="logo">
-        <h1>Emmen Air</h1>
-      </div>
-      <nav class="nav-desktop">
-        <a href="#">Home</a>
-        <a href="#">Berichten</a>
-        <a href="#">Vliegroutes</a>
-        <a href="#">Galerij</a>
-        <a href="#">Uitloggen</a> 
-      </nav>
     </header>
     <main>
       <div id="main-body">
@@ -43,11 +33,8 @@
             <label for="submit-image"> Plaats Afbeelding </label>           
           </div>
         </div>
-
-      </div>
-      
+      </div>     
     </main>
   </div>
-  
 </body>
 </html>

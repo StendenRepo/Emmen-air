@@ -6,17 +6,17 @@
 <body>
 <div id="containergallerij">
     <main class="home">
-        <div class="witvak">
-            <div class="witvak-header"></div>
-                <div class="witvak-element">
+        <div class="info">
+            <div class="info-header"></div>
+                <div class="info-element">
                     <div class="image">
                         <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
                     </div>
                 </div>
         </div>
-        <div class="witvak">
-            <div class="witvak-header"></div>
-            <div class="witvak-element">
+        <div class="info">
+            <div class="info-header"></div>
+            <div class="info-element">
                 <div class="image">
                     <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
                 </div>
@@ -32,26 +32,26 @@
                 </div>
             </div>
         </div>
-        <div class="witvak">
-            <div class="witvak-header">
+        <div class="info">
+            <div class="info-header">
             </div>
-                <div class="witvak-element">
+                <div class="info-element">
                     <div class="image">
                         <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
                     </div>
                 </div>
         </div>
-        <div class="witvak">
-            <div class="witvak-header"></div>
-            <div class="witvak-element">
+        <div class="info">
+            <div class="info-header"></div>
+            <div class="info-element">
                 <div class="image">
                     <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
                 </div>
             </div>
         </div>
-        <div class="witvak">
-            <div class="witvak-header"></div>
-            <div class="witvak-element">
+        <div class="info">
+            <div class="info-header"></div>
+            <div class="info-element">
                 <div class="image">
                     <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
                 </div>

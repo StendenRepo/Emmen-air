@@ -10,14 +10,14 @@
     <li><a href="?language=eng">EN</a>/<a href="?language=nl">NL</a></li>
     <li><a href="berichten.php">Berichten</a></li>
     <li><a href="#">Vliegroutes</a></li>
-    <li><a href="#">Galerij</a></li>
-    <li><a href="#">Uitloggen</a>
+    <li><a href="gallerij.php">Galerij</a></li>
+    <li><a href="index.php">Uitloggen</a>
 </ul>
 <ul class="nav-mobile">
     <li><a href="home.php">Home</a></li>
     <li><a href="?language=eng">EN</a>/<a href="?language=nl">NL</a></li>
     <li><a href="berichten.php">Berichten</a></li>
     <li><a href="#">Vliegroutes</a></li>
-    <li><a href="#">Galerij</a></li>
-    <li><a href="#">Uitloggen</a></li>
+    <li><a href="gallerij.php">Galerij</a></li>
+    <li><a href="index.php">Uitloggen</a></li>
 </ul>

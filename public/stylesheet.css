@@ -22,13 +22,25 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1.5rem;
+  padding-right: 1.5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
 }
 
 header i {
   display: flex;
   font-size: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 10vh;
+  height: 6rem;
+  width: 6rem;
+  overflow: hidden;
 }
 
 .logo h1 {
@@ -54,7 +66,7 @@ header i {
 
 .nav-mobile li {
   font-size: 1.25rem;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 .nav-mobile a {
@@ -70,8 +82,8 @@ header i {
   justify-content: space-between;
 }
 
-.nav-desktop p {
-  padding: 0 1rem;
+.nav-desktop li {
+  padding: 1.5rem;
 }
 
 .nav-desktop a {
@@ -79,6 +91,10 @@ header i {
   font-size: 1.25rem;
   text-decoration: none;
   color: #616161;
+}
+
+.nav-desktop a:hover {
+  color: #191971;
 }
 
 .openMenu {
@@ -143,11 +159,6 @@ header i {
   display: flex;
   height: 100%;
 }
-
-/* .info-text {
-  display: grid;
-  align-content: space-between;
-} */
 
 .info-text h2 {
   margin-bottom: 1rem;
@@ -217,9 +228,12 @@ header i {
 }
 
 .news-text h2 {
-  text-decoration: underline #616161;
   border-bottom: 1px solid #616161;
   padding-bottom: 0.5rem;
+}
+
+.news-text a {
+  color: #616161;
 }
 
 /* evenementen */

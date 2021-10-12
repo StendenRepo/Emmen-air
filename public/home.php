@@ -117,7 +117,7 @@
                     <img src="assets/airplane-3702676_1920.jpg" alt="vliegtuig">
                 </div>
                 <div class="news-text">
-                    <h2>Nieuws Artikel</h2>
+                    <h2><a href="infopage.php">Nieuws Artikel</a></h2>
                 </div>
             </div>
             <div class="event-number">

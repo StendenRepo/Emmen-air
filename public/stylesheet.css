@@ -320,7 +320,7 @@ footer {
 
 h1,
 h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .info_artikel {
@@ -329,14 +329,14 @@ h2 {
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .artikel p {
   font-weight: bold;
+}
 
 /* mobiel gedeelte */
-
 @media (max-width: 768px) {
   .home {
     grid-template-columns: 1fr;

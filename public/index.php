@@ -5,25 +5,28 @@
   <?php include "../templates/header.php" ?>
 </head>
 <body>
-  <div class="login-wrapper">
-    <div class="logo-wrapper"></div>
-    <img src="" alt="Login logo">
-    <form method="POST" action="user/login.php" id="login-form">
+  <div class="login-container">
+    <div class="login-wrapper">
+      <div class="logo-wrapper">
+        <img src="/assets/capEmbleemT.svg" alt="Login logo">
+      </div>
+      <form method="POST" action="user/login.php" id="login-form">
 
-      <label class="login-label" for="inputEmail">Email</label>
-      <input class="login-input" type="text" name="inputEmail">
+        <label class="login-label" for="inputEmail">E-Mail</label>
+        <input class="login-input" type="text" id="inputEmail" name="inputEmail">
 
-      <label class="login-label" for="inputPwd">Wachtwoord</label>
-      <input class="login-input" type="password" name="inputPwd">
+        <label class="login-label" for="inputPwd">Wachtwoord</label>
+        <input class="login-input" type="password" id="inputPwd" name="inputPwd">
 
-      <input class="login-btn" name="submit" type="submit">
-      <?php
+        <input class="login-btn" name="submit" type="submit" value="Inloggen">
+
+        <?php
         if(isset($_SESSION["error"])){
-          echo "<span>".$_SESSION["error"]."</span>";
+          echo "<span class='login-err-msg'>".$_SESSION["error"]."</span>";
         }
-      ?>
-    </form>
-
+        ?>
+      </form>
+    </div>
   </div>
 </body>
 </html>

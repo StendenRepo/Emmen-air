@@ -9,12 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="overlay"></div>
-        <header>
-            <?php include '../templates/navbar.php'; ?>
-        </header>
-        <script type="text/javascript" src="app.js"></script>
-    <div id="container">
+  <?php include '../templates/navbar.php'; ?>
         <main class="home">
             <div class="info">
                 <div class="info-header">

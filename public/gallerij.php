@@ -8,7 +8,7 @@
   <title>gallerij</title>
 </head>
 <body>
-  <div id="container">
+  <div id="container-galerij">
     <header>
       <div class="logo">
         <h1>Emmen Air</h1>
@@ -25,7 +25,11 @@
       <div id="main-body">
         <div id="main-column">
           <div class="upload">      
-            <button type="button">Upload een afbeelding</button>       
+            <form action="upload.php" method="POST" enctype="multipart/form-data">
+              <label for="upload-file"> Upload afbeelding </label>
+              <input id="upload-file" type="file" name="file">  
+              <button id="submit-image" type="submit" name="submit"></button>  
+            </form>      
           </div>
           <div class="message">     
             <div class="English">
@@ -35,13 +39,13 @@
               <textarea name="bericht" id="berichtArea" placeholder="NL"></textarea> 
             </div>          
           </div>
-          <div class="upload">           
-            <button type="button">Plaats afbeelding</button>            
+          <div class="upload">       
+            <label for="submit-image"> Plaats Afbeelding </label>           
           </div>
         </div>
 
       </div>
-
+      
     </main>
   </div>
   

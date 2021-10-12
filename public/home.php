@@ -9,7 +9,8 @@
     <title>Document</title>
 </head>
 <body>
-  <?php include '../templates/navbar.php'; ?>
+    <?php include '../templates/navbar.php'; ?>
+    <div id="container">
         <main class="home">
             <div class="info">
                 <div class="info-header">

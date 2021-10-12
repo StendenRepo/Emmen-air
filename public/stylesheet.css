@@ -10,10 +10,20 @@
   align-items: center;
 }
 
-#login-form {
-}
+/* #login-form {
+} */
 
 #login-form > label,
 #login-form > input {
   display: block;
+}
+
+#login-form > .login-input {
+  outline: 0;
+  border: none;
+  border-bottom: 1px solid #1890ff;
+}
+
+#login-form > input:focus {
+  outline: none;
 }

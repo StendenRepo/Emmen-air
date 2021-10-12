@@ -8,33 +8,29 @@
   <title>gallerij</title>
 </head>
 <body>
-  <div id="container-galerij">
-    <header>
-    </header>
-    <main>
+    <main class="main-gallerij">
       <div id="main-body">
         <div id="main-column">
           <div class="upload">      
-            <form action="upload.php" method="POST" enctype="multipart/form-data">
-              <label for="upload-file"> Upload afbeelding </label>
-              <input id="upload-file" type="file" name="file">  
-              <button id="submit-image" type="submit" name="submit"></button>  
-            </form>      
+            <form class="input-form" action="upload.php" method="POST" enctype="multipart/form-data">
+              <label for="upload-file" class="input-form"> Upload afbeelding </label>
+              <input id="upload-file" type="file" name="file">                 
           </div>
           <div class="message">     
             <div class="English">
-              <textarea name="bericht" id="berichtArea" placeholder="EN"></textarea> 
+              <textarea name="messageEN" class="message-area" placeholder="EN"></textarea> 
             </div>   
             <div class="Dutch">
-              <textarea name="bericht" id="berichtArea" placeholder="NL"></textarea> 
+              <textarea name="messageNL" class="message-area" placeholder="NL"></textarea> 
             </div>          
           </div>
-          <div class="upload">       
-            <label for="submit-image"> Plaats Afbeelding </label>           
+          <div class="upload" >       
+              <label for="submit-image" class="input-form"> Plaats Afbeelding </label>  
+              <button id="submit-image" type="submit" name="submit"></button>  
+            </form>          
           </div>
         </div>
       </div>     
     </main>
-  </div>
 </body>
 </html>

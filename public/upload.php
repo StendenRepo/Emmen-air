@@ -2,6 +2,9 @@
     // checkt of er gesubmit is
     if (isset($_POST['submit'])) {
 
+        $messageEN = $_POST['messageEN'];
+        $messageNL = $_POST['messageNL'];
+
         // slaat de info van de file op in de $file variabele (de input in gallerij.php heeft de name "file" )
         $file = $_FILES['file'];
 
@@ -27,6 +30,7 @@
                     $fileDestination = 'assets/' . $fileName;
                     move_uploaded_file($fileTmpName, $fileDestination);
                     header("Location: images.php");
+                    exit;
                 } else {
                     echo "Je bestand is te groot";
                 }

@@ -5,18 +5,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-#container-gallerij {
-  height: 100%;
-  width: 100%;
-  color: #616161;
-}
-
-header {
-  height: 8vh;
-  background-color: #191971;
-}
-
-main {
+.main-gallerij {
   background-color: #191971;
   display: grid;
   justify-content: center;
@@ -66,8 +55,7 @@ main {
   width: 100%;
 }
 
-form,
-label {
+.input-form {
   background-color: #191971;
   color: white;
   border: none;
@@ -82,12 +70,12 @@ label {
   justify-content: center;
 }
 
-input[type="file"],
-button {
+#upload-file,
+#submit-image {
   display: none;
 }
 
-textarea {
+.message-area {
   width: 100%;
   height: 100%;
   resize: none;

@@ -10,6 +10,7 @@ Opdracht: Project, berichten pagina.
   <!-- Imported stylecode voor het font Roboto en Montserrat-->
 </head>
 <body>
+  <?php include '../templates/navbar.php'; ?>
   <div id="container-berichten">
     <div class="item-1">
       <label class="uploadImage" for="fotoFile">Upload een afbeelding</label>

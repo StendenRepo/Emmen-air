@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -52,11 +55,8 @@
   background-color: #f4f4f4;
 }
 
-.info-header h2,
-.link-header h2,
-.news-header h2,
-.event-header h2,
-.number-header h2 {
+h1,
+h2 {
   font-family: "Roboto", sans-serif;
 }
 
@@ -143,9 +143,12 @@
 }
 
 .news-text h2 {
-  text-decoration: underline #616161;
   border-bottom: 1px solid #616161;
   padding-bottom: 0.5rem;
+}
+
+.news-text a {
+  color: #616161;
 }
 
 /* evenementen */

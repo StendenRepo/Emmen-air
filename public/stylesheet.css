@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 #container {
@@ -19,6 +20,15 @@ body {
 }
 
 /* header en nav */
+
+.overlay {
+  display: none;
+  position: fixed;
+  animation: fadeInAnimation ease 1s;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.77);
+}
 
 header {
   height: 8vh;
@@ -47,7 +57,7 @@ header i {
 }
 
 .logo h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2rem;
   color: #616161;
   padding-left: 1rem;
@@ -90,7 +100,7 @@ header i {
 }
 
 .nav-desktop a {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
   text-decoration: none;
   color: #616161;
@@ -111,7 +121,7 @@ header i {
 
 #container-berichten {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 5%;
 }
 
@@ -148,7 +158,7 @@ header i {
 
 h1,
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .info-menu {
@@ -299,7 +309,7 @@ h2 {
   padding: 0.5rem 0;
 }
 
-input[type='text'] {
+input[type="text"] {
   width: 100%;
   padding: 12px 20px;
   background-color: #191971;
@@ -336,8 +346,8 @@ input:focus {
   height: 100px;
 }
 
-input[type='file'],
-input[type='submit'] {
+input[type="file"],
+input[type="submit"] {
   display: none;
 }
 
@@ -457,67 +467,6 @@ footer {
   }
 }
 
-body {
-  background-color: #191971;
-}
-#container-berichten {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  background-color: #191971;
-  margin: 5%;
-}
-.item-2 {
-  background-color: #f4f4f4;
-  margin: 10px auto;
-  max-width: 75%;
-  color: gray;
-}
-.item-1 {
-  background-color: #f4f4f4;
-  margin: 50px auto;
-  max-width: 75%;
-  height: 100px;
-}
-.item-3 {
-  background-color: #f4f4f4;
-  margin: 50px auto;
-  max-width: 75%;
-  height: 100px;
-}
-input[type='file'],
-input[type='submit'] {
-  display: none;
-}
-.uploadImage,
-.submitImageButton {
-  background-color: #191971;
-  color: white;
-  display: inline-block;
-  margin-top: 25px;
-  width: 95%;
-  max-height: 75%;
-  line-height: 50px;
-}
-#textareaBerichten {
-  resize: none;
-  width: 100%;
-  height: 200px;
-}
-.submitImageButton:hover {
-  background-color: #282875;
-}
-.submitImageButton:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-.uploadImage:hover {
-  background-color: #282875;
-}
-.uploadImage:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
 .login-container {
   background-image: url(./assets/login-bg.png);
   background-size: cover;
@@ -557,7 +506,7 @@ input[type='submit'] {
   background-color: #f4f4f4;
   border-bottom: 1px solid #707070;
   margin-bottom: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #535353;
   font-weight: 600;
 }
@@ -568,7 +517,7 @@ input[type='submit'] {
 
 .login-label {
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #707070;
 }
 
@@ -577,7 +526,7 @@ input[type='submit'] {
   margin: 0 auto;
   padding: 5px 1rem;
   margin-top: 5%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #535353;
   font-size: 18px;
   border: none;
@@ -587,5 +536,23 @@ input[type='submit'] {
 
 .login-err-msg {
   color: red;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }

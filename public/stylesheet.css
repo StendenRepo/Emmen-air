@@ -427,6 +427,22 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
+input[type='text'] {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #191971;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+.number-input {
+  margin: 0 auto;
+  width: 80%;
+}
+
 .artikel p {
   font-weight: bold;
 }

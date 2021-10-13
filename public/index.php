@@ -8,7 +8,7 @@
   <div class="login-container">
     <div class="login-wrapper">
       <div class="logo-wrapper">
-        <img src="/assets/capEmbleemT.svg" alt="Login logo">
+        <img src="assets/capEmbleemT.svg" alt="Login logo">
       </div>
       <form method="POST" action="user/login.php" id="login-form">
 

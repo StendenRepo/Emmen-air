@@ -19,6 +19,90 @@ body {
 
 /* header en nav */
 
+header {
+  height: 8vh;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+header i {
+  display: flex;
+  font-size: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 10vh;
+  height: 6rem;
+  width: 6rem;
+}
+
+.logo h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: #616161;
+  padding-left: 1rem;
+}
+
+.nav-mobile {
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  transition: top 1s ease;
+  background-color: white;
+  z-index: 10;
+}
+
+.nav-mobile li {
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+
+.nav-mobile a {
+  text-decoration: none;
+  color: #616161;
+}
+
+.nav-desktop {
+  display: flex;
+  list-style: none;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-desktop li {
+  padding: 1.5rem;
+}
+
+.nav-desktop a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #616161;
+}
+
+.nav-desktop a:hover {
+  color: #191971;
+}
+
+.openMenu {
+  display: none;
+}
+
 #container {
   background-color: #191971;
   color: #616161;
@@ -45,10 +129,11 @@ body {
 }
 
 .info img {
-  width: 15rem;
+  width: 100%;
 }
 
 .image {
+  width: 50%;
   margin-right: 0.5rem;
 }
 
@@ -58,12 +143,6 @@ body {
   width: 95%;
   padding: 0.5rem 0;
   border-bottom: 1px solid #616161;
-  background-color: #f4f4f4;
-}
-
-h1,
-h2 {
-  font-family: 'Roboto', sans-serif;
 }
 
 .info-menu {
@@ -214,20 +293,19 @@ h2 {
   padding: 0.5rem 0;
 }
 
-input[type='text'] {
-  width: 100%;
-  padding: 12px 20px;
+.number-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #191971;
-  color: white;
-}
-
-input:focus {
-  outline: none;
-}
-
-.number-input {
-  margin: 0 auto;
+  color: #f4f4f4;
   width: 80%;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+.number-search i {
+  font-size: 1.25rem;
 }
 
 .item-2 {
@@ -320,10 +398,37 @@ footer {
   margin-right: 5%;
 }
 
-@media (max-width: 896px) {
+.artikel-veld hr {
+  margin-top: 8px;
+}
+
+.info_afbeelding img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+h1,
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.info_artikel {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.artikel p {
+  font-weight: bold;
+}
+
+/* mobiel gedeelte */
+@media (max-width: 768px) {
   .home {
     grid-template-columns: 1fr;
-    padding: 2rem;
   }
 
   .info {
@@ -334,12 +439,8 @@ footer {
     width: 100%;
   }
 
-  .info img {
-    width: 100%;
-  }
-
   .info-menu {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
 
@@ -354,83 +455,6 @@ footer {
   .news {
     margin: 0 auto;
   }
-}
-
-@media (max-width: 1024px) {
-  .openMenu {
-    display: flex;
-  }
-
-  .nav-desktop {
-    display: none;
-  }
-}
-
-@media (max-width: 1536px) {
-  .info-menu {
-    grid-template-columns: 1fr;
-  }
-}
-
-body {
-  background-color: #191971;
-}
-#container-berichten {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  background-color: #191971;
-  margin: 5%;
-}
-.item-2 {
-  background-color: #f4f4f4;
-  margin: 10px auto;
-  max-width: 75%;
-  color: gray;
-}
-.item-1 {
-  background-color: #f4f4f4;
-  margin: 50px auto;
-  max-width: 75%;
-  height: 100px;
-}
-.item-3 {
-  background-color: #f4f4f4;
-  margin: 50px auto;
-  max-width: 75%;
-  height: 100px;
-}
-input[type='file'],
-input[type='submit'] {
-  display: none;
-}
-.uploadImage,
-.submitImageButton {
-  background-color: #191971;
-  color: white;
-  display: inline-block;
-  margin-top: 25px;
-  width: 95%;
-  max-height: 75%;
-  line-height: 50px;
-}
-#textareaBerichten {
-  resize: none;
-  width: 100%;
-  height: 200px;
-}
-.submitImageButton:hover {
-  background-color: #282875;
-}
-.submitImageButton:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-.uploadImage:hover {
-  background-color: #282875;
-}
-.uploadImage:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
 }
 
 .login-container {

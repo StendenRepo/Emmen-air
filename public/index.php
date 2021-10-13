@@ -19,12 +19,13 @@
         <input class="login-input" type="password" id="inputPwd" name="inputPwd">
 
         <input class="login-btn" name="submit" type="submit" value="Inloggen">
-
-        <?php
+        <div>
+          <?php
         if(isset($_SESSION["error"])){
           echo "<span class='login-err-msg'>".$_SESSION["error"]."</span>";
         }
         ?>
+        </div>
       </form>
     </div>
   </div>

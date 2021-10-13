@@ -11,8 +11,14 @@
 #container {
   height: 100%;
   width: 100%;
-  margin: 0;
-  box-sizing: border-box;
+  background-color: #191971;
+  color: #616161;
+}
+
+#container-berichten {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 5%;
 }
 
 body {
@@ -112,17 +118,6 @@ header i {
 
 .openMenu {
   display: none;
-}
-
-#container {
-  background-color: #191971;
-  color: #616161;
-}
-
-#container-berichten {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  margin: 5%;
 }
 
 .home {

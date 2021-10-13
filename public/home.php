@@ -108,7 +108,8 @@
               <h2>Zoek uw schoolgenoten op</h2>
             </div>
             <div class="number-input">
-              <input type="text" name="number-finder" id="number-finder" placeholder="Zoek..." />
+              <input type="text" name="number-finder" class="studentSearchField" id="number-finder"
+                placeholder="Zoek..." />
             </div>
           </form>
         </div>

@@ -427,7 +427,7 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
-input[type='text'] {
+input[type='text'].studentSearchField {
   width: 100%;
   padding: 12px 20px;
   background-color: #191971;

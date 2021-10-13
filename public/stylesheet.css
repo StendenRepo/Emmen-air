@@ -7,62 +7,59 @@
 }
 
 #containergallerij {
-  height: 100%;
+  height: 4000px;
   width: 100%;
-  background-color: #191971;
+  background-color: midnightblue;
   color: #616161;
 }
 
 .home {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0.1rem;
 }
 
 /* foto's */
 
-.info {
+.plaatje {
   background-color: #f4f4f4;
   margin-left: 1rem;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
   margin-right: 1rem;
-  width: 20%;
-  height: 20%;
+  width: 90%;
+  height: 90%;
 }
 
-.info img {
-  width: 185%;
+.plaatje img {
+  width: 180%;
   border-radius: 10px;
 }
 
 .image {
   width: 50%;
-  margin-left: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
+  margin-left: 4.5%;
+  margin-top: 4.5%;
 }
 
 /* Opload knop */
 
-.uploadinfo {
+.uploadvak {
   background-color: #f4f4f4;
   margin-left: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin-right: 1rem;
   width: 90%;
-  height: 50%;
+  height: 60%;
 }
 
-.number {
+.upload {
   background-color: #f4f4f4;
   width: 40%;
-  margin-top: 4rem;
+  margin-top: 8%;
 }
 
-.number-header {
+.upload-header {
   width: 170%;
   margin: 0 auto;
   font-size: 0.9rem;
@@ -71,7 +68,7 @@
   text-align: center;
 }
 
-.number-search {
+.upload-knop {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,6 +78,6 @@
   margin-left: 20%;
 }
 
-.number-search h2 {
+.upload-knop h2 {
   margin: 0 auto;
 }

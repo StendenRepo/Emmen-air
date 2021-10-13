@@ -6,55 +6,39 @@
 <body>
 <div id="containergallerij">
     <main class="home">
-        <div class="info">
-            <div class="info-header"></div>
-                <div class="info-element">
-                    <div class="image">
-                        <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
-                    </div>
-                </div>
-        </div>
-        <div class="info">
-            <div class="info-header"></div>
-            <div class="info-element">
-                <div class="image">
-                    <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
-                </div>
+        <div class="plaatje">
+            <div class="image">
+                <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
             </div>
         </div>
-        <div class="uploadinfo">
-            <div class="number">
-                <div class="number-search">
+        <div class="plaatje">
+            <div class="image">
+                <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
+            </div>
+        </div>
+        <div class="uploadvak">
+            <div class="upload">
+                <div class="upload-knop">
                     <h2>Upload</h2>
                 </div>
-                <div class="number-header">
+                <div class="upload-header">
                     <h2>Upload ook jouw eigen foto's</h2>
                 </div>
             </div>
         </div>
-        <div class="info">
-            <div class="info-header">
-            </div>
-                <div class="info-element">
-                    <div class="image">
-                        <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
-                    </div>
-                </div>
-        </div>
-        <div class="info">
-            <div class="info-header"></div>
-            <div class="info-element">
-                <div class="image">
-                    <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
-                </div>
+        <div class="plaatje">
+            <div class="image">
+                <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
             </div>
         </div>
-        <div class="info">
-            <div class="info-header"></div>
-            <div class="info-element">
-                <div class="image">
-                    <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
-                </div>
+        <div class="plaatje">
+            <div class="image">
+                <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
+            </div>
+        </div>
+        <div class="plaatje">
+            <div class="image">
+                <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
             </div>
         </div>
     </main>

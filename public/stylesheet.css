@@ -28,6 +28,11 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.77);
+  
+#container-berichten {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 5%;
 }
 
 .home {
@@ -93,7 +98,7 @@ header i {
   text-decoration: none;
   color: #616161;
 }
-
+  
 .nav-desktop {
   display: flex;
   list-style: none;
@@ -129,10 +134,11 @@ header i {
 }
 
 .info img {
-  width: 15rem;
+  width: 100%;
 }
 
 .image {
+  width: 50%;
   margin-right: 0.5rem;
 }
 
@@ -142,12 +148,6 @@ header i {
   width: 95%;
   padding: 0.5rem 0;
   border-bottom: 1px solid #616161;
-  background-color: #f4f4f4;
-}
-
-h1,
-h2 {
-  font-family: 'Roboto', sans-serif;
 }
 
 .info-menu {
@@ -298,20 +298,19 @@ h2 {
   padding: 0.5rem 0;
 }
 
-input[type='text'] {
-  width: 100%;
-  padding: 12px 20px;
+.number-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #191971;
-  color: white;
-}
-
-input:focus {
-  outline: none;
-}
-
-.number-input {
-  margin: 0 auto;
+  color: #f4f4f4;
   width: 80%;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+.number-search i {
+  font-size: 1.25rem;
 }
 
 .item-2 {
@@ -404,10 +403,37 @@ footer {
   margin-right: 5%;
 }
 
-@media (max-width: 896px) {
+.artikel-veld hr {
+  margin-top: 8px;
+}
+
+.info_afbeelding img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+h1,
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.info_artikel {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.artikel p {
+  font-weight: bold;
+}
+
+/* mobiel gedeelte */
+@media (max-width: 768px) {
   .home {
     grid-template-columns: 1fr;
-    padding: 2rem;
   }
 
   .info {
@@ -418,12 +444,8 @@ footer {
     width: 100%;
   }
 
-  .info img {
-    width: 100%;
-  }
-
   .info-menu {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
 
@@ -455,7 +477,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
-
+  
 .login-container {
   background-image: url(./assets/login-bg.png);
   background-size: cover;

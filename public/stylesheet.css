@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #container {
@@ -37,6 +37,90 @@ body {
   padding: 4rem;
 }
 
+header {
+  height: 8vh;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+header i {
+  display: flex;
+  font-size: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 10vh;
+  height: 6rem;
+  width: 6rem;
+}
+
+.logo h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: #616161;
+  padding-left: 1rem;
+}
+
+.nav-mobile {
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  transition: top 1s ease;
+  background-color: white;
+  z-index: 10;
+}
+
+.nav-mobile li {
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+
+.nav-mobile a {
+  text-decoration: none;
+  color: #616161;
+}
+
+.nav-desktop {
+  display: flex;
+  list-style: none;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-desktop li {
+  padding: 1.5rem;
+}
+
+.nav-desktop a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #616161;
+}
+
+.nav-desktop a:hover {
+  color: #191971;
+}
+
+.openMenu {
+  display: none;
+}
+
 /* informatie */
 
 .info {
@@ -63,7 +147,7 @@ body {
 
 h1,
 h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .info-menu {
@@ -214,7 +298,7 @@ h2 {
   padding: 0.5rem 0;
 }
 
-input[type="text"] {
+input[type='text'] {
   width: 100%;
   padding: 12px 20px;
   background-color: #191971;
@@ -251,8 +335,8 @@ input:focus {
   height: 100px;
 }
 
-input[type="file"],
-input[type="submit"] {
+input[type='file'],
+input[type='submit'] {
   display: none;
 }
 
@@ -411,7 +495,7 @@ footer {
   background-color: #f4f4f4;
   border-bottom: 1px solid #707070;
   margin-bottom: 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #535353;
   font-weight: 600;
 }
@@ -422,7 +506,7 @@ footer {
 
 .login-label {
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #707070;
 }
 
@@ -431,7 +515,7 @@ footer {
   margin: 0 auto;
   padding: 5px 1rem;
   margin-top: 5%;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #535353;
   font-size: 18px;
   border: none;
@@ -441,7 +525,7 @@ footer {
 
 .login-err-msg {
   color: red;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @keyframes fadeInAnimation {
@@ -464,6 +548,6 @@ footer {
 
 #container-berichten {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 5%;
 }

@@ -8,10 +8,6 @@ Opdracht: Project, berichten pagina.
 <html lang="en">
 <head>
     <?php include "../templates/header.php"; ?>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berichten</title>  
 </head>
 <body>
   <form action="berichten.php" method="post">
@@ -30,7 +26,7 @@ Opdracht: Project, berichten pagina.
         <textarea class="textareaBerichtenEN" name="textarea_EN" autocomplete="off" placeholder="Type your message..." required></textarea>
     </div>
     <div class="item-3">
-        <label class="submitImageButton" for="submitImage">Plaats afbeelding</label>
+        <label class="submitImageButton" for="submitImage">Plaats Bericht</label>
         <input id="submitImage" name="submit_berichten" type="submit">
     </div>
   </div>

@@ -1,10 +1,12 @@
-<!--
-    programmeur: Victor Peters
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <?php include "../templates/header.php"; ?>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://kit.fontawesome.com/644a2942c8.js" crossorigin="anonymous"></script>
+  <title>Document</title>
 </head>
 <body>
   <?php include '../templates/navbar.php'; ?>
@@ -17,7 +19,7 @@
         <div class="info-menu">
           <div class="info-element">
             <div class="image">
-              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
+              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
             </div>
             <div class="info-text">
               <h2>Lorem Ipsum</h2>
@@ -26,7 +28,7 @@
           </div>
           <div class="info-element">
             <div class="image">
-              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
+              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
             </div>
             <div class="info-text">
               <h2>Lorem Ipsum</h2>
@@ -35,7 +37,52 @@
           </div>
           <div class="info-element">
             <div class="image">
-              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
+              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
+            </div>
+            <div class="info-text">
+              <h2>Lorem Ipsum</h2>
+              <p>vind hier meer informatie over dit onderwerp</p>
+            </div>
+          </div>
+          <div class="info-element">
+            <div class="image">
+              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
+            </div>
+            <div class="info-text">
+              <h2>Lorem Ipsum</h2>
+              <p>vind hier meer informatie over dit onderwerp</p>
+            </div>
+          </div>
+          <div class="info-element">
+            <div class="image">
+              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
+            </div>
+            <div class="info-text">
+              <h2>Lorem Ipsum</h2>
+              <p>vind hier meer informatie over dit onderwerp</p>
+            </div>
+          </div>
+          <div class="info-element">
+            <div class="image">
+              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
+            </div>
+            <div class="info-text">
+              <h2>Lorem Ipsum</h2>
+              <p>vind hier meer informatie over dit onderwerp</p>
+            </div>
+          </div>
+          <div class="info-element">
+            <div class="image">
+              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
+            </div>
+            <div class="info-text">
+              <h2>Lorem Ipsum</h2>
+              <p>vind hier meer informatie over dit onderwerp</p>
+            </div>
+          </div>
+          <div class="info-element">
+            <div class="image">
+              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
             </div>
             <div class="info-text">
               <h2>Lorem Ipsum</h2>
@@ -63,7 +110,7 @@
           <h2>Nieuws</h2>
         </div>
         <div class="news-image">
-          <img src="assets/airplane-3702676_1920.jpg" alt="vliegtuig" />
+          <img src="assets/airplane-3702676_1920.jpg" alt="vliegtuig">
         </div>
         <div class="news-text">
           <h2><a href="infopage.php">Nieuws Artikel</a></h2>
@@ -106,14 +153,13 @@
           </div>
         </div>
         <div class="number">
-          <form action="vliegroutes.php" method="POST">
-            <div class="number-header">
-              <h2>Zoek uw schoolgenoten op</h2>
-            </div>
-            <div class="number-input">
-              <input type="text" name="number-finder" id="number-finder" placeholder="Zoek..." />
-            </div>
-          </form>
+          <div class="number-header">
+            <h2>Zoek uw schoolgenoten op</h2>
+          </div>
+          <div class="number-search">
+            <h2>Zoek...</h2>
+            <i class="fas fa-search"></i>
+          </div>
         </div>
       </div>
     </main>

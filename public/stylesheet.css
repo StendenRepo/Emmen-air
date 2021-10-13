@@ -16,7 +16,7 @@
   height: 92vh;
   background-color: #191971;
   display: grid;
-  align-content: center;
+  align-items: center;
   justify-content: center;
 }
 
@@ -43,12 +43,14 @@
   text-align: center;
   background-color: #191971;
   height: 200px;
-  margin-top: -50px;
+  margin-left: 44px;
+  margin-top: 10px;
   display: grid;
   column-count: 2;
   grid-template-columns: 525px 525px;
   column-gap: 50px;
   font-size: medium;
+  justify-content: center;
 }
 
 .upload {

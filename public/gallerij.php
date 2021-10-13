@@ -11,23 +11,23 @@
     <main class="main-gallerij">
       <div id="main-body">
         <div id="main-column">
-          <div class="upload">      
-            <form class="input-form" action="upload.php" method="POST" enctype="multipart/form-data">
-              <label for="upload-file" class="input-form"> Upload afbeelding </label>
-              <input id="upload-file" type="file" name="file">                 
+          <div class="upload"> 
+            <label for="upload-file" class="input-form"> Upload afbeelding </label>                            
           </div>
-          <div class="message">     
-            <div class="English">
-              <textarea name="messageEN" class="message-area" placeholder="EN"></textarea> 
-            </div>   
-            <div class="Dutch">
-              <textarea name="messageNL" class="message-area" placeholder="NL"></textarea> 
-            </div>          
-          </div>
+          <form class="input-form" action="upload.php" method="POST" enctype="multipart/form-data">
+            <input id="upload-file" type="file" name="file">  
+            <button id="submit-image" type="submit" name="submit"></button> 
+            <div class="message">     
+              <div class="English">
+                <textarea name="messageEN" class="message-area" placeholder="EN"></textarea> 
+              </div>   
+              <div class="Dutch">
+                <textarea name="messageNL" class="message-area" placeholder="NL"></textarea> 
+              </div>          
+            </div>
+          </form>          
           <div class="upload" >       
-              <label for="submit-image" class="input-form"> Plaats Afbeelding </label>  
-              <button id="submit-image" type="submit" name="submit"></button>  
-            </form>          
+              <label for="submit-image" class="input-form"> Plaats Afbeelding </label>                
           </div>
         </div>
       </div>     

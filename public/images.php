@@ -9,5 +9,8 @@
 <body>
     <p> Je afbeelding is succesvol geupload </p>
     <p><a href="gallerij.php"> ga terug</a></p>
+    <?php 
+    
+    ?>
 </body>
 </html>

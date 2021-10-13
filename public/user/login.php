@@ -2,7 +2,8 @@
 
 require "../../src/validateUser.php";
 
-session_start();
+// Check if there is no sessions. if there is no session, start a new one.
+if(session_status() === PHP_SESSION_NONE) session_start();
 
 if (isset($_POST["submit"])) {
   if(!empty($_POST["inputEmail"]) && !empty($_POST["inputPwd"])) {

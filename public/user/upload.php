@@ -1,4 +1,4 @@
-<?php 
+<?php
     // checkt of er gesubmit is
     if (isset($_POST['submit'])) {
 
@@ -22,14 +22,14 @@
         // array van verschillende extensies die gebruikt mogen worden
         $allowed = array('jpg', 'jpeg', 'png');
 
-        /* checkt of de file extensie in de array zit, daarna of er geen errors zijn en daarna of het bestand klein genoeg is. 
-        Alles correct? > de file verplaatst naar de assets map */        
+        /* checkt of de file extensie in de array zit, daarna of er geen errors zijn en daarna of het bestand klein genoeg is.
+        Alles correct? > de file verplaatst naar de assets map */
         if (in_array($fileExt, $allowed)) {
             if ($fileError === 0) {
                 if ($fileSize < 1000000) {
                     $fileDestination = 'assets/' . $fileName;
                     move_uploaded_file($fileTmpName, $fileDestination);
-                    header("Location: images.php");
+                    header("Location: home.php");
                     exit;
                 } else {
                     echo "Je bestand is te groot";

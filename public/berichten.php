@@ -7,7 +7,6 @@ Opdracht: Project, berichten pagina.
 <html>
 <head>
   <?php include "../templates/header.php"; ?>
-  <!-- Imported stylecode voor het font Roboto en Montserrat-->
 </head>
 <body>
   <?php include '../templates/navbar.php'; ?>

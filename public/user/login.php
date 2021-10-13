@@ -12,11 +12,15 @@ if (isset($_POST["submit"])) {
 
     if(authUser($email, $pwd)){
       header("Location: ../home.php");
+      //check if the session contains an error message. if it does have one remove it from the session.
+      if(isset($_SESSION['error']) && !empty($_SESSION['error'])) unset($_SESSION["error"]);
       exit;
     }
-      header("Location: ../index.php");
-      $_SESSION["error"] = "Incorrect login details";
-      exit;
+
+    header("Location: ../index.php");
+    $_SESSION["error"] = "Incorrect login details";
+    exit;
+
   }
   $_SESSION["error"] = "Please fill in all fields.";
   header("Location: ../index.php");

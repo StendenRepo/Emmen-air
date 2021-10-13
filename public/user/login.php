@@ -11,7 +11,6 @@ if (isset($_POST["submit"])) {
     $pwd = $_POST["inputPwd"];
 
     if(authUser($email, $pwd)){
-      session_destroy();
       header("Location: ../home.php");
       exit;
     }

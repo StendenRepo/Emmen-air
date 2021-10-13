@@ -5,7 +5,94 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-gallerij {
+  background-color: #191971;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#main-body {
+  height: 92vh;
+  background-color: #191971;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-column {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1100px;
+  grid-template-rows: repeat(3, 150px);
+  row-gap: 30px;
+  background-color: #191971;
+  margin-top: -100px;
+}
+
+.upload {
+  text-align: center;
+  background-color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message {
+  text-align: center;
+  background-color: #191971;
+  height: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  column-count: 2;
+  grid-template-columns: 525px 525px;
+  column-gap: 50px;
+  font-size: medium;
+  justify-content: center;
+  align-self: center;
+}
+
+.upload {
+  width: 100%;
+}
+
+.label-form {
+  background-color: #191971;
+  color: white;
+  border: none;
+  text-decoration: none;
+  width: 96%;
+  height: 60%;
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#upload-file,
+#submit-image {
+  display: none;
+}
+
+.message-area {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  font-size: medium;
+  padding: 20px;
+  border: none;
+}
+
+.input-form {
+  height: 100%;
+  width: 100%;
 }
 
 #container {

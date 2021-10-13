@@ -1,17 +1,13 @@
 <!--
     programmeur: Victor Peters
 -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <?php include "../templates/header.php"; ?>
 </head>
 <body>
-  <div class="overlay"></div>
-  <header>
-    <?php include '../templates/navbar.php'; ?>
-  </header>
+  <?php include '../templates/navbar.php'; ?>
   <div id="container">
     <main class="home">
       <div class="info">

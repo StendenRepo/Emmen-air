@@ -448,9 +448,10 @@ input:focus {
 }
 
 /* mobiel gedeelte */
-@media (max-width: 768px) {
+@media (max-width: 896px) {
   .home {
     grid-template-columns: 1fr;
+    padding: 2rem;
   }
 
   .info {
@@ -461,8 +462,12 @@ input:focus {
     width: 100%;
   }
 
+  .info img {
+    width: 100%;
+  }
+
   .info-menu {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
   }
 
@@ -583,10 +588,4 @@ input:focus {
   100% {
     opacity: 0;
   }
-}
-
-#container-berichten {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  margin: 5%;
 }

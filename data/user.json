@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "email": "test@email.com",
+      "pwd": "123"
+    },
+    {
+      "email": "test1@email.com",
+      "pwd": "123"
+    }
+  ],
+  "posts": []
+}

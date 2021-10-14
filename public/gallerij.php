@@ -10,7 +10,7 @@
       <div id="main-column">
         <form class="input-form" action="user/upload.php" method="POST" enctype="multipart/form-data">
           <div class="upload">
-            <label for="upload-file" class="label-form"> <?php echo $gallery["upload-title"]; ?> </label>
+            <label for="upload-file" class="label-form"> <?php echo $lang["upload-title"]; ?> </label>
           </div>
           <input id="upload-file" type="file" name="file">
           <button id="submit-image" type="submit" name="submit"></button>
@@ -23,7 +23,7 @@
             </div>
           </div>
           <div class="upload">
-            <label for="submit-image" class="label-form"> <?php echo $gallery["upload-end"]; ?> </label>
+            <label for="submit-image" class="label-form"> <?php echo $lang["upload-end"]; ?> </label>
           </div>
         </form>
       </div>

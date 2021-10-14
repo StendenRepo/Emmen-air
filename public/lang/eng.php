@@ -1,44 +1,48 @@
 <?php
 /* ----- BEGIN GENERAL SECTION ------ */
 // navbar
-$general["nav-home"] = "Home";
-$general["nav-messages"] = "Messages"; 
-$general["nav-flightroutes"] = "Flight routes";
-$general["nav-gallery"] = "Gallery";
-$general["nav-logout"] = "Logout";
+$lang["nav-home"] = "Home";
+$lang["nav-messages"] = "Messages"; 
+$lang["nav-flightroutes"] = "Flight routes";
+$lang["nav-gallery"] = "Gallery";
+$lang["nav-logout"] = "Logout";
 
-/* ----- END GENERAL SECTION (General usage) ----- */ 
+/* ----- END General SECTION (General usage) ----- */ 
 
 /* ----- BEGIN LOGIN SECTION (index.php) ----- */
-$login["username"] = "Username (mail)";
-$login["password"] = "Password";
+$lang["username"] = "Username (mail)";
+$lang["password"] = "Password";
+$lang["login-button"] = "Login";
+$lang["error-message-1"] = "Vul alle velden in svp!";
+$lang["error-message-2"] = "Onjuiste gegevens ingevuld!";
+
 /* ----- END LOGIN SECTION ----- */
 
 /* ----- BEGIN HOME SECTION (home.php) ------ */
 
-$home["information-title"] = "Information";
-$home["information-article-text-general"] = "Find out more information about this subject";
+$lang["information-title"] = "Information";
+$lang["information-article-text-general"] = "Find out more information about this subject";
 
 // right side top
-$home["quick-links-title"] = "Quick links";
-$home["quick-links-schedule"] = "Schedules";
-$home["quick-links-grades"] = "Grades";
-$home["quick-links-yearcalendar"] = "Year calendars";
-$home["quick-links-example"] = "Example";
+$lang["quick-links-title"] = "Quick links";
+$lang["quick-links-schedule"] = "Schedules";
+$lang["quick-links-grades"] = "Grades";
+$lang["quick-links-yearcalendar"] = "Year calendars";
+$lang["quick-links-example"] = "Example";
 
 // left side bottom
-$home["news-title"] = "News";
-$home["news-article"] = "News article";
+$lang["news-title"] = "News";
+$lang["news-article"] = "News article";
 
 // right side middle
-$home["events-title"] = "Events";
-$home["events-open-day"] = "open day";
-$home["events-month-april"] = "april";
-$home["events-month-may"] = "may";
+$lang["events-title"] = "Events";
+$lang["events-open-day"] = "open day";
+$lang["events-month-april"] = "april";
+$lang["events-month-may"] = "may";
 
 // right side bottom
-$home["search-students-title"] = "Search for other students";
-$home["search-students-searchbar-text"] = "Search...";
+$lang["search-students-title"] = "Search for other students";
+$lang["search-students-searchbar-text"] = "Search...";
 
 /* ----- END HOME SECTION ------ */
 
@@ -50,12 +54,12 @@ $home["search-students-searchbar-text"] = "Search...";
 /* ----- END VLIEGROUTES SECTION ------ */
 
 /* ----- BEGIN GALLERIJ + UPLOAD SECTION ------ */
-$gallery["upload-title"] = "Upload image";
-$gallery["upload-end"] = "Place image";
+$lang["upload-title"] = "Upload image";
+$lang["upload-end"] = "Place image";
 /* ----- END GALLERIJ + UPLOAD SECTION ------ */
 
 /* ----- BEGIN ARTIKEL SECTION ------ */
-$articlepage 
+$lang["article-title"] = "Title" 
 /* ----- END ARTIKEL SECTION ------ */
 
 /* ----- BEGIN INFORMATIE SECTION ------ */

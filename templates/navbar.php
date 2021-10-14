@@ -9,10 +9,10 @@
   </div>
   <!-- desktop navbar start -->
   <ul class="nav-desktop">
-    <li><a class="nav-home" href="home.php"><?php echo $general["nav-home"]; ?></a></li>
-    <li><a class="nav-message" href="berichten.php"><?php echo $general["nav-messages"]; ?></a></li>
-    <li><a class="nav-flightroutes" href="#"><?php echo $general["nav-flightroutes"]; ?></a></li>
-    <li><a class="nav-gallery" href="gallerij.php"><?php echo $general["nav-gallery"]; ?></a></li>
+    <li><a class="nav-home" href="home.php"><?php echo $lang["nav-home"]; ?></a></li>
+    <li><a class="nav-message" href="berichten.php"><?php echo $lang["nav-messages"]; ?></a></li>
+    <li><a class="nav-flightroutes" href="#"><?php echo $lang["nav-flightroutes"]; ?></a></li>
+    <li><a class="nav-gallery" href="gallerij.php"><?php echo $lang["nav-gallery"]; ?></a></li>
     <div class="navbar-section-divider"></div>
     <li>
         <a href="?language=eng">
@@ -22,15 +22,15 @@
           <img width="30px" height="20px" src="assets/flag-nl.png" alt="flag-nl">
         </a>
     </li>
-    <li><a href="index.php"><?php echo $general["nav-logout"]; ?></a></li>
+    <li><a href="index.php"><?php echo $lang["nav-logout"]; ?></a></li>
   </ul>
   <!-- desktop navbar end -->
   <!-- mobile navbar start -->
   <ul class="nav-mobile">
-    <li><a class="nav-home" href="home.php"><?php echo $general["nav-home"]; ?></a></li>
-    <li><a class="nav-message" href="berichten.php"><?php echo $general["nav-messages"]; ?></a></li>
-    <li><a class="nav-flightroutes" href="#"><?php echo $general["nav-flightroutes"]; ?></a></li>
-    <li><a class="nav-gallery" href="gallerij.php"><?php echo $general["nav-gallery"]; ?></a></li>
+    <li><a class="nav-home" href="home.php"><?php echo $lang["nav-home"]; ?></a></li>
+    <li><a class="nav-message" href="berichten.php"><?php echo $lang["nav-messages"]; ?></a></li>
+    <li><a class="nav-flightroutes" href="#"><?php echo $lang["nav-flightroutes"]; ?></a></li>
+    <li><a class="nav-gallery" href="gallerij.php"><?php echo $lang["nav-gallery"]; ?></a></li>
     <div class="navbar-section-divider"></div>
     <li>
         <a href="?language=eng">
@@ -40,7 +40,7 @@
           <img width="30px" height="20px" src="assets/flag-nl.png" alt="flag-nl">
         </a>
     </li>
-    <li><a href="index.php"><?php echo $general["nav-logout"]; ?></a></li>
+    <li><a href="index.php"><?php echo $lang["nav-logout"]; ?></a></li>
   </ul>
   <!-- mobile navbar start -->
 </header>

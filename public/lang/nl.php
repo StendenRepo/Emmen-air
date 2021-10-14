@@ -55,7 +55,7 @@ $gallery["upload-end"] = "Plaats afbeelding";
 /* ----- END GALLERIJ + UPLOAD SECTION ------ */
 
 /* ----- BEGIN ARTIKEL SECTION () ------ */
-$articlepage["title"] = "Titel";
+
 /* ----- END ARTIKEL SECTION ------ */
 
 /* ----- BEGIN INFORMATIE SECTION ------ */

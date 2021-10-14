@@ -13,7 +13,7 @@
             <img src=assets/vliegtuig.png alt="vliegtuig" />
           </div>
           <div class="info_titel">
-            <h2><u><?php echo $articlepage["title"]; ?></u></h2>
+            <h2><u>Titel</u></h2>
           </div>
           <hr>
           <div class="info_artikel">

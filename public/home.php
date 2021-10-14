@@ -46,11 +46,11 @@
         <div class="link-header">
           <h2><?php echo $lang["quick-links-title"];?></h2>
         </div>
+        <p><a href="formberichten.php"><?php echo $lang["quick-links-inputForm-msg"] ?></a></p>
+        <p><a href="uploadimage.php"><?php echo $lang["quick-links-inputForm-image"] ?></a></p>
         <p><a href="#"><?php echo $lang["quick-links-schedule"]?></a></p>
         <p><a href="#"><?php echo $lang["quick-links-grades"]?></a></p>
         <p><a href="#"><?php echo $lang["quick-links-yearcalendar"]?></a></p>
-        <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
-        <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
         <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
         <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
         <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>

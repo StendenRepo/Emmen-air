@@ -1,30 +1,48 @@
 <?php
-/* ---- example ---- */
-//nav
-$lang['lang-eng'] = 'English';
-$lang['lang-fre'] = 'French';
-$lang['lang-ger'] = 'German';
-
-//index
-$lang['index-title'] = 'Language Demo';
-$lang['index-welcome'] = 'Welcome to the language demo';
-$lang['index-text-1'] = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
-$lang['demo'] = 'Return to the tutorial';
-/* ---- example ---- */
-
 /* ----- BEGIN GENERAL SECTION ------ */
-// page language var, set as <html> </html> attribute
+// navbar
+$lang["nav-home"] = "Home";
+$lang["nav-messages"] = "Messages"; 
+$lang["nav-flightroutes"] = "Flight routes";
+$lang["nav-gallery"] = "Gallery";
+$lang["nav-logout"] = "Logout";
 
-// title variable - set in <head> </head> section
+/* ----- END General SECTION (General usage) ----- */ 
 
-/* ----- END GENERAL SECTION (General usage) ----- */ 
+/* ----- BEGIN LOGIN SECTION (index.php) ----- */
+$lang["username"] = "Username (mail)";
+$lang["password"] = "Password";
+$lang["login-button"] = "Login";
+$lang["error-message-1"] = "Vul alle velden in svp!";
+$lang["error-message-2"] = "Onjuiste gegevens ingevuld!";
 
-/* ----- BEGIN   SECTION ------ */
+/* ----- END LOGIN SECTION ----- */
 
-/* ----- END  SECTION ------ */
+/* ----- BEGIN HOME SECTION (home.php) ------ */
 
+$lang["information-title"] = "Information";
+$lang["information-article-text-general"] = "Find out more information about this subject";
 
-/* ----- BEGIN HOME SECTION ------ */
+// right side top
+$lang["quick-links-title"] = "Quick links";
+$lang["quick-links-schedule"] = "Schedules";
+$lang["quick-links-grades"] = "Grades";
+$lang["quick-links-yearcalendar"] = "Year calendar";
+$lang["quick-links-example"] = "Example";
+
+// left side bottom
+$lang["news-title"] = "News";
+$lang["news-article"] = "News article";
+
+// right side middle
+$lang["events-title"] = "Events";
+$lang["events-open-day"] = "open day";
+$lang["events-month-april"] = "april";
+$lang["events-month-may"] = "may";
+
+// right side bottom
+$lang["search-students-title"] = "Search for other students";
+$lang["search-students-searchbar-text"] = "Search...";
 
 /* ----- END HOME SECTION ------ */
 
@@ -36,9 +54,12 @@ $lang['demo'] = 'Return to the tutorial';
 /* ----- END VLIEGROUTES SECTION ------ */
 
 /* ----- BEGIN GALLERIJ + UPLOAD SECTION ------ */
+$lang["upload-title"] = "Upload image";
+$lang["upload-end"] = "Place image";
 /* ----- END GALLERIJ + UPLOAD SECTION ------ */
 
 /* ----- BEGIN ARTIKEL SECTION ------ */
+$lang["article-title"] = "Title" 
 /* ----- END ARTIKEL SECTION ------ */
 
 /* ----- BEGIN INFORMATIE SECTION ------ */

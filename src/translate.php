@@ -1,7 +1,9 @@
 <?php
 
 // PHPSESSID is placed as cookie (client side)
-session_start();
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 
 // If the $_GET variable 'language' is set, the $_SESSION['language'] variable will be adjusted to that (normally either 'eng' or 'nl').
 if(isset($_GET['language'])){

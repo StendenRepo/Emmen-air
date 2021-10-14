@@ -27,7 +27,7 @@ $lang["information-article-text-general"] = "Vind hier meer informatie over dit 
 $lang["quick-links-title"] = "Snelle Links";
 $lang["quick-links-schedule"] = "Roosters";
 $lang["quick-links-grades"] = "Cijfers";
-$lang["quick-links-yearcalendar"] = "Jaar kalenders";
+$lang["quick-links-yearcalendar"] = "Jaar kalender";
 $lang["quick-links-example"] = "Voorbeeld";
 
 // left side bottom

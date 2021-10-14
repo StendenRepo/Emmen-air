@@ -27,7 +27,7 @@ $lang["information-article-text-general"] = "Find out more information about thi
 $lang["quick-links-title"] = "Quick links";
 $lang["quick-links-schedule"] = "Schedules";
 $lang["quick-links-grades"] = "Grades";
-$lang["quick-links-yearcalendar"] = "Year calendars";
+$lang["quick-links-yearcalendar"] = "Year calendar";
 $lang["quick-links-example"] = "Example";
 
 // left side bottom

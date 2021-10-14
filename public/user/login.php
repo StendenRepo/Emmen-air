@@ -1,6 +1,11 @@
 <?php
 
+if(session_status() !== PHP_SESSION_ACTIVE) session_start();
+
 require "../../src/validateUser.php";
+require '../../src/translate.php';
+
+
 
 if (isset($_POST["submit"])) {
   if(!empty($_POST["inputEmail"]) && !empty($_POST["inputPwd"])) {
@@ -10,16 +15,16 @@ if (isset($_POST["submit"])) {
     if(authUser($email, $pwd)){
       header("Location: ../home.php");
 
-      $_SESSION["email"] = $email;
+      $_SESSION["userEmail"] = $email;
       // check if the session contains an error message. if it does have one remove it from the session.
       if(isset($_SESSION['error']) && !empty($_SESSION['error'])) unset($_SESSION["error"]);
       exit;
     }
-    setErrorMsg($lang["error-message-1"]);
+    $_SESSION["error"] = setErrorMsg($lang["error-message-2"]);
     header("Location: ../index.php");
     exit;
   }
-  setErrorMsg($lang["error-message-2"]);
+  $_SESSION["error"] = setErrorMsg($lang["error-message-1"]);
   header("Location: ../index.php");
   exit;
 }

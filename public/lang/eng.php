@@ -13,8 +13,8 @@ $lang["nav-logout"] = "Logout";
 $lang["username"] = "Username (mail)";
 $lang["password"] = "Password";
 $lang["login-button"] = "Login";
-$lang["error-message-1"] = "Vul alle velden in svp!";
-$lang["error-message-2"] = "Onjuiste gegevens ingevuld!";
+$lang["error-message-1"] = "Please fill in all fields";
+$lang["error-message-2"] = "Incorrect login details";
 
 /* ----- END LOGIN SECTION ----- */
 

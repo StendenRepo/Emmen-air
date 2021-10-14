@@ -1,29 +1,29 @@
 <!--
 Programmeur: Tamme Tuncil
-Datum: 05-10-2021
+Datum: 12-10-2021
 Opdracht: Project, berichten pagina.
 -->
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <?php include "../templates/header.php"; ?>
+    <?php include "../templates/header.php"; ?>
 </head>
 <body>
-  <?php include '../templates/navbar.php'; ?>
-  <div id="container-berichten">
-    <div class="item-1">
-      <label class="uploadImage" for="fotoFile">Upload een afbeelding</label>
-      <input id="fotoFile" type="file">
+    <div id="bericht">
+        <div class="bericht-1">
+            <h3>Onderwerp nummer 1</h3> <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Asperiores, id atque corrupti illo placeat omnis sapiente 
+                repellendus ullam, rerum et quis! Quae deserunt aliquid, 
+                reiciendis placeat doloribus minima qui libero.</p>
+
+        </div>
+        <div class="bericht-2">
+            <h3>Subject number 1</h3> <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Asperiores, id atque corrupti illo placeat omnis sapiente 
+                repellendus ullam, rerum et quis! Quae deserunt aliquid, 
+                reiciendis placeat doloribus minima qui libero.</p>
+        </div>
     </div>
-    <div class="item-2">
-      <form action="berichten.php" onSubmit="alert('Uw afbeelding is geplaatst!');">
-        <textarea id="textareaBerichten" name="textarea" placeholder="Vul hier uw bericht in..." required></textarea>
-        <input id="submitImage" type="submit">
-      </form>
-    </div>
-    <div class="item-3">
-      <label class="submitImageButton" for="submitImage">Plaats afbeelding</label>
-    </div>
-  </div>
 </body>
 </html>

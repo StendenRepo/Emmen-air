@@ -2,7 +2,7 @@
 <header>
   <div class="logo">
     <img src="./assets/capEmbleemT.svg" alt="Het logo van Emmen Air" />
-    <h1>Emmen Air</h1>
+    <a href="home.php"><h1>Emmen Air</h1></a>
   </div>
   <div class="openMenu">
     <i class="fa fa-bars"></i>

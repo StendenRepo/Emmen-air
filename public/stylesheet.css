@@ -229,6 +229,10 @@ header i {
     font-weight: bold;
 }
 
+header .logo a {
+    text-decoration: none;
+}
+
 
 /* informatie */
 

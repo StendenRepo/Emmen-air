@@ -1,31 +1,44 @@
 <?php 
-/* ---- example ---- */
-//nav
-$lang['lang-eng'] = 'English';
-$lang['lang-fre'] = 'French';
-$lang['lang-ger'] = 'German';
-
-//index
-$lang['index-title'] = 'Language Demo';
-$lang['index-welcome'] = 'Welcome to the language demo';
-$lang['index-text-1'] = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
-$lang['demo'] = 'Return to the tutorial';
-/* ---- example ---- */
-
-
 /* ----- BEGIN GENERAL SECTION ------ */
-// page language var, set as <html> </html> attribute
-
-// title variable - set in <head> </head> section
+// navbar
+$general["nav-home"] = "Huis";
+$general["nav-messages"] = "Berichten"; 
+$general["nav-flightroutes"] = "Vliegroutes";
+$general["nav-gallery"] = "Gallerij";
+$general["nav-logout"] = "Uitloggen";
 
 /* ----- END GENERAL SECTION (General usage) ----- */ 
 
-/* ----- BEGIN   SECTION ------ */
+/* ----- BEGIN LOGIN SECTION ----- */
+$login["username"] = "Gebruikersnaam (mail)";
+$login["password"] = "Wachtwoord";
+/* ----- END LOGIN SECTION ----- */
 
-/* ----- END  SECTION ------ */
+/* ----- BEGIN HOME SECTION (home.php) ------ */
+// left side top
+$home["information-title"] = "Informatie";
+$home["information-article-text-general"] = "Vind hier meer informatie over dit onderwerp";
 
+// right side top
+$home["quick-links-title"] = "Snelle Links";
+$home["quick-links-schedule"] = "Roosters";
+$home["quick-links-grades"] = "Cijfers";
+$home["quick-links-yearcalendar"] = "Jaar kalenders";
+$home["quick-links-example"] = "Voorbeeld";
 
-/* ----- BEGIN HOME SECTION ------ */
+// left side bottom
+$home["news-title"] = "Nieuws";
+$home["news-article"] = "Nieuws artikel";
+
+// right side middle
+$home["events-title"] = "Evenementen";
+$home["events-open-day"] = "open dag";
+$home["events-month-april"] = "april";
+$home["events-month-may"] = "mei";
+
+// right side bottom
+$home["search-students-title"] = "Zoek je schoolgenoten";
+$home["search-students-searchbar-text"] = "Zoek..."
 
 /* ----- END HOME SECTION ------ */
 

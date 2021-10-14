@@ -9,13 +9,14 @@ if(isset($_GET['language'])){
 if (!empty($_SESSION['language'])) {
     switch($_SESSION['language']){
         case "eng":
-            include('../public/lang/eng.php');
+            include dirname(__FILE__)."/../public/lang/eng.php";
         break;
         default:
-            include('../public/lang/nl.php');
+            include dirname(__FILE__)."/../public/lang/nl.php";
+
         }
 } else {
-    include('../public/lang/nl.php');
+    include dirname(__FILE__)."/../public/lang/nl.php";
 }
 
 ?>

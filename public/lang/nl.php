@@ -1,7 +1,7 @@
 <?php 
 /* ----- BEGIN GENERAL SECTION ------ */
 // navbar
-$general["nav-home"] = "Huis";
+$general["nav-home"] = "Home";
 $general["nav-messages"] = "Berichten"; 
 $general["nav-flightroutes"] = "Vliegroutes";
 $general["nav-gallery"] = "Gallerij";
@@ -38,7 +38,7 @@ $home["events-month-may"] = "mei";
 
 // right side bottom
 $home["search-students-title"] = "Zoek je schoolgenoten";
-$home["search-students-searchbar-text"] = "Zoek..."
+$home["search-students-searchbar-text"] = "Zoek...";
 
 /* ----- END HOME SECTION ------ */
 
@@ -49,10 +49,13 @@ $home["search-students-searchbar-text"] = "Zoek..."
 /* ----- BEGIN VLIEGROUTES SECTION ------ */
 /* ----- END VLIEGROUTES SECTION ------ */
 
-/* ----- BEGIN GALLERIJ + UPLOAD SECTION ------ */
+/* ----- BEGIN GALLERIJ + UPLOAD SECTION (gallerij.php)------ */
+$gallery["upload-title"] = "Upload afbeelding";
+$gallery["upload-end"] = "Plaats afbeelding";
 /* ----- END GALLERIJ + UPLOAD SECTION ------ */
 
-/* ----- BEGIN ARTIKEL SECTION ------ */
+/* ----- BEGIN ARTIKEL SECTION () ------ */
+
 /* ----- END ARTIKEL SECTION ------ */
 
 /* ----- BEGIN INFORMATIE SECTION ------ */

@@ -9,12 +9,12 @@ $general["nav-logout"] = "Logout";
 
 /* ----- END GENERAL SECTION (General usage) ----- */ 
 
-/* ----- BEGIN LOGIN SECTION ----- */
+/* ----- BEGIN LOGIN SECTION (index.php) ----- */
 $login["username"] = "Username (mail)";
 $login["password"] = "Password";
 /* ----- END LOGIN SECTION ----- */
 
-/* ----- BEGIN HOME SECTION ------ */
+/* ----- BEGIN HOME SECTION (home.php) ------ */
 
 $home["information-title"] = "Information";
 $home["information-article-text-general"] = "Find out more information about this subject";
@@ -37,7 +37,7 @@ $home["events-month-april"] = "april";
 $home["events-month-may"] = "may";
 
 // right side bottom
-$home["search-students-title"] = "Search for other students!";
+$home["search-students-title"] = "Search for other students";
 $home["search-students-searchbar-text"] = "Search...";
 
 /* ----- END HOME SECTION ------ */
@@ -50,9 +50,12 @@ $home["search-students-searchbar-text"] = "Search...";
 /* ----- END VLIEGROUTES SECTION ------ */
 
 /* ----- BEGIN GALLERIJ + UPLOAD SECTION ------ */
+$gallery["upload-title"] = "Upload image";
+$gallery["upload-end"] = "Place image";
 /* ----- END GALLERIJ + UPLOAD SECTION ------ */
 
 /* ----- BEGIN ARTIKEL SECTION ------ */
+$articlepage 
 /* ----- END ARTIKEL SECTION ------ */
 
 /* ----- BEGIN INFORMATIE SECTION ------ */

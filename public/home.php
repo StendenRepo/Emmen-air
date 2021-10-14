@@ -105,11 +105,11 @@
         <div class="number">
           <form action="vliegroutes.php" method="POST">
             <div class="number-header">
-              <h2>Zoek uw schoolgenoten op</h2>
+              <h2><?php echo $home["search-students-title"];?></h2>
             </div>
             <div class="number-input">
               <input type="text" name="number-finder" class="studentSearchField" id="number-finder"
-                placeholder="Zoek..." />
+                placeholder="<?php echo $home["search-students-searchbar-text"];?>"/>
             </div>
           </form>
         </div>

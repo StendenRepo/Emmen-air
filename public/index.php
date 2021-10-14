@@ -12,10 +12,10 @@
       </div>
       <form method="POST" action="user/login.php" id="login-form">
 
-        <label class="login-label" for="inputEmail">E-Mail</label>
+        <label class="login-label" for="inputEmail"><?php echo $login["username"];?></label>
         <input class="login-input" type="text" id="inputEmail" name="inputEmail">
 
-        <label class="login-label" for="inputPwd">Wachtwoord</label>
+        <label class="login-label" for="inputPwd"><?php echo $login["password"];?></label>
         <input class="login-input" type="password" id="inputPwd" name="inputPwd">
 
         <input class="login-btn" name="submit" type="submit" value="Inloggen">

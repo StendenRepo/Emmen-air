@@ -2,9 +2,6 @@
 
 require "../../src/validateUser.php";
 
-// Check if there is no sessions. if there is no session, start a new one.
-if(session_status() === PHP_SESSION_NONE) session_start();
-
 if (isset($_POST["submit"])) {
   if(!empty($_POST["inputEmail"]) && !empty($_POST["inputPwd"])) {
     $email = $_POST["inputEmail"];
@@ -22,13 +19,13 @@ if (isset($_POST["submit"])) {
         case 'eng':
           $_SESSION["error"] = "Incorrect login details!";
           break;
-        default: 
-          $_SESSION["error"] = "Onjuiste inlog, probeer het opnieuw!"; 
+        default:
+          $_SESSION["error"] = "Onjuiste inlog, probeer het opnieuw!";
           break;
       }
     } else {
       $_SESSION["error"] = "Onjuiste inlog, probeer het opnieuw!";
-    } 
+    }
     header("Location: ../index.php");
     exit;
   }
@@ -40,7 +37,7 @@ if (isset($_POST["submit"])) {
       default:
         $_SESSION["error"] = "Vul alle velden in svp!";
         break;
-    } 
+    }
   } else {
     $_SESSION["error"] = "Vul alle velden in svp!";
   }

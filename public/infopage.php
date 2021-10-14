@@ -1,3 +1,4 @@
+<?php include "../src/preload.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

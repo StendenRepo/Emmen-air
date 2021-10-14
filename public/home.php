@@ -1,3 +1,4 @@
+<?php include "../src/preload.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -109,7 +110,7 @@
             </div>
             <div class="number-input">
               <input type="text" name="number-finder" class="studentSearchField" id="number-finder"
-                placeholder="<?php echo $lang["search-students-searchbar-text"];?>"/>
+                placeholder="<?php echo $lang["search-students-searchbar-text"];?>" />
             </div>
           </form>
         </div>

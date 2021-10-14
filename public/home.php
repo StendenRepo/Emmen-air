@@ -1,17 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="stylesheet.css">
-  <script src="https://kit.fontawesome.com/644a2942c8.js" crossorigin="anonymous"></script>
-  <title>Document</title>
-  -->
-  <!-- VERWIJDER DIT NA AFLOOP -->
-  <?php include "../templates/header.php" ?>
-  <!-- VERWIJDER DIT NA AFLOOP -->
+  <?php include "../templates/header.php"; ?>
 </head>
 <body>
   <?php include '../templates/navbar.php'; ?>
@@ -24,7 +14,7 @@
         <div class="info-menu">
           <div class="info-element">
             <div class="image">
-              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
+              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
             </div>
             <div class="info-text">
               <h2>Lorem Ipsum</h2>
@@ -33,7 +23,7 @@
           </div>
           <div class="info-element">
             <div class="image">
-              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
+              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
             </div>
             <div class="info-text">
               <h2>Lorem Ipsum</h2>
@@ -42,52 +32,7 @@
           </div>
           <div class="info-element">
             <div class="image">
-              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
-            </div>
-            <div class="info-text">
-              <h2>Lorem Ipsum</h2>
-              <p><?php echo $home["information-article-text-general"];?></p>
-            </div>
-          </div>
-          <div class="info-element">
-            <div class="image">
-              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
-            </div>
-            <div class="info-text">
-              <h2>Lorem Ipsum</h2>
-              <p><?php echo $home["information-article-text-general"];?></p>
-            </div>
-          </div>
-          <div class="info-element">
-            <div class="image">
-              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
-            </div>
-            <div class="info-text">
-              <h2>Lorem Ipsum</h2>
-              <p><?php echo $home["information-article-text-general"];?></p>
-            </div>
-          </div>
-          <div class="info-element">
-            <div class="image">
-              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
-            </div>
-            <div class="info-text">
-              <h2>Lorem Ipsum</h2>
-              <p><?php echo $home["information-article-text-general"];?></p>
-            </div>
-          </div>
-          <div class="info-element">
-            <div class="image">
-              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
-            </div>
-            <div class="info-text">
-              <h2>Lorem Ipsum</h2>
-              <p><?php echo $home["information-article-text-general"];?></p>
-            </div>
-          </div>
-          <div class="info-element">
-            <div class="image">
-              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig">
+              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
             </div>
             <div class="info-text">
               <h2>Lorem Ipsum</h2>
@@ -115,7 +60,7 @@
           <h2><?php echo $home["news-title"]; ?></h2>
         </div>
         <div class="news-image">
-          <img src="assets/airplane-3702676_1920.jpg" alt="vliegtuig">
+          <img src="assets/airplane-3702676_1920.jpg" alt="vliegtuig" />
         </div>
         <div class="news-text">
           <h2><a href="infopage.php"><?php echo $home["news-article"];?></a></h2>
@@ -158,6 +103,7 @@
           </div>
         </div>
         <div class="number">
+<<<<<<< HEAD
           <div class="number-header">
             <h2><?php echo $home["search-students-title"]; ?></h2>
           </div>
@@ -165,6 +111,17 @@
             <h2><?php echo $home["search-students-searchbar-text"]; ?></h2>
             <i class="fas fa-search"></i>
           </div>
+=======
+          <form action="vliegroutes.php" method="POST">
+            <div class="number-header">
+              <h2>Zoek uw schoolgenoten op</h2>
+            </div>
+            <div class="number-input">
+              <input type="text" name="number-finder" class="studentSearchField" id="number-finder"
+                placeholder="Zoek..." />
+            </div>
+          </form>
+>>>>>>> a2b7ba98a7e322699c4f5d7361a013aa8595e3b5
         </div>
       </div>
     </main>

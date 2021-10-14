@@ -9,7 +9,7 @@
     <main class="home">
       <div class="info">
         <div class="info-header">
-          <h2>Informatie</h2>
+          <h2><?php echo $lang["information-title"];?></h2>
         </div>
         <div class="info-menu">
           <div class="info-element">
@@ -18,7 +18,7 @@
             </div>
             <div class="info-text">
               <h2>Lorem Ipsum</h2>
-              <p>vind hier meer informatie over dit onderwerp</p>
+              <p><?php echo $lang["information-article-text-general"];?></p>
             </div>
           </div>
           <div class="info-element">
@@ -27,7 +27,7 @@
             </div>
             <div class="info-text">
               <h2>Lorem Ipsum</h2>
-              <p>vind hier meer informatie over dit onderwerp</p>
+              <p><?php echo $lang["information-article-text-general"];?></p>
             </div>
           </div>
           <div class="info-element">
@@ -36,68 +36,68 @@
             </div>
             <div class="info-text">
               <h2>Lorem Ipsum</h2>
-              <p>vind hier meer informatie over dit onderwerp</p>
+              <p><?php echo $lang["information-article-text-general"];?></p>
             </div>
           </div>
         </div>
       </div>
       <div class="links">
         <div class="link-header">
-          <h2>Snelle Links</h2>
+          <h2><?php echo $lang["quick-links-title"];?></h2>
         </div>
-        <p><a href="#">Roosters</a></p>
-        <p><a href="#">Cijfers</a></p>
-        <p><a href="#">Jaarkalenders</a></p>
-        <p><a href="#">Voorbeeld</a></p>
-        <p><a href="#">Voorbeeld</a></p>
-        <p><a href="#">Voorbeeld</a></p>
-        <p><a href="#">Voorbeeld</a></p>
-        <p><a href="#">Voorbeeld</a></p>
-        <p><a href="#">Voorbeeld</a></p>
+        <p><a href="#"><?php echo $lang["quick-links-schedule"]?></a></p>
+        <p><a href="#"><?php echo $lang["quick-links-grades"]?></a></p>
+        <p><a href="#"><?php echo $lang["quick-links-yearcalendar"]?></a></p>
+        <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
+        <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
+        <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
+        <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
+        <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
+        <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
       </div>
       <div class="news">
         <div class="news-header">
-          <h2>Nieuws</h2>
+          <h2><?php echo $lang["news-title"]; ?></h2>
         </div>
         <div class="news-image">
           <img src="assets/airplane-3702676_1920.jpg" alt="vliegtuig" />
         </div>
         <div class="news-text">
-          <h2><a href="infopage.php">Nieuws Artikel</a></h2>
+          <h2><a href="infopage.php"><?php echo $lang["news-article"];?></a></h2>
         </div>
       </div>
       <div class="event-number">
         <div class="event">
           <div class="event-header">
-            <h2>Evenementen</h2>
+            <h2><?php echo $lang["events-title"]; ?></h2>
           </div>
           <div class="event-element">
             <div class="event-date">
               <p>17</p>
-              <p>April</p>
+              <p><?php echo $lang["events-month-april"]; ?></p>
             </div>
             <div class="event-time">
-              <p>open dag</p>
+              <p><?php echo $lang["events-open-day"];?></p>
               <p>19:00</p>
             </div>
           </div>
           <div class="event-element">
             <div class="event-date">
               <p>26</p>
-              <p>April</p>
+              <p><?php echo $lang["events-month-april"]; ?></p>
             </div>
             <div class="event-time">
-              <p>open dag</p>
+              <p><?php echo $lang["events-open-day"]; ?></p>
               <p>19:00</p>
             </div>
           </div>
           <div class="event-element">
             <div class="event-date">
               <p>8</p>
-              <p>Mei</p>
+              <p><?php echo $lang["events-month-may"]; ?></p>
             </div>
             <div class="event-time">
-              <p>open dag</p>
+              <p><?php echo $lang["events-open-day"]; ?></p>
               <p>19:00</p>
             </div>
           </div>
@@ -105,11 +105,11 @@
         <div class="number">
           <form action="vliegroutes.php" method="POST">
             <div class="number-header">
-              <h2>Zoek uw schoolgenoten op</h2>
+              <h2><?php echo $lang["search-students-title"];?></h2>
             </div>
             <div class="number-input">
               <input type="text" name="number-finder" class="studentSearchField" id="number-finder"
-                placeholder="Zoek..." />
+                placeholder="<?php echo $lang["search-students-searchbar-text"];?>"/>
             </div>
           </form>
         </div>

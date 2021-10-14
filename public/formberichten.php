@@ -11,6 +11,7 @@ Opdracht: Project, berichten pagina.
   <?php include "../templates/header.php"; ?>
 </head>
 <body>
+  <?php include '../templates/navbar.php'; ?>
   <form action="berichten.php" method="post" enctype="multipart/form-data">
     <div id="container-berichten">
       <div class="titel-bericht">

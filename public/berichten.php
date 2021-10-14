@@ -9,6 +9,7 @@ Opdracht: Project, berichten pagina.
   <?php include "../templates/header.php"; ?>
 </head>
 <body>
+  <?php include '../templates/navbar.php'; ?>
   <div id="bericht">
     <div class="bericht-1">
       <h3>Onderwerp nummer 1</h3>

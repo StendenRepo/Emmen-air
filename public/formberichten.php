@@ -5,7 +5,6 @@ Datum: 05-10-2021
 Opdracht: Project, berichten pagina.
 -->
 <!DOCTYPE html>
-<html>
 <html lang="en">
 <head>
   <?php include "../templates/header.php"; ?>

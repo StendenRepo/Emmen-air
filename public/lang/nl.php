@@ -10,7 +10,7 @@ $lang["nav-logout"] = "Uitloggen";
 /* ----- END GENERAL SECTION (General usage) ----- */
 
 /* ----- BEGIN LOGIN SECTION ----- */
-$lang["username"] = "Gebruikersnaam (mail)";
+$lang["username"] = "Email";
 $lang["password"] = "Wachtwoord";
 $lang["login-button"] = "Inloggen";
 $lang["error-message-1"] = "Vul alle velden in svp!";

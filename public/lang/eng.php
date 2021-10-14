@@ -10,7 +10,7 @@ $lang["nav-logout"] = "Logout";
 /* ----- END General SECTION (General usage) ----- */
 
 /* ----- BEGIN LOGIN SECTION (index.php) ----- */
-$lang["username"] = "Username (mail)";
+$lang["username"] = "Email";
 $lang["password"] = "Password";
 $lang["login-button"] = "Login";
 $lang["error-message-1"] = "Please fill in all fields";

@@ -1,16 +1,16 @@
-<?php 
+<?php
 /* ----- BEGIN GENERAL SECTION ------ */
 // navbar
 $lang["nav-home"] = "Home";
-$lang["nav-messages"] = "Berichten"; 
+$lang["nav-messages"] = "Berichten";
 $lang["nav-flightroutes"] = "Vliegroutes";
 $lang["nav-gallery"] = "Gallerij";
 $lang["nav-logout"] = "Uitloggen";
 
-/* ----- END GENERAL SECTION (General usage) ----- */ 
+/* ----- END GENERAL SECTION (General usage) ----- */
 
 /* ----- BEGIN LOGIN SECTION ----- */
-$lang["username"] = "Gebruikersnaam (mail)";
+$lang["username"] = "Email";
 $lang["password"] = "Wachtwoord";
 $lang["login-button"] = "Inloggen";
 $lang["error-message-1"] = "Vul alle velden in svp!";
@@ -24,6 +24,8 @@ $lang["information-title"] = "Informatie";
 $lang["information-article-text-general"] = "Vind hier meer informatie over dit onderwerp";
 
 // right side top
+$lang["quick-links-inputForm-msg"] = "Plaats een nieuwe bericht";
+$lang["quick-links-inputForm-image"] = "Plaats een nieuwe afbeelding";
 $lang["quick-links-title"] = "Snelle Links";
 $lang["quick-links-schedule"] = "Roosters";
 $lang["quick-links-grades"] = "Cijfers";

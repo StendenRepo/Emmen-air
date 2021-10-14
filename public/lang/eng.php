@@ -2,19 +2,19 @@
 /* ----- BEGIN GENERAL SECTION ------ */
 // navbar
 $lang["nav-home"] = "Home";
-$lang["nav-messages"] = "Messages"; 
+$lang["nav-messages"] = "Messages";
 $lang["nav-flightroutes"] = "Flight routes";
 $lang["nav-gallery"] = "Gallery";
 $lang["nav-logout"] = "Logout";
 
-/* ----- END General SECTION (General usage) ----- */ 
+/* ----- END General SECTION (General usage) ----- */
 
 /* ----- BEGIN LOGIN SECTION (index.php) ----- */
-$lang["username"] = "Username (mail)";
+$lang["username"] = "Email";
 $lang["password"] = "Password";
 $lang["login-button"] = "Login";
-$lang["error-message-1"] = "Vul alle velden in svp!";
-$lang["error-message-2"] = "Onjuiste gegevens ingevuld!";
+$lang["error-message-1"] = "Please fill in all fields";
+$lang["error-message-2"] = "Incorrect login details";
 
 /* ----- END LOGIN SECTION ----- */
 
@@ -24,6 +24,8 @@ $lang["information-title"] = "Information";
 $lang["information-article-text-general"] = "Find out more information about this subject";
 
 // right side top
+$lang["quick-links-inputForm-msg"] = "Create a new message";
+$lang["quick-links-inputForm-image"] = "Upload a new image";
 $lang["quick-links-title"] = "Quick links";
 $lang["quick-links-schedule"] = "Schedules";
 $lang["quick-links-grades"] = "Grades";
@@ -59,7 +61,7 @@ $lang["upload-end"] = "Place image";
 /* ----- END GALLERIJ + UPLOAD SECTION ------ */
 
 /* ----- BEGIN ARTIKEL SECTION ------ */
-$lang["article-title"] = "Title" 
+$lang["article-title"] = "Title"
 /* ----- END ARTIKEL SECTION ------ */
 
 /* ----- BEGIN INFORMATIE SECTION ------ */

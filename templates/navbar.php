@@ -28,7 +28,7 @@
   <!-- mobile navbar start -->
   <ul class="nav-mobile">
     <li><a class="nav-home" href="home.php"><?php echo $general["nav-home"]; ?></a></li>
-    <li><a class="nav-message" href="berichten.php">><?php echo $general["nav-messages"]; ?></a></li>
+    <li><a class="nav-message" href="berichten.php"><?php echo $general["nav-messages"]; ?></a></li>
     <li><a class="nav-flightroutes" href="#"><?php echo $general["nav-flightroutes"]; ?></a></li>
     <li><a class="nav-gallery" href="gallerij.php"><?php echo $general["nav-gallery"]; ?></a></li>
     <div class="navbar-section-divider"></div>

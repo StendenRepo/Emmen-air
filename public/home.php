@@ -103,15 +103,6 @@
           </div>
         </div>
         <div class="number">
-<<<<<<< HEAD
-          <div class="number-header">
-            <h2><?php echo $home["search-students-title"]; ?></h2>
-          </div>
-          <div class="number-search">
-            <h2><?php echo $home["search-students-searchbar-text"]; ?></h2>
-            <i class="fas fa-search"></i>
-          </div>
-=======
           <form action="vliegroutes.php" method="POST">
             <div class="number-header">
               <h2>Zoek uw schoolgenoten op</h2>
@@ -121,7 +112,6 @@
                 placeholder="Zoek..." />
             </div>
           </form>
->>>>>>> a2b7ba98a7e322699c4f5d7361a013aa8595e3b5
         </div>
       </div>
     </main>

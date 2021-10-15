@@ -8,66 +8,68 @@
   <?php include '../templates/navbar.php'; ?>
   <div id="container">
     <main class="home">
-      <div class="info">
-        <div class="info-header">
-          <h2><?php echo $lang["information-title"];?></h2>
+      <div class="info-news">
+        <div class="info">
+          <div class="info-header">
+            <h2><?php echo $lang["information-title"];?></h2>
+          </div>
+          <div class="info-menu">
+            <div class="info-element">
+              <div class="image">
+                <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
+              </div>
+              <div class="info-text">
+                <h2>Lorem Ipsum</h2>
+                <p><?php echo $lang["information-article-text-general"];?></p>
+              </div>
+            </div>
+            <div class="info-element">
+              <div class="image">
+                <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
+              </div>
+              <div class="info-text">
+                <h2>Lorem Ipsum</h2>
+                <p><?php echo $lang["information-article-text-general"];?></p>
+              </div>
+            </div>
+            <div class="info-element">
+              <div class="image">
+                <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
+              </div>
+              <div class="info-text">
+                <h2>Lorem Ipsum</h2>
+                <p><?php echo $lang["information-article-text-general"];?></p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="info-menu">
-          <div class="info-element">
-            <div class="image">
-              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
-            </div>
-            <div class="info-text">
-              <h2>Lorem Ipsum</h2>
-              <p><?php echo $lang["information-article-text-general"];?></p>
-            </div>
+        <div class="news">
+          <div class="news-header">
+            <h2><?php echo $lang["news-title"]; ?></h2>
           </div>
-          <div class="info-element">
-            <div class="image">
-              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
-            </div>
-            <div class="info-text">
-              <h2>Lorem Ipsum</h2>
-              <p><?php echo $lang["information-article-text-general"];?></p>
-            </div>
+          <div class="news-image">
+            <img src="assets/airplane-3702676_1920.jpg" alt="vliegtuig" />
           </div>
-          <div class="info-element">
-            <div class="image">
-              <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
-            </div>
-            <div class="info-text">
-              <h2>Lorem Ipsum</h2>
-              <p><?php echo $lang["information-article-text-general"];?></p>
-            </div>
+          <div class="news-text">
+            <h2><a href="infopage.php"><?php echo $lang["news-article"];?></a></h2>
           </div>
         </div>
       </div>
-      <div class="links">
-        <div class="link-header">
-          <h2><?php echo $lang["quick-links-title"];?></h2>
+      <div class="link-event-number">
+        <div class="links">
+          <div class="link-header">
+            <h2><?php echo $lang["quick-links-title"];?></h2>
+          </div>
+          <p><a href="formberichten.php"><?php echo $lang["quick-links-inputForm-msg"] ?></a></p>
+          <p><a href="uploadimage.php"><?php echo $lang["quick-links-inputForm-image"] ?></a></p>
+          <p><a href="#"><?php echo $lang["quick-links-schedule"]?></a></p>
+          <p><a href="#"><?php echo $lang["quick-links-grades"]?></a></p>
+          <p><a href="#"><?php echo $lang["quick-links-yearcalendar"]?></a></p>
+          <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
+          <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
+          <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
+          <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
         </div>
-        <p><a href="formberichten.php"><?php echo $lang["quick-links-inputForm-msg"] ?></a></p>
-        <p><a href="uploadimage.php"><?php echo $lang["quick-links-inputForm-image"] ?></a></p>
-        <p><a href="#"><?php echo $lang["quick-links-schedule"]?></a></p>
-        <p><a href="#"><?php echo $lang["quick-links-grades"]?></a></p>
-        <p><a href="#"><?php echo $lang["quick-links-yearcalendar"]?></a></p>
-        <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
-        <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
-        <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
-        <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
-      </div>
-      <div class="news">
-        <div class="news-header">
-          <h2><?php echo $lang["news-title"]; ?></h2>
-        </div>
-        <div class="news-image">
-          <img src="assets/airplane-3702676_1920.jpg" alt="vliegtuig" />
-        </div>
-        <div class="news-text">
-          <h2><a href="infopage.php"><?php echo $lang["news-article"];?></a></h2>
-        </div>
-      </div>
-      <div class="event-number">
         <div class="event">
           <div class="event-header">
             <h2><?php echo $lang["events-title"]; ?></h2>

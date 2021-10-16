@@ -65,10 +65,6 @@
           <p><a href="#"><?php echo $lang["quick-links-schedule"]?></a></p>
           <p><a href="#"><?php echo $lang["quick-links-grades"]?></a></p>
           <p><a href="#"><?php echo $lang["quick-links-yearcalendar"]?></a></p>
-          <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
-          <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
-          <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
-          <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
         </div>
         <div class="event">
           <div class="event-header">

@@ -1,0 +1,9 @@
+[
+  {
+    "id": "test@email.com",
+    "title": "Title test",
+    "content_nl": "bericht info in het nederlands",
+    "content_en": "message content in english",
+    "img_url": "/imggoeshere"
+  }
+]

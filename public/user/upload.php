@@ -22,23 +22,38 @@
         // array van verschillende extensies die gebruikt mogen worden
         $allowed = array('jpg', 'jpeg', 'png');
 
-        /* checkt of de file extensie in de array zit, daarna of er geen errors zijn en daarna of het bestand klein genoeg is.
-        Alles correct? > de file verplaatst naar de assets map */
+        $validated = imageFileExtCheck($fileExt);
+        if($validated === true){
+            move_uploaded_file($fileTmpName, $fileDestination);
+            header("Location: home.php");
+            exit;
+        }
+
+        /**
+         * TODO :
+         * Post Error
+         */
+
+    }
+
+    /**
+     * checkt of de file extensie in de array zit,
+     * daarna of er geen errors zijn en daarna of het bestand klein genoeg is.
+     * Alles correct? > de file verplaatst naar de assets map
+     * */
+    function imageFileExtCheck($fileExt){
         if (in_array($fileExt, $allowed)) {
             if ($fileError === 0) {
                 if ($fileSize < 1000000) {
-                    $fileDestination = 'assets/' . $fileName;
-                    move_uploaded_file($fileTmpName, $fileDestination);
-                    header("Location: home.php");
-                    exit;
+                    return true;
                 } else {
-                    echo "Je bestand is te groot";
+                    return "Je bestand is te groot";
                 }
             } else {
-                echo "Er ging iets fout bij het uploaden van je bestand";
+                return "Er ging iets fout bij het uploaden van je bestand";
             }
         } else {
-            echo "Upload een jpg, jpeg of png file";
+            return "Upload een jpg, jpeg of png file";
         }
     }
 ?>

@@ -11,7 +11,7 @@ Opdracht: Project, berichten pagina.
 </head>
 <body>
   <?php include '../templates/navbar.php'; ?>
-  <form action="berichten.php" method="post" enctype="multipart/form-data">
+  <form action="user/uploadMessage.php" method="post" enctype="multipart/form-data">
     <div id="container-berichten">
       <div class="titel-bericht">
         <input type="text" id="titelAfbeelding" name="titel_berichten" autocomplete="off" placeholder="Titel">

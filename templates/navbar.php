@@ -1,7 +1,7 @@
 <div class="overlay"></div>
 <header>
   <div class="logo">
-    <img src="./assets/capEmbleemSvg.svg" alt="Het logo van Emmen Air" />
+    <img src="./assets/capEmbleemT.svg" alt="Het logo van Emmen Air" />
     <a href="home.php">
       <h1>Emmen Air</h1>
     </a>

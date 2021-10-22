@@ -14,7 +14,7 @@ Opdracht: Project, berichten pagina.
   <form action="user/uploadMessage.php" method="post" enctype="multipart/form-data">
     <div id="container-berichten">
       <div class="titel-bericht">
-        <input type="text" id="titelAfbeelding" name="titel_berichten" autocomplete="off" placeholder="Titel">
+        <input type="text" id="titelAfbeelding" name="titel_berichten" autocomplete="off" placeholder="Titel" required>
       </div>
       <div class="item-1">
         <label class="uploadImage" for="fotoFile">Upload een afbeelding</label>

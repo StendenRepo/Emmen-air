@@ -1,6 +1,6 @@
 <?php
 
-function validateImage($img) {
+function validateImageAndMove($img) {
   $fileName = $img['name'];
   $fileTmpName = $img["tmp_name"];
   $fileSize = $img['size'];
@@ -20,6 +20,7 @@ function validateImage($img) {
   }
 
   if($fileError !== UPLOAD_ERR_OK) {
+    return false;
   }
 
   if($fileSize > 1000000) {

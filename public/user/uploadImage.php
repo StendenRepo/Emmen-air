@@ -11,22 +11,8 @@ if (isset($_POST["submit_berichten"])) {
   $contentNl = $_POST["messageNL"];
   $contentEn = $_POST["messageEN"];
 
-  if(empty($title) || $file["error"] > UPLOAD_ERR_OK || empty($contentNl) || empty($contentEn)){
-    /**
-     * form was not correctly filled in return to the form page with errors.
-     */
-    echo "form was not correctly filled in";
-    exit;
-  }
-
-
-  if(!validateImageAndMove($file)){
-    echo "file was not validated correctly";
-    exit;
-  }
-
   echo "form was validated and moved";
+  // header("Location: ../home.php");
   exit;
 }
-
 ?>

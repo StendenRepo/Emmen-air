@@ -265,7 +265,7 @@ header .logo a {
 .info-menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 0.5rem auto 0;
+  margin: 0.5rem auto;
   width: 95%;
   grid-gap: 0.5rem 4rem;
   background-color: #f4f4f4;
@@ -418,6 +418,20 @@ header .logo a {
 
 .number-search i {
   font-size: 1.25rem;
+}
+
+.number-submit {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.number-submit input[type="submit"] {
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+  background-color: #191971;
+  color: #f4f4f4;
+  padding: 12px 20px;
 }
 
 .item-2,

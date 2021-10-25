@@ -110,6 +110,9 @@
               <input type="text" name="number-finder" class="studentSearchField" id="number-finder"
                 placeholder="<?php echo $lang["search-students-searchbar-text"];?>" />
             </div>
+            <div class="number-submit">
+              <input type="submit" value="Verstuur" name="submit">
+            </div>
           </form>
         </div>
       </div>

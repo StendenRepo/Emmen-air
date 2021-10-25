@@ -12,6 +12,9 @@ if (isset($_POST["submit_berichten"])) {
   $contentEn = $_POST["messageEN"];
 
   echo "form was validated and moved";
+
+
+
   // header("Location: ../home.php");
   exit;
 }

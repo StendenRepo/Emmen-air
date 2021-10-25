@@ -27,9 +27,11 @@ function validateImageAndMove($img) {
     return false;
   }
 
+  return "$fileSaveName.$fileExt";
+
   $fileDestination = __DIR__ . "/../public/assets/uploaded_images/$fileSaveName.$fileExt";
 
-  return move_uploaded_file($fileTmpName, $fileDestination);;
+  return move_uploaded_file($fileTmpName, $fileDestination);
 }
 
 ?>

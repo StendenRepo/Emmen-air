@@ -13,8 +13,8 @@
   <ul class="nav-desktop">
     <li><a class="nav-home" href="home.php"><?php echo $lang["nav-home"]; ?></a></li>
     <li><a class="nav-message" href="berichten.php"><?php echo $lang["nav-messages"]; ?></a></li>
-    <li><a class="nav-flightroutes" href="#"><?php echo $lang["nav-flightroutes"]; ?></a></li>
-    <li><a class="nav-gallery" href="#"><?php echo $lang["nav-gallery"]; ?></a></li>
+    <li><a class="nav-flightroutes" href="vliegroutes.php"><?php echo $lang["nav-flightroutes"]; ?></a></li>
+    <li><a class="nav-gallery" href="gallerij.php"><?php echo $lang["nav-gallery"]; ?></a></li>
     <div class="navbar-section-divider"></div>
     <li>
       <a href="?language=eng">
@@ -31,8 +31,8 @@
   <ul class="nav-mobile">
     <li><a class="nav-home" href="home.php"><?php echo $lang["nav-home"]; ?></a></li>
     <li><a class="nav-message" href="berichten.php"><?php echo $lang["nav-messages"]; ?></a></li>
-    <li><a class="nav-flightroutes" href="#"><?php echo $lang["nav-flightroutes"]; ?></a></li>
-    <li><a class="nav-gallery" href="#"><?php echo $lang["nav-gallery"]; ?></a></li>
+    <li><a class="nav-flightroutes" href="vliegroutes.php"><?php echo $lang["nav-flightroutes"]; ?></a></li>
+    <li><a class="nav-gallery" href="gallerij.php"><?php echo $lang["nav-gallery"]; ?></a></li>
     <div class="navbar-section-divider"></div>
     <li>
       <a href="?language=eng">

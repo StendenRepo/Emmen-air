@@ -120,7 +120,7 @@ body {
 #container-berichten {
     text-align: center;
     font-family: "Roboto", sans-serif;
-    margin: 5%;
+    /* margin: 5%; */
 }
 
 .home {
@@ -131,15 +131,13 @@ body {
 }
 
 header {
+    padding: 2px 3rem;
     position: fixed;
-    z-index: 10;
     width: 100%;
-    height: 8vh;
     background-color: #f4f4f4;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 3rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
 }
 
@@ -231,6 +229,10 @@ header i {
 
 header .logo a {
     text-decoration: none;
+}
+
+.navbar-spacing {
+    padding-top: 100px;
 }
 
 
@@ -426,10 +428,9 @@ header .logo a {
 .item-2,
 .item-2-en {
     background-color: #f4f4f4;
-    margin: 10px auto;
+    margin: 10px auto 50px;
     max-width: 75%;
     color: gray;
-    margin-bottom: 50px;
 }
 
 .item-1 {
@@ -448,7 +449,7 @@ header .logo a {
 
 .titel-bericht {
     background-color: #f4f4f4;
-    margin: 50px auto;
+    margin: 0 auto;
     max-width: 75%;
     height: 100px;
 }
@@ -474,8 +475,7 @@ input[type="submit"] {
 .bericht-1,
 .bericht-2 {
     background-color: white;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 20px auto 0;
     width: 80%;
     font-family: "Roboto", sans-serif;
 }
@@ -525,9 +525,10 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    color: black;
+    color: white;
     text-align: center;
     font-weight: bold;
+    margin: 5px 0;
 }
 
 
@@ -597,7 +598,7 @@ input:focus {
 
 /* mobiel gedeelte */
 
-@media (max-width: 896px) {
+@media(max-width: 896px) {
     .home {
         grid-template-columns: 1fr;
         padding: 2rem;
@@ -626,7 +627,7 @@ input:focus {
     }
 }
 
-@media (max-width: 1024px) {
+@media(max-width: 1024px) {
     .openMenu {
         display: flex;
     }
@@ -635,7 +636,7 @@ input:focus {
     }
 }
 
-@media (max-width: 1536px) {
+@media(max-width: 1536px) {
     .info-menu {
         grid-template-columns: 1fr;
     }

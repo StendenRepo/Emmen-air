@@ -281,6 +281,11 @@ header .logo a {
   border-bottom: 1px solid #616161;
 }
 
+.info-text a {
+  text-decoration: none;
+  color: #616161;
+}
+
 /* snelle links */
 
 .links {

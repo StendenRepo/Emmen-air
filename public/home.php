@@ -19,7 +19,7 @@
                 <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
               </div>
               <div class="info-text">
-                <h2>Lorem Ipsum</h2>
+                <h2><a href="berichten.php#message-1">Lorem Ipsum</a></h2>
                 <p><?php echo $lang["information-article-text-general"];?></p>
               </div>
             </div>
@@ -28,7 +28,7 @@
                 <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
               </div>
               <div class="info-text">
-                <h2>Lorem Ipsum</h2>
+                <h2><a href="berichten.php#message-2">Lorem Ipsum</a></h2>
                 <p><?php echo $lang["information-article-text-general"];?></p>
               </div>
             </div>
@@ -37,7 +37,7 @@
                 <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
               </div>
               <div class="info-text">
-                <h2>Lorem Ipsum</h2>
+                <h2><a href="berichten.php#message-3">Lorem Ipsum</a></h2>
                 <p><?php echo $lang["information-article-text-general"];?></p>
               </div>
             </div>

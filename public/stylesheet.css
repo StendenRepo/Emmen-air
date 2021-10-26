@@ -480,32 +480,38 @@ input[type="submit"] {
 
 .bericht-overview {
     color: gray;
-    flex: 8;
+    flex: 20;
     background-color: white;
     padding-bottom: 20px;
 }
 
 .berichten-divider {
-    flex: 2;
+    flex: 1;
 }
 
 .berichten-links {
     color: gray;
-    flex: 4;
+    flex: 10;
 }
 
 .bericht {
     background-color: white;
-    width: 50%;
+    width: 60%;
     margin: 20px auto 0;
     font-family: "Roboto", sans-serif;
     padding: 10px;
-    border: 1px solid gray;
+    border-bottom: 2px dashed gray;
+}
+
+.bericht:last-of-type {
+    border-bottom: none !important;
 }
 
 .bericht-title {
     margin: 20px auto 0;
-    width: 50%;
+    width: 60%;
+    border-bottom: 1px solid black;
+    font-size: 1.25rem;
 }
 
 .bericht .bericht-text {
@@ -635,7 +641,7 @@ input:focus {
 
 /* mobiel gedeelte */
 
-@media (max-width: 896px) {
+@media(max-width: 896px) {
     .navbar-spacing {
         height: 12vh;
     }
@@ -670,7 +676,7 @@ input:focus {
     }
 }
 
-@media (max-width: 1024px) {
+@media(max-width: 1024px) {
     .openMenu {
         display: flex;
     }
@@ -679,7 +685,7 @@ input:focus {
     }
 }
 
-@media (max-width: 1536px) {
+@media(max-width: 1536px) {
     .info-menu {
         grid-template-columns: 1fr;
     }

@@ -34,5 +34,6 @@ Opdracht: Project, berichten pagina.
       </div>
     </div>
   </form>
+  <?php include "../templates/footer.php"; ?>
 </body>
 </html>

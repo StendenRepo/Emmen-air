@@ -29,5 +29,6 @@ Opdracht: Project, berichten pagina.
         reiciendis placeat doloribus minima qui libero.</p>
     </div>
   </div>
+  <?php include "../templates/footer.php"; ?>
 </body>
 </html>

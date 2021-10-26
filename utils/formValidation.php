@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * return the name of the file that was assigned.
+ */
 function validateImageAndMove($img) {
   $fileName = $img['name'];
   $fileTmpName = $img["tmp_name"];
@@ -13,7 +16,7 @@ function validateImageAndMove($img) {
   $fileNameSplit = explode('.', $fileName);
   $fileExt = strtolower(end($fileNameSplit));
 
-  $allowedExtension = array('jpg', 'jpgeg', 'png');
+  $allowedExtension = array('jpg', 'jpeg', 'png');
 
   if(!in_array($fileExt, $allowedExtension)) {
     return false;
@@ -27,11 +30,10 @@ function validateImageAndMove($img) {
     return false;
   }
 
-  return "$fileSaveName.$fileExt";
-
   $fileDestination = __DIR__ . "/../public/assets/uploaded_images/$fileSaveName.$fileExt";
+  move_uploaded_file($fileTmpName, $fileDestination);
 
-  return move_uploaded_file($fileTmpName, $fileDestination);
+  return "$fileSaveName.$fileExt";
 }
 
 ?>

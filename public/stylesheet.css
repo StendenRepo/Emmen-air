@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto &display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,11 +8,6 @@
 
 body {
   background-color: #191971;
-}
-
-#temp-header {
-  height: 144px;
-  background: #f4f4f4;
 }
 
 #flightcontainer {
@@ -37,4 +35,60 @@ hr {
   margin-right: 21px;
   border: 1px solid #707070;
   height: 0px;
+}
+
+.studentname {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 5px;
+}
+
+.studentlist {
+  list-style-type: none;
+  margin-left: 21px;
+}
+
+.studentlist li {
+  margin-bottom: 5px;
+}
+
+.flightroutes-button {
+  margin-left: 21px;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: #535353;
+  font-size: 18px;
+  border: none;
+  background-color: #87ceeb;
+}
+
+.assignment-wrap {
+  background-color: #f4f4f4;
+  padding: 21px;
+  margin-bottom: 21px;
+}
+
+.assignment-filling {
+  background-color: #191971;
+  padding: 10px;
+}
+
+.assignment-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.assignment-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  color: #f4f4f4;
+  text-decoration: none;
+  background-color: #191971;
+  padding: 10px;
+  border: none;
+  width: 1155px;
 }

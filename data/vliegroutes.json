@@ -1,0 +1,24 @@
+{
+  "AMStoIST": [
+    {
+      "name": "test@email.com"
+    },
+    {
+      "name": "test1@email.com"
+    }
+  ],
+  "AMStoJFK": [
+    {
+      "name": "Heman Bult"
+    }
+  ],
+  "AMStoPVG": [
+    
+  ],
+  "AMStoSFO": [
+    
+  ],
+  "AMStoSVO": [
+    
+  ]
+}

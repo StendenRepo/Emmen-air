@@ -117,9 +117,6 @@
         </div>
       </div>
     </main>
-    <footer>
-      <p>copyright</p>
-    </footer>
   </div>
 </body>
 </html>

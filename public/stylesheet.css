@@ -125,8 +125,8 @@ body {
 .home {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-gap: 4rem;
-  padding: 4rem;
+  grid-gap: 3rem;
+  padding: 3rem;
 }
 
 header {
@@ -234,9 +234,15 @@ header .logo a {
 
 /* informatie */
 
+.info-news {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3rem;
+}
+
 .info {
   background-color: #f4f4f4;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
 }
 
 .info img {
@@ -250,8 +256,7 @@ header .logo a {
 
 .info-header {
   font-size: 1.25rem;
-  margin: 0 auto;
-  width: 95%;
+  margin: 0 0.5rem;
   padding: 0.5rem 0;
   border-bottom: 1px solid #616161;
 }
@@ -259,8 +264,7 @@ header .logo a {
 .info-menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 0.5rem auto 0;
-  width: 95%;
+  margin: 0.5rem 0.5rem 0;
   grid-gap: 0.5rem 4rem;
   background-color: #f4f4f4;
 }
@@ -273,22 +277,27 @@ header .logo a {
 .info-text h2 {
   margin-bottom: 1rem;
   text-decoration: underline #616161;
-  padding-bottom: 0.25rem;
+  padding: 0.5rem 0;
   border-bottom: 1px solid #616161;
+}
+
+.info-text a {
+  text-decoration: none;
+  color: #616161;
 }
 
 /* snelle links */
 
 .links {
   background-color: #f4f4f4;
+  padding-bottom: 1rem;
 }
 
 .link-header {
-  width: 80%;
-  margin: 0.5rem auto;
+  margin: 0 0.5rem;
   font-size: 1.25rem;
   border-bottom: 1px solid black;
-  padding-bottom: 0.25rem;
+  padding: 0.5rem 0;
 }
 
 .links a {
@@ -296,35 +305,27 @@ header .logo a {
 }
 
 .links p {
-  margin: 0 auto;
-  width: 80%;
+  margin: 0 0.5rem;
   padding: 0.5rem 0;
   border-bottom: 1px solid black;
-}
-
-.links p:last-child {
-  border-bottom: none;
 }
 
 /* news */
 
 .news {
   background-color: #f4f4f4;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
 }
 
 .news-header {
   font-size: 1.25rem;
-  margin: 0 auto 0.25rem;
-  width: 95%;
+  margin: 0 0.5rem;
   padding: 0.5rem 0;
   border-bottom: 1px solid #616161;
 }
 
 .news-image {
-  width: 100%;
-  margin: 0 auto;
-  width: 90%;
+  margin: 0.5rem 0.5rem;
 }
 
 .news-image img {
@@ -332,8 +333,7 @@ header .logo a {
 }
 
 .news-text {
-  margin: 0 auto;
-  width: 95%;
+  margin: 0 0.5rem;
 }
 
 .news-text h2 {
@@ -348,13 +348,13 @@ header .logo a {
 /* evenementen */
 
 .event {
+  margin: 3rem 0;
   background-color: #f4f4f4;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
 }
 
 .event-header {
-  width: 80%;
-  margin: 0 auto;
+  margin: 0 0.5rem;
   font-size: 1.25rem;
   border-bottom: 1px solid #616161;
   padding: 0.5rem 0;
@@ -363,12 +363,11 @@ header .logo a {
 .event-element {
   display: flex;
   border-bottom: 1px solid #616161;
-  margin-left: 10%;
-  width: 70%;
+  margin: 0 0.5rem;
 }
 
 .event-date {
-  margin: 0.25rem 0;
+  margin: 0.5rem 0;
   font-size: 0.75rem;
   background-color: #87ceeb;
   color: #f4f4f4;
@@ -391,15 +390,14 @@ header .logo a {
 
 .number {
   background-color: #f4f4f4;
-  margin-top: 4rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
 }
 
 .number-header {
-  width: 80%;
-  margin: 0 auto;
-  font-size: 1.25rem;
+  border-bottom: 1px solid #616161;
   padding: 0.5rem 0;
+  margin: 0 0.5rem;
+  font-size: 1.25rem;
 }
 
 .number-search {
@@ -408,13 +406,25 @@ header .logo a {
   align-items: center;
   background-color: #191971;
   color: #f4f4f4;
-  width: 80%;
-  margin: 0 auto;
+  margin: 0 0.5rem;
   padding: 0 0.5rem;
 }
 
 .number-search i {
   font-size: 1.25rem;
+}
+
+.number-submit {
+  margin: 0 0.5rem;
+}
+
+.number-submit input[type="submit"] {
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+  background-color: #191971;
+  color: #f4f4f4;
+  padding: 12px 20px;
 }
 
 .item-2,
@@ -573,8 +583,7 @@ input:focus {
 }
 
 .number-input {
-  margin: 0 auto;
-  width: 80%;
+  margin: 0.5rem 0.5rem;
 }
 
 .artikel p {

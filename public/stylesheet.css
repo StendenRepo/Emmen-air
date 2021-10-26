@@ -7,20 +7,18 @@
 }
 
 #containergallerij {
-  height: 4000px;
-  width: 100%;
   background-color: midnightblue;
   color: #616161;
 }
 
-.home {
+.homegallerij {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* foto's */
 
-.plaatje {
+.plaatjegallerij {
   background-color: #f4f4f4;
   margin-left: 1rem;
   margin-top: 1rem;
@@ -30,7 +28,7 @@
   height: 90%;
 }
 
-.plaatje img {
+.plaatjegallerij img {
   width: 180%;
   border-radius: 10px;
 }
@@ -41,9 +39,9 @@
   margin-top: 4.5%;
 }
 
-/* Opload knop */
+/* Upload knop */
 
-.uploadvak {
+.uploadgallerijvak {
   background-color: #f4f4f4;
   margin-left: 1rem;
   margin-top: 1rem;
@@ -53,13 +51,13 @@
   height: 60%;
 }
 
-.upload {
+.uploadgallerij {
   background-color: #f4f4f4;
   width: 40%;
   margin-top: 8%;
 }
 
-.upload-header {
+.uploadgallerij-header {
   width: 170%;
   margin: 0 auto;
   font-size: 0.9rem;
@@ -68,16 +66,16 @@
   text-align: center;
 }
 
-.upload-knop {
+.uploadgallerij-knop {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #191971;
+  background-color: midnightblue;
   color: #f4f4f4;
   width: 205%;
   margin-left: 20%;
 }
 
-.upload-knop h2 {
+.uploadgallerij-knop h2 {
   margin: 0 auto;
 }

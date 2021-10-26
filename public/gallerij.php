@@ -5,38 +5,38 @@
 </head>
 <body>
 <div id="containergallerij">
-    <main class="home">
-        <div class="plaatje">
+    <main class="homegallerij">
+        <div class="plaatjegallerij">
             <div class="image">
                 <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
             </div>
         </div>
-        <div class="plaatje">
+        <div class="plaatjegallerij">
             <div class="image">
                 <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
             </div>
         </div>
-        <div class="uploadvak">
-            <div class="upload">
-                <div class="upload-knop">
-                    <h2>Upload</h2>
+        <div class="uploadgallerijvak">
+            <div class="uploadgallerij">
+                <div class="uploadgallerij-knop">
+                    <h2>Uploadgallerij</h2>
                 </div>
-                <div class="upload-header">
+                <div class="uploadgallerij-header">
                     <h2>Upload ook jouw eigen foto's</h2>
                 </div>
             </div>
         </div>
-        <div class="plaatje">
+        <div class="plaatjegallerij">
             <div class="image">
                 <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
             </div>
         </div>
-        <div class="plaatje">
+        <div class="plaatjegallerij">
             <div class="image">
                 <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
             </div>
         </div>
-        <div class="plaatje">
+        <div class="plaatjegallerij">
             <div class="image">
                 <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
             </div>

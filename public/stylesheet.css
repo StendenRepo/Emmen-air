@@ -131,7 +131,6 @@ body {
 
 header {
     padding: 2px 3rem;
-    height: 8vh;
     position: fixed;
     width: 100%;
     background-color: #f4f4f4;
@@ -232,7 +231,7 @@ header .logo a {
 }
 
 .navbar-spacing {
-    height: 13vh;
+    padding-top: 100px;
 }
 
 
@@ -642,9 +641,6 @@ input:focus {
 /* mobiel gedeelte */
 
 @media(max-width: 896px) {
-    .navbar-spacing {
-        height: 12vh;
-    }
     .home {
         grid-template-columns: 1fr;
         padding: 0 2rem 2rem;

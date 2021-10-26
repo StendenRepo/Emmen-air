@@ -1,4 +1,7 @@
-<?php include "../src/preload.php"; ?>
+<?php
+include "../src/preload.php";
+include "../src/messages.php";
+?>
 <!--
 Programmeur: Tamme Tuncil
 Datum: 12-10-2021

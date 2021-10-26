@@ -9,7 +9,7 @@
   <main class="main-gallerij">
     <div id="main-body">
       <div id="main-column">
-        <form class="input-form" action="user/upload.php" method="POST" enctype="multipart/form-data">
+        <form class="input-form" action="user/uploadImage.php" method="POST" enctype="multipart/form-data">
           <div class="upload">
             <label for="upload-file" class="label-form"> <?php echo $lang["upload-title"]; ?> </label>
           </div>

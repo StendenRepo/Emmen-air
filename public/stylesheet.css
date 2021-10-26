@@ -126,7 +126,7 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 4rem;
-    padding: 0 4rem 4rem;
+    padding: 3rem;
 }
 
 header {
@@ -231,7 +231,7 @@ header .logo a {
 }
 
 .navbar-spacing {
-    padding-top: 100px;
+    height: 12vh;
 }
 
 
@@ -424,19 +424,24 @@ header .logo a {
     font-size: 1.25rem;
 }
 
-.item-2,
-.item-2-en {
-    background-color: #f4f4f4;
-    margin: 10px auto 50px;
-    max-width: 75%;
-    color: gray;
-}
-
 .item-1 {
     background-color: #f4f4f4;
     margin: 50px auto;
     max-width: 75%;
     height: 100px;
+    color: #f4f4f4;
+}
+
+.item-2,
+.item-2-en {
+    margin: 10px auto 50px;
+    max-width: 75%;
+    text-align: left;
+    color: #f4f4f4;
+}
+
+.item-2 label {
+    padding-bottom: 20px;
 }
 
 .item-3 {
@@ -447,10 +452,11 @@ header .logo a {
 }
 
 .titel-bericht {
-    background-color: #f4f4f4;
     margin: 0 auto;
     max-width: 75%;
-    height: 100px;
+    height: 40px;
+    text-align: left;
+    color: white;
 }
 
 #titelAfbeelding {
@@ -473,10 +479,12 @@ input[type="submit"] {
 
 .bericht-overview {
     flex: 8;
+    color: gray;
 }
 
 .berichten-links {
     flex: 4;
+    color: gray;
 }
 
 .bericht {
@@ -641,6 +649,9 @@ input:focus {
     }
     .news {
         margin: 0 auto;
+    }
+    header {
+        padding: 2px 1rem;
     }
 }
 

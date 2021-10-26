@@ -120,14 +120,13 @@ body {
 #container-berichten {
     text-align: center;
     font-family: "Roboto", sans-serif;
-    /* margin: 5%; */
 }
 
 .home {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 4rem;
-    padding: 4rem;
+    padding: 0 4rem 4rem;
 }
 
 header {
@@ -465,19 +464,38 @@ input[type="submit"] {
     display: none;
 }
 
-#bericht {
+.bericht-container {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
 }
 
-.bericht-1,
-.bericht-2 {
+.bericht-overview {
+    flex: 8;
+}
+
+.berichten-links {
+    flex: 4;
+}
+
+.bericht {
     background-color: white;
-    margin: 20px auto 0;
-    width: 80%;
+    margin-bottom: 20px;
+    width: 95%;
     font-family: "Roboto", sans-serif;
+    padding: 10px;
+}
+
+.bericht h3 {
+    border-bottom: 1px solid black;
+    padding: 2px;
+}
+
+.bericht .bericht-text {
+    padding: 5px 2px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
 }
 
 .uploadImage,
@@ -521,7 +539,6 @@ input[type="submit"] {
 /* footer */
 
 footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;

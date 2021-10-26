@@ -3,7 +3,55 @@
     "id": "test@email.com",
     "title": "Title test",
     "content_nl": "bericht info in het nederlands",
-    "content_en": "message content in english",
-    "img_url": "/uploaded_images/"
-  }
+    "content_en": "message content in english"
+  },
+  {
+    "id": "testers@email.com",
+    "title": "Titlasde test",
+    "content_nl": "bericht asdddinfo in het nederlands",
+    "content_en": "messaasdge content in english"
+  },
+  {
+    "id": "test1@email.com",
+    "title": "dit is een titel",
+    "content_nl": "dit is het bericht in het nederlands",
+    "content_en": "this is the message in english."
+  },
+  {
+    "id": "test1@email.com",
+    "title": "dit is een titel",
+    "content_nl": "dit is het bericht in het nederlands",
+    "content_en": "this is the message in english."
+  },
+  {
+    "id": "test1@email.com",
+    "title": "dit is een titel voor michel",
+    "content_nl": "michel typed en bericht in het nederlands",
+    "content_en": "he types it here in english"
+  },
+  {
+    "id": "test1@email.com",
+    "title": "nog een titel",
+    "content_nl": "wat je ook wilt zeggen",
+    "content_en": "english message"
+  },
+  {
+    "id": null,
+    "title": "test zonder sessie",
+    "content_nl": "wat je ook wilt zeggen",
+    "content_en": "english message"
+  },
+  {
+    "id": "test@email.com",
+    "title": "nieuwe bericht met nieuw account",
+    "content_nl": "nederladns tekst",
+    "content_en": "engelsh tekst"
+  },
+  {
+    "id": "test@email.com",
+    "title": "nieuwe bericht met nieuw account",
+    "content_nl": "nederladns tekst",
+    "content_en": "engelsh tekst"
+  },
+  { "id": "test@email.com", "title": "nog en test", "content_nl": "nederladns tekst", "content_en": "engelsh tekst" }
 ]

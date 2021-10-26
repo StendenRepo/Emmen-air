@@ -11,7 +11,7 @@ Opdracht: Project, berichten pagina.
 <body>
   <?php include '../templates/navbar.php'; ?>
   <div id="bericht">
-    <div class="bericht-1" id="message-1">
+    <div class="bericht-1">
       <h3>Onderwerp nummer 1</h3>
       <hr>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -20,7 +20,7 @@ Opdracht: Project, berichten pagina.
         reiciendis placeat doloribus minima qui libero.</p>
 
     </div>
-    <div class="bericht-2" id="message-2">
+    <div class="bericht-2">
       <h3>Subject number 1</h3>
       <hr>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.

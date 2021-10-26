@@ -472,38 +472,49 @@ input[type="submit"] {
 
 .bericht-container {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     width: 95%;
     margin: 0 auto;
 }
 
 .bericht-overview {
-    flex: 8;
     color: gray;
+    flex: 8;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.berichten-divider {
+    flex: 2;
 }
 
 .berichten-links {
-    flex: 4;
     color: gray;
+    flex: 4;
 }
 
 .bericht {
     background-color: white;
-    margin-bottom: 20px;
-    width: 95%;
+    width: 50%;
+    margin: 20px auto 0;
     font-family: "Roboto", sans-serif;
     padding: 10px;
+    border: 1px solid gray;
 }
 
-.bericht h3 {
-    border-bottom: 1px solid black;
-    padding: 2px;
+.bericht-title {
+    margin: 20px auto 0;
+    width: 50%;
 }
 
 .bericht .bericht-text {
     padding: 5px 2px;
-    border-bottom: 1px solid black;
     margin-bottom: 10px;
+}
+
+.berichten-author {
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 .uploadImage,

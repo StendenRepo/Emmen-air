@@ -11,36 +11,30 @@ Opdracht: Project, berichten pagina.
   <body>
     <?php include '../templates/navbar.php'; ?>
     <div class="bericht-container">
-      <div class="bericht-overview"> 
-        <div class="bericht">
-          <h3>Onderwerp nummer 1</h3>
-          <p class="bericht-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Asperiores, id atque corrupti illo placeat omnis sapiente
-            repellendus ullam, rerum et quis! Quae deserunt aliquid,
-            reiciendis placeat doloribus minima qui libero.
-          </p>
-          <p>
-            <small> 
-                Auteur: 
-            </small> 
-          </p>
-        </div>
-        <div class="bericht">
-          <h3>Subject number 1</h3>
-          <p class="bericht-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Asperiores, id atque corrupti illo placeat omnis sapiente
-            repellendus ullam, rerum et quis! Quae deserunt aliquid,
-            reiciendis placeat doloribus minima qui libero.
-          </p>
-          <p>
-            <small> 
-                Auteur: 
-            </small> 
-          </p>
-        </div>
+      <div class="bericht-overview">
+        <div class="bericht-title"> <h2> Berichten </h2> </div>
+          <div class="bericht" id="message-1">
+              <h3>onderwerp 1 </h3>
+              <p class="bericht-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Asperiores, id atque corrupti illo placeat omnis sapiente
+                repellendus ullam, rerum et quis! Quae deserunt aliquid,
+                reiciendis placeat doloribus minima qui libero.
+              </p>
+            <p class="berichten-author"> Auteur </p>
+          </div>
+          <div class="bericht" id="message-2">
+          <h3>onderwerp 1 </h3>
+            <p class="bericht-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Asperiores, id atque corrupti illo placeat omnis sapiente
+              repellendus ullam, rerum et quis! Quae deserunt aliquid,
+              reiciendis placeat doloribus minima qui libero.
+            </p>
+            <p class="berichten-author"> Auteur </p>
+          </div>
       </div>
+      <div class="berichten-divider"> </div>
       <div class="links berichten-links">
         <div class="link-header">
           <h2><?php echo $lang["quick-links-title"];?></h2>

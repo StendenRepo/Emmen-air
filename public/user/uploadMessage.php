@@ -2,7 +2,6 @@
 
 require("../../src/preload.php");
 require "../../src/translate.php";
-require "../../utils/formValidation.php";
 require "../../src/messages.php";
 
 if (isset($_POST["submit_berichten"])) {
@@ -20,7 +19,7 @@ if (isset($_POST["submit_berichten"])) {
   }
 
   setMessage($userId, $title, $contentNl, $contentEn);
-  header("Location:// ../home.php");
+  header("Location: ../home.php");
   exit;
 }
 

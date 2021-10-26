@@ -1,21 +1,25 @@
 <?php
 
-if(session_status() !== PHP_SESSION_ACTIVE) session_start();
-
+require "../../src/preload.php";
 require "../../src/translate.php";
 require "../../utils/formValidation.php";
+require "../../src/images.php";
 
-if (isset($_POST["submit_berichten"])) {
-  $title = $_POST["titel_berichten"];
+if (isset($_POST["submit"])) {
   $file = $_FILES["file"];
-  $contentNl = $_POST["messageNL"];
-  $contentEn = $_POST["messageEN"];
+  $hoverTextNl = $_POST["messageNL"];
+  $hoverTextEn = $_POST["messageEN"];
+  $userId = $_SESSION["userEmail"];
 
-  echo "form was validated and moved";
+  if($file["error"] > UPLOAD_ERR_OK ||empty($hoverTextNl) || empty($hoverTextEn)){
+    echo "form was not correctly filled in";
+    exit;
+  }
 
+  $savedImageName = validateImageAndMove($file);
 
-
-  // header("Location: ../home.php");
+  setImage($userId, $savedImageName, $hoverTextNl, $hoverTextEn);
+  header("Location: ../home.php");
   exit;
 }
 ?>

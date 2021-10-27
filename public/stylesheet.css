@@ -347,7 +347,6 @@ header .logo a {
 
 .info-text h2 {
   margin-bottom: 1rem;
-  text-decoration: underline #616161;
   padding-bottom: 0.5rem 0;
   border-bottom: 1px solid #616161;
 }
@@ -373,6 +372,7 @@ header .logo a {
 
 .links a {
   color: gray;
+  text-decoration: none;
 }
 
 .links p {
@@ -414,6 +414,7 @@ header .logo a {
 
 .news-text a {
   color: #616161;
+  text-decoration: none;
 }
 
 /* evenementen */
@@ -493,8 +494,8 @@ header .logo a {
   display: block;
   margin-top: 0.5rem;
   width: 100%;
-  background-color: #191971;
-  color: #f4f4f4;
+  background-color: #87ceeb;
+  color: #535353;
   padding: 12px 20px;
 }
 
@@ -717,9 +718,15 @@ p {
 
 input[type="text"].studentSearchField {
   width: 100%;
-  padding: 12px 20px;
-  background-color: #191971;
-  color: white;
+  background-color: #f4f4f4;
+  padding: 0.75rem 0;
+  border: none;
+  border-bottom: 1px solid #616161;
+  color: #535353;
+}
+
+input[type="text"].studentSearchField::placeholder {
+  color: #535353;
 }
 
 input:focus {
@@ -727,7 +734,7 @@ input:focus {
 }
 
 .number-input {
-  margin: 0.5rem 0.5rem;
+  margin: 0 0.5rem 0.5rem;
 }
 
 .artikel p {

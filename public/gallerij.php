@@ -12,7 +12,7 @@
                 <a href="title"><h2> Upload een afbeelding  </h2></a>
             </div>
         </div>
-        <div class="row-1"> 
+        <div class="row"> 
             <div class="gallerij-image">
                 <img src="./assets/auto-verticaal.jpg" alt="plaatje" >
                 <div> test </div>
@@ -26,7 +26,7 @@
                 <div> test </div>
             </div>
         </div>
-        <div class="row-2">
+        <div class="row">
             <div class="gallerij-image">
                 <img src="./assets/auto-verticaal.jpg" alt="plaatje">
                 <div> test </div>

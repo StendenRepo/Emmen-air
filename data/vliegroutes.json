@@ -1,5 +1,5 @@
 {
-  "AMStoIST": [
+  "amstoist": [
     {
       "name": "John Doe"
     },
@@ -7,22 +7,22 @@
       "name": "Piet Jan"
     }
   ],
-  "AMStoJFK": [
+  "amstojfk": [
     {
       "name": "Heman Bult"
     }
   ],
-  "AMStoPVG": [
+  "amstopvg": [
     {
       "name": "test"
     }
   ],
-  "AMStoSFO": [
+  "amstosfo": [
     {
       "name": "test"
     }
   ],
-  "AMStoSVO": [
+  "amstosvo": [
     {
       "name": "test"
     }    

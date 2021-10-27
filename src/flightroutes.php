@@ -3,17 +3,16 @@
  * input "Cedric Smit"
  */
     function setAssignment($student) {
-        $data = getParshedData();
-
+        $data = getParsedData();
         echo "<pre>";
         print_r($data);
         echo "</pre>";
-    
-        // return true;
+
+        return $flightCode;
     }
 
     function getParsedData() {
-        return json_decode(dirname(__FILE__)."../data/vliegroutes.json", true);
+        return json_decode(file_get_contents(dirname(__FILE__)."/../data/vliegroutes.json"), true);
     }
 
 ?>

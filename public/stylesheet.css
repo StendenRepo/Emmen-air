@@ -92,6 +92,14 @@
   padding: 5px;
 }
 
+.uploadgallerij-knop a {
+  text-align: center !important;
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 5px;
+}
+
 .label-form {
   background-color: #191971;
   color: white;
@@ -157,7 +165,7 @@ body {
 .home {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-gap: 3rem;
+  grid-gap: 4rem;
   padding: 0 3rem 3rem;
 }
 
@@ -286,6 +294,43 @@ header .logo a {
 .image {
   width: 50%;
   margin-right: 0.5rem;
+}
+
+/* Upload knop */
+
+.uploadgallerijvak {
+  background-color: #f4f4f4;
+  margin: 1rem;
+  width: 90%;
+  height: 60%;
+}
+
+.uploadgallerij {
+  background-color: #f4f4f4;
+  width: 40%;
+  margin-top: 8%;
+}
+
+.uploadgallerij-header {
+  width: 170%;
+  margin: 0 auto 0 42%;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.uploadgallerij-knop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: midnightblue;
+  color: #f4f4f4;
+  width: 205%;
+  margin-left: 20%;
+}
+
+.uploadgallerij-knop h2 {
+  margin: 0 0.5rem 0 auto;
 }
 
 /* Upload knop */
@@ -795,7 +840,7 @@ input:focus {
 @media (max-width: 896px) {
   .home {
     grid-template-columns: 1fr;
-    padding: 0 2rem 2rem;
+    padding: 2rem;
   }
   .info {
     margin: 0 auto;
@@ -819,6 +864,9 @@ input:focus {
   .news {
     margin: 0 auto;
   }
+  header {
+    padding: 2px 1rem;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -833,6 +881,14 @@ input:focus {
 @media (max-width: 1536px) {
   .info-menu {
     grid-template-columns: 1fr;
+  }
+
+  .login-container {
+    background-image: url("./assets/login-bg.png");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    display: flex;
   }
 }
 

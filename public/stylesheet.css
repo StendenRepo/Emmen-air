@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto &display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto &display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* gallerij pagina (Akash & Michel) */
@@ -83,7 +83,8 @@
   background-color: #191971;
   display: grid;
   align-content: center;
-/* Hover on Parent Container */
+  /* Hover on Parent Container */
+}
 
 .gallerij-image:hover {
   cursor: pointer;
@@ -206,7 +207,7 @@ body {
 
 #container-berichten {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 5%;
 }
 
@@ -245,7 +246,7 @@ header i {
 }
 
 .logo h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   color: #616161;
 }
@@ -287,7 +288,7 @@ header i {
 }
 
 .nav-desktop a {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.25rem;
   text-decoration: none;
   color: #616161;
@@ -516,7 +517,7 @@ header .logo a {
   margin: 0 0.5rem;
 }
 
-.number-submit input[type="submit"] {
+.number-submit input[type='submit'] {
   display: block;
   margin-top: 0.5rem;
   width: 100%;
@@ -570,8 +571,8 @@ header .logo a {
   height: 100%;
 }
 
-input[type="file"],
-input[type="submit"] {
+input[type='file'],
+input[type='submit'] {
   display: none;
 }
 
@@ -602,7 +603,7 @@ input[type="submit"] {
   background-color: white;
   width: 60%;
   margin: 20px auto 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 10px;
   border-bottom: 2px dashed gray;
 }
@@ -640,7 +641,7 @@ input[type="submit"] {
   background-color: white;
   margin: 20px auto 0;
   width: 80%;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .uploadImage,
@@ -723,7 +724,7 @@ footer {
 
 h1,
 h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .info_artikel {
@@ -732,10 +733,10 @@ h2 {
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
-input[type="text"].studentSearchField {
+input[type='text'].studentSearchField {
   width: 100%;
   background-color: #f4f4f4;
   padding: 0.75rem 0;
@@ -744,7 +745,7 @@ input[type="text"].studentSearchField {
   color: #535353;
 }
 
-input[type="text"].studentSearchField::placeholder {
+input[type='text'].studentSearchField::placeholder {
   color: #535353;
 }
 
@@ -818,7 +819,7 @@ input:focus {
 }
 
 .login-container {
-  background-image: url("./assets/login-bg.png");
+  background-image: url('./assets/login-bg.png');
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -856,7 +857,7 @@ input:focus {
   background-color: #f4f4f4;
   border-bottom: 1px solid #707070;
   margin-bottom: 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #535353;
   font-weight: 600;
 }
@@ -871,7 +872,7 @@ input:focus {
 
 .login-label {
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #707070;
 }
 
@@ -879,7 +880,7 @@ input:focus {
   width: 70%;
   margin: 5% auto 1rem;
   padding: 5px 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #535353;
   font-size: 18px;
   border: none;
@@ -888,7 +889,7 @@ input:focus {
 
 .login-err-msg {
   color: red;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @keyframes fadeInAnimation {

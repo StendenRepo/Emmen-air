@@ -116,9 +116,7 @@
         </div>
       </div>
     </main>
-    <footer>
-      <p>copyright</p>
-    </footer>
   </div>
+  <?php include "../templates/footer.php"; ?>
 </body>
 </html>

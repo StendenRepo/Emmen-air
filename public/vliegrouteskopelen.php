@@ -29,8 +29,8 @@ Opdracht: Project, vliegroute pagina.
               ?>
               <li>
                 <div>
-                  <input type="checkbox" name="AMStoIST[]" value="<?php echo $user["email"]?>" id="AMStoIST_<?php echo $user["email"]?>" />
-                  <label for="AMStoIST_<?php echo $user["email"]?>" class="studentname"><?php echo $user["email"] ?></label>
+                  <input type="checkbox" name="AMStoIST[]" value="<?php echo $user["name"]?>" id="AMStoIST_<?php echo $user["name"]?>" />
+                  <label for="AMStoIST_<?php echo $user["name"]?>" class="studentname"><?php echo $user["name"] ?></label>
                 </div>
               </li>
               <?php endforeach ?>
@@ -46,8 +46,8 @@ Opdracht: Project, vliegroute pagina.
               ?>
             <li>
               <div>
-                <input type="checkbox" name="AMStoJFK[]" value="<?php echo $user["email"]?>" id="AMStoJFK_<?php echo $user["email"]?>" />
-                <label for="AMStoJFK_<?php echo $user["email"]?>" class="studentname"><?php echo $user["email"] ?></label>
+                <input type="checkbox" name="AMStoJFK[]" value="<?php echo $user["name"]?>" id="AMStoJFK_<?php echo $user["name"]?>" />
+                <label for="AMStoJFK_<?php echo $user["name"]?>" class="studentname"><?php echo $user["name"] ?></label>
               </div>
             </li>
             <?php endforeach ?>
@@ -63,8 +63,8 @@ Opdracht: Project, vliegroute pagina.
               ?>
             <li>
               <div>
-                <input type="checkbox" name="AMStoPVG[]" value="<?php echo $user["email"]?>" id="AMStoPVG_<?php echo $user["email"]?>" />
-                <label for="AMStoPVG_<?php echo $user["email"]?>" class="studentname"><?php echo $user["email"] ?></label>
+                <input type="checkbox" name="AMStoPVG[]" value="<?php echo $user["name"]?>" id="AMStoPVG_<?php echo $user["name"]?>" />
+                <label for="AMStoPVG_<?php echo $user["name"]?>" class="studentname"><?php echo $user["name"] ?></label>
               </div>
             </li>
             <?php endforeach ?>
@@ -80,8 +80,8 @@ Opdracht: Project, vliegroute pagina.
               ?>
             <li>
               <div>
-                <input type="checkbox" name="AMStoPVG[]" value="<?php echo $user["email"]?>" id="AMStoPVG_<?php echo $user["email"]?>" />
-                <label for="AMStoPVG_<?php echo $user["email"]?>" class="studentname"><?php echo $user["email"] ?></label>
+                <input type="checkbox" name="AMStoPVG[]" value="<?php echo $user["name"]?>" id="AMStoPVG_<?php echo $user["name"]?>" />
+                <label for="AMStoPVG_<?php echo $user["name"]?>" class="studentname"><?php echo $user["name"] ?></label>
               </div>
             </li>
             <?php endforeach ?>
@@ -97,8 +97,8 @@ Opdracht: Project, vliegroute pagina.
               ?>
             <li>
               <div>
-                <input type="checkbox" name="AMStoSVO[]" value="<?php echo $user["email"]?>" id="AMStoSVO_<?php echo $user["email"]?>" />
-                <label for="AMStoSVO_<?php echo $user["email"]?>" class="studentname"><?php echo $user["email"] ?></label>
+                <input type="checkbox" name="AMStoSVO[]" value="<?php echo $user["name"]?>" id="AMStoSVO_<?php echo $user["name"]?>" />
+                <label for="AMStoSVO_<?php echo $user["name"]?>" class="studentname"><?php echo $user["name"] ?></label>
               </div>
             </li>
             <?php endforeach ?>

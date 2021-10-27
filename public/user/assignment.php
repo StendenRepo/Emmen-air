@@ -6,13 +6,11 @@
 
     if (isset($_POST["save"])) {
 
-        $amstoist = $_POST["AMStoIST"];
-        $amstojfk = $_POST["AMStoJFK"];
-        $amstopvg = $_POST["AMStoPVG"];
-        $amstosfo = $_POST["AMStoSFO"];
-        $amstosvo = $_POST["AMStoSVO"];
+        $student = $_POST["zoekStudent"];
 
-        setAssignment($amstoist, $amstojfk, $amstopvg, $amstopvg, $amstosfo, $amstosvo);
+        setAssignment($student);
+
+        // header("../vliegroutes.php");
         exit;
     }
 ?>

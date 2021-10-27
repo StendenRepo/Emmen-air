@@ -13,8 +13,8 @@ Opdracht: Project, vliegroute pagina.
     <link href="stylesheet.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
+    <?php include "../templates/navbar.php"; ?>
     <div id="flightcontainer">
-
       <div class="assignment-wrap">
         <a href="vliegrouteskopelen.php">
           <div class="assignment-filling">

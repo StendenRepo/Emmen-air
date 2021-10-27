@@ -13,12 +13,18 @@
     }
   ],
   "AMStoPVG": [
-    
+    {
+      "name": "test"
+    }
   ],
   "AMStoSFO": [
-    
+    {
+      "name": "test"
+    }
   ],
   "AMStoSVO": [
-    
+    {
+      "name": "test"
+    }    
   ]
 }

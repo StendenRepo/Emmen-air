@@ -7,92 +7,30 @@
   font-family: "Roboto", sans-serif;
 }
 
-body {
-  background-color: #191971;
+#containergallerij {
+  background-color: midnightblue;
+  color: #616161;
 }
 
-#flightcontainer {
-  width: 1197px;
-  margin: 0 auto;
+.homegallerij {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.flightroutes {
-  width: 1197px;
-  padding-bottom: 21px;
+/* foto's */
+
+.plaatjegallerij {
   background-color: #f4f4f4;
-  margin-top: 81px;
-  margin-bottom: 81px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  margin: 1rem 1rem 2.5rem;
+  width: 90%;
+  height: 90%;
 }
 
-.routeimage {
-  margin: 21px;
-  border-radius: 15px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+.plaatjegallerij img {
+  width: 180%;
+  border-radius: 10px;
 }
 
-hr {
-  margin-left: 21px;
-  margin-right: 21px;
-  border: 1px solid #707070;
-  height: 0px;
-}
-
-.studentname {
-  font-family: "Montserrat", sans-serif;
-  margin-left: 5px;
-}
-
-.studentlist {
-  list-style-type: none;
-  margin-left: 21px;
-}
-
-.studentlist li {
-  margin-bottom: 5px;
-}
-
-.flightroutes-button {
-  margin-left: 21px;
-  margin-bottom: 5px;
-  padding: 5px;
-  font-family: "Montserrat", sans-serif;
-  color: #535353;
-  font-size: 18px;
-  border: none;
-  background-color: #87ceeb;
-}
-
-.assignment-wrap {
-  background-color: #f4f4f4;
-  padding: 21px;
-  margin-bottom: 21px;
-}
-
-.assignment-filling {
-  background-color: #191971;
-  padding: 10px;
-}
-
-.assignment-text {
-  font-family: "Roboto", sans-serif;
-  font-size: 26px;
-  text-align: center;
-  color: #f4f4f4;
-  text-decoration: none;
-}
-
-.assignment-button {
-  font-family: "Roboto", sans-serif;
-  font-size: 26px;
-  text-align: center;
-  color: #f4f4f4;
-  text-decoration: none;
-  background-color: #191971;
-  padding: 10px;
-  border: none;
-  width: 1155px;
-}
 .main-gallerij {
   background-color: #191971;
   display: grid;
@@ -144,6 +82,14 @@ hr {
 
 .upload {
   width: 100%;
+}
+
+.uploadgallerij-knop a {
+  text-align: center !important;
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 5px;
 }
 
 .label-form {
@@ -212,16 +158,17 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 4rem;
-  padding: 4rem;
+  padding: 0 3rem 3rem;
 }
 
 header {
-  height: 8vh;
+  padding: 2px 3rem;
+  position: fixed;
+  width: 100%;
   background-color: #f4f4f4;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: 1.5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
 }
 
@@ -236,17 +183,14 @@ header i {
 }
 
 .logo img {
-  height: 10vh;
-  height: 6rem;
+  height: 4.5rem;
   width: 6rem;
-  margin-left: 30px;
 }
 
 .logo h1 {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   color: #616161;
-  padding-left: 1rem;
 }
 
 .nav-mobile {
@@ -282,7 +226,7 @@ header i {
 }
 
 .nav-desktop li {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .nav-desktop a {
@@ -318,6 +262,10 @@ header .logo a {
   text-decoration: none;
 }
 
+.navbar-spacing {
+  padding-top: 100px;
+}
+
 /* informatie */
 
 .info {
@@ -332,6 +280,43 @@ header .logo a {
 .image {
   width: 50%;
   margin-right: 0.5rem;
+}
+
+/* Upload knop */
+
+.uploadgallerijvak {
+  background-color: #f4f4f4;
+  margin: 1rem;
+  width: 90%;
+  height: 60%;
+}
+
+.uploadgallerij {
+  background-color: #f4f4f4;
+  width: 40%;
+  margin-top: 8%;
+}
+
+.uploadgallerij-header {
+  width: 170%;
+  margin: 0 auto 0 42%;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.uploadgallerij-knop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: midnightblue;
+  color: #f4f4f4;
+  width: 205%;
+  margin-left: 20%;
+}
+
+.uploadgallerij-knop h2 {
+  margin: 0 0.5rem 0 auto;
 }
 
 .info-header {
@@ -390,6 +375,80 @@ header .logo a {
 
 .links p:last-child {
   border-bottom: none;
+}
+
+#flightcontainer {
+  width: 1197px;
+  margin: 0 auto;
+}
+.flightroutes {
+  width: 1197px;
+  padding-bottom: 21px;
+  background-color: #f4f4f4;
+  margin-top: 81px;
+  margin-bottom: 81px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+.routeimage {
+  margin: 21px;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.studentname {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 5px;
+}
+
+.studentlist {
+  list-style-type: none;
+  margin-left: 21px;
+}
+
+.studentlist li {
+  margin-bottom: 5px;
+}
+
+.flightroutes-button {
+  margin-left: 21px;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: #535353;
+  font-size: 18px;
+  border: none;
+  background-color: #87ceeb;
+}
+
+.assignment-wrap {
+  background-color: #f4f4f4;
+  padding: 21px;
+  margin-bottom: 21px;
+}
+
+.assignment-filling {
+  background-color: #191971;
+  padding: 10px;
+}
+
+.assignment-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.assignment-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  color: #f4f4f4;
+  text-decoration: none;
+  background-color: #191971;
+  padding: 10px;
+  border: none;
+  width: 1155px;
 }
 
 /* news */
@@ -503,13 +562,28 @@ header .logo a {
   font-size: 1.25rem;
 }
 
+.item-1 {
+  background-color: #f4f4f4;
+  margin: 50px auto;
+  max-width: 75%;
+  height: 100px;
+  color: #f4f4f4;
+}
+
 .item-2,
 .item-2-en {
+  margin: 10px auto 50px;
+  max-width: 75%;
+  text-align: left;
+  color: #f4f4f4;
+}
+
+.item-2 label {
+  padding-bottom: 20px;
   background-color: #f4f4f4;
-  margin: 10px auto;
+  margin: 10px auto 50px;
   max-width: 75%;
   color: gray;
-  margin-bottom: 50px;
 }
 
 .item-1 {
@@ -527,11 +601,13 @@ header .logo a {
 }
 
 .titel-bericht {
-  background-color: #f4f4f4;
-  margin: 50px auto;
+  margin: 0 auto;
   max-width: 75%;
-  height: 100px;
+  height: 40px;
+  text-align: left;
+  color: white;
 }
+
 #titelAfbeelding {
   border: none;
   width: 100%;
@@ -543,17 +619,70 @@ input[type="submit"] {
   display: none;
 }
 
+.bericht-container {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.bericht-overview {
+  color: gray;
+  flex: 20;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.berichten-divider {
+  flex: 1;
+}
+
+.berichten-links {
+  color: gray;
+  flex: 10;
+}
+
+.bericht {
+  background-color: white;
+  width: 60%;
+  margin: 20px auto 0;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  border-bottom: 2px dashed gray;
+}
+
+.bericht:last-of-type {
+  border-bottom: none !important;
+}
+
+.bericht-title {
+  margin: 20px auto 0;
+  width: 60%;
+  border-bottom: 1px solid black;
+  font-size: 1.25rem;
+}
+
+.bericht .bericht-text {
+  padding: 5px 2px;
+  margin-bottom: 10px;
+}
+
+.berichten-author {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
 #bericht {
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 100%;
 }
+
 .bericht-1,
 .bericht-2 {
   background-color: white;
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 20px auto 0;
   width: 80%;
   font-family: "Roboto", sans-serif;
 }
@@ -598,10 +727,13 @@ input[type="submit"] {
 /* footer */
 
 footer {
-  width: 100%;
+  left: 0;
   bottom: 0;
-  height: 3vh;
-  background-color: green;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin: 5px 0;
 }
 
 /* informatie */
@@ -695,6 +827,9 @@ input:focus {
   }
   .news {
     margin: 0 auto;
+  }
+  header {
+    padding: 2px 1rem;
   }
 }
 

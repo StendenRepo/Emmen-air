@@ -9,6 +9,7 @@
         $flightCode = getFlightCode($studentLowerChars);
 
         if($flightCode === false) {
+            $_SESSION["error"] = $lang["cant-find-person"];
             header("Location: ../vliegroutes.php?error=invalidPerson");
             exit;
         }

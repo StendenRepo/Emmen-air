@@ -19,7 +19,7 @@
       <ul class="studentlist">
         <li>
           <div>
-            <h3 class="studentnameerror">Error</h3>
+            <h3 class="studentnameerror"><?php echo $_SESSION["error"]; ?></h3>
           </div>
         </li>
       </ul>
@@ -27,5 +27,6 @@
       <hr class="flightrouteline">
     </div>
   </div>
+  <?php include "../templates/footer.php";?>
 </body>
 </html>

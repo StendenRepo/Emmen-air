@@ -53,6 +53,7 @@ $lang["search-students-searchbar-text"] = "Zoek...";
 /* ----- END BERICHTEN SECTION ------ */
 
 /* ----- BEGIN VLIEGROUTES SECTION ------ */
+$lang["cant-find-person"] = "We kunnen deze persoon niet vinden";
 /* ----- END VLIEGROUTES SECTION ------ */
 
 /* ----- BEGIN GALLERIJ + UPLOAD SECTION (gallerij.php)------ */

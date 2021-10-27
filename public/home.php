@@ -118,5 +118,6 @@
       </div>
     </main>
   </div>
+  <?php include "../templates/footer.php";?>
 </body>
 </html>

@@ -102,7 +102,7 @@
           </div>
         </div>
         <div class="number">
-          <form action="vliegroutes.php" method="POST">
+          <form action="user/assignment.php" method="POST">
             <div class="number-header">
               <h2><?php echo $lang["search-students-title"];?></h2>
             </div>

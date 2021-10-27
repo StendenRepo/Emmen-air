@@ -1,20 +1,12 @@
 {
-    "users": [{
-            "email": "cedric.smit@emmenair.com",
-            "pwd": "123"
-        },
-        {
-            "email": "cedric.smit@student.emmenair.com",
-            "pwd": "123"
-        },
-        {
-            "email": "testuser@emmenair.com",
-            "pwd": "123"
-        },
-        {
-            "email": "testuser@student.emmenair.com",
-            "pwd": "123"
-        }
-    ],
-    "posts": []
+  "users": [
+    {
+      "email": "test@email.com",
+      "pwd": "123"
+    },
+    {
+      "email": "test1@email.com",
+      "pwd": "123"
+    }
+  ]
 }

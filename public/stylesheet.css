@@ -7,6 +7,31 @@
     font-family: "Roboto", sans-serif;
 }
 
+#containergallerij {
+    background-color: midnightblue;
+    color: #616161;
+}
+
+.homegallerij {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/* foto's */
+
+.plaatjegallerij {
+    background-color: #f4f4f4;
+    margin: 1rem 1rem 2.5rem;
+    width: 90%;
+    height: 90%;
+}
+
+.plaatjegallerij img {
+    width: 180%;
+    border-radius: 10px;
+}
+
 .main-gallerij {
     background-color: #191971;
     display: grid;
@@ -58,6 +83,14 @@
 
 .upload {
     width: 100%;
+}
+
+.uploadgallerij-knop a {
+    text-align: center !important;
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 5px;
 }
 
 .label-form {
@@ -120,6 +153,7 @@ body {
 #container-berichten {
     text-align: center;
     font-family: "Roboto", sans-serif;
+    margin: 5%;
 }
 
 .home {
@@ -234,7 +268,6 @@ header .logo a {
     padding-top: 100px;
 }
 
-
 /* informatie */
 
 .info {
@@ -249,6 +282,44 @@ header .logo a {
 .image {
     width: 50%;
     margin-right: 0.5rem;
+}
+
+
+/* Upload knop */
+
+.uploadgallerijvak {
+    background-color: #f4f4f4;
+    margin: 1rem;
+    width: 90%;
+    height: 60%;
+}
+
+.uploadgallerij {
+    background-color: #f4f4f4;
+    width: 40%;
+    margin-top: 8%;
+}
+
+.uploadgallerij-header {
+    width: 170%;
+    margin: 0 auto 0 42%;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.uploadgallerij-knop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: midnightblue;
+    color: #f4f4f4;
+    width: 205%;
+    margin-left: 20%;
+}
+
+.uploadgallerij-knop h2 {
+    margin: 0 0.5rem 0 auto;
 }
 
 .info-header {
@@ -442,6 +513,17 @@ header .logo a {
 
 .item-2 label {
     padding-bottom: 20px;
+    background-color: #f4f4f4;
+    margin: 10px auto 50px;
+    max-width: 75%;
+    color: gray;
+}
+
+.item-1 {
+    background-color: #f4f4f4;
+    margin: 50px auto;
+    max-width: 75%;
+    height: 100px;
 }
 
 .item-3 {
@@ -521,6 +603,21 @@ input[type="submit"] {
 .berichten-author {
     margin-top: 10px;
     font-size: 14px;
+}
+
+#bericht {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bericht-1,
+.bericht-2 {
+    background-color: white;
+    margin: 20px auto 0;
+    width: 80%;
+    font-family: "Roboto", sans-serif;
 }
 
 .uploadImage,
@@ -643,7 +740,7 @@ input:focus {
 @media(max-width: 896px) {
     .home {
         grid-template-columns: 1fr;
-        padding: 0 2rem 2rem;
+        padding: 2rem;
     }
     .info {
         margin: 0 auto;

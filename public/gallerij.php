@@ -8,13 +8,13 @@
   <?php include '../templates/navbar.php'; ?>
   <main class="gallerij-container">
     <div class="gallery-title">
-      <div class="uploadgallerij-knop">
-        <a href="uploadimage.php">
-          <h2> <?php echo $lang["quick-links-inputForm-image"]; ?> </h2>
+      <div>
+        <a href="title">
+          <h2> Upload een afbeelding </h2>
         </a>
       </div>
     </div>
-    <div class="row-1">
+    <div class="row">
       <div class="gallerij-image">
         <img src="./assets/auto-verticaal.jpg" alt="plaatje">
         <div> test </div>
@@ -28,7 +28,7 @@
         <div> test </div>
       </div>
     </div>
-    <div class="row-2">
+    <div class="row">
       <div class="gallerij-image">
         <img src="./assets/auto-verticaal.jpg" alt="plaatje">
         <div> test </div>
@@ -43,5 +43,6 @@
       </div>
     </div>
   </main>
+  <?php include "../templates/footer.php";?>
 </body>
 </html>

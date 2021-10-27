@@ -19,10 +19,6 @@ Opdracht: Project, berichten pagina.
           <input type="text" id="titelAfbeelding" name="titel_berichten" autocomplete="off"
             placeholder="Vul hier de titel in van het bericht">
         </div>
-        <div class="item-1">
-          <label class="uploadImage" for="fotoFile">Upload een afbeelding</label>
-          <input id="fotoFile" name="foto_berichten" type="file">
-        </div>
         <div class="item-2">
           <label for="text-nl"> Nederlands bericht </label>
           <textarea id="text-nl" class="textareaBerichtenNL" name="messageNL" autocomplete="off"
@@ -34,9 +30,7 @@ Opdracht: Project, berichten pagina.
             placeholder="Type your message..." required></textarea>
         </div>
         <div class="item-3">
-          <label class="submitImageButton" for="submitImage">
-            <?php echo $lang["submitForm"] ?>
-          </label>
+          <label class="submitImageButton" for="submitImage"><?php echo $lang["submitForm"] ?></label>
           <input id="submitImage" name="submit_berichten" type="submit">
         </div>
       </div>

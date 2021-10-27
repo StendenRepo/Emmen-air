@@ -7,13 +7,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.main-gallerij {
-  background-color: #191971;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-}
-
 /* gallerij pagina (Akash & Michel) */
 
 .gallerij-container {
@@ -21,21 +14,13 @@
   margin: 0 auto;
 }
 
-.row-1 .gallerij-image,
-.row-2 .gallerij-image {
-  display: inline-block;
-}
-
-.row-1,
-.row-2 {
-  display: flex;
-  justify-content: center;
+.row {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
 }
 
 .gallerij-image {
   padding: 20px;
-  flex: 1;
-  overflow: hidden;
 }
 
 .gallerij-image > img {
@@ -102,6 +87,18 @@
 
 /* foto's */
 
+.textareaBerichtenEN,
+.textareaBerichtenNL {
+  outline: none;
+}
+
+.message .english label,
+.message .dutch label {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 #main-body {
   height: 92vh;
   background-color: #191971;
@@ -121,6 +118,7 @@
 }
 
 .upload {
+  width: 100%;
   text-align: center;
   background-color: white;
   height: 100px;
@@ -134,7 +132,7 @@
   background-color: #191971;
   height: 200px;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   display: grid;
   column-count: 2;
   grid-template-columns: 525px 525px;
@@ -144,8 +142,12 @@
   align-self: center;
 }
 
-.upload {
-  width: 100%;
+.uploadgallerij-knop a {
+  text-align: center !important;
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 5px;
 }
 
 .uploadgallerij-knop a {
@@ -354,6 +356,43 @@ header .logo a {
 
 /* Upload knop */
 
+.uploadgallerijvak {
+  background-color: #f4f4f4;
+  margin: 1rem;
+  width: 90%;
+  height: 60%;
+}
+
+.uploadgallerij {
+  background-color: #f4f4f4;
+  width: 40%;
+  margin-top: 8%;
+}
+
+.uploadgallerij-header {
+  width: 170%;
+  margin: 0 auto 0 42%;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.uploadgallerij-knop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: midnightblue;
+  color: #f4f4f4;
+  width: 205%;
+  margin-left: 20%;
+}
+
+.uploadgallerij-knop h2 {
+  margin: 0 0.5rem 0 auto;
+}
+
+/* Upload knop */
+
 .uploadgallerij-knop h2 {
   margin: 0 0.5rem 0 auto;
 }
@@ -450,6 +489,74 @@ header .logo a {
   text-decoration: none;
 }
 
+/* vliegroutes */
+#flightcontainer {
+  width: 1197px;
+  margin: 0 auto;
+}
+
+.flightroutes {
+  width: 1197px;
+  padding: 21px;
+  background-color: #f4f4f4;
+  margin-bottom: 2rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.flightrouteline {
+  margin-top: 21px;
+  height: 1px;
+  background-color: #707070;
+  border-style: none;
+}
+.routeimage {
+  margin-bottom: 21px;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.studentname {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 5px;
+}
+
+.studentnameerror {
+  font-family: 'Montserrat', sans-serif;
+  color: red;
+  text-align: center;
+}
+
+.studentlist {
+  list-style-type: none;
+}
+
+.studentlist li {
+  margin-bottom: 5px;
+}
+
+.flightroutes-button {
+  margin-left: 21px;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: #535353;
+  font-size: 18px;
+  border: none;
+  background-color: #87ceeb;
+}
+
+.assignment-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  color: #f4f4f4;
+  text-decoration: none;
+  background-color: #191971;
+  padding: 10px;
+  border: none;
+  width: 1155px;
+}
+
 /* evenementen */
 
 .event {
@@ -533,39 +640,30 @@ header .logo a {
   border: none;
 }
 
-.item-1 {
-  background-color: #f4f4f4;
-  margin: 50px auto;
-  max-width: 75%;
-  height: 100px;
-  color: #f4f4f4;
-}
-
 .item-2,
 .item-2-en {
-  margin: 10px auto 50px;
-  max-width: 75%;
+  margin: 20px auto;
+  width: 75%;
   text-align: left;
   color: #f4f4f4;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.item-2 {
+  margin-top: 40px;
 }
 
 .item-2 label {
-  padding-bottom: 20px;
-  margin: 10px auto 50px;
   max-width: 75%;
   color: #f4f4f4;
-}
-
-.item-1 {
-  background-color: #f4f4f4;
-  margin: 50px auto;
-  max-width: 75%;
-  height: 100px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .item-3 {
   background-color: #f4f4f4;
-  margin: 50px auto;
+  margin: 0 auto;
   max-width: 75%;
   height: 100px;
 }
@@ -576,6 +674,8 @@ header .logo a {
   height: 40px;
   text-align: left;
   color: white;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 #titelAfbeelding {
@@ -590,26 +690,21 @@ input[type='submit'] {
 }
 
 .bericht-container {
-  display: flex;
-  flex-direction: row;
-  width: 95%;
   margin: 0 auto;
+  width: 95%;
+  display: grid;
+  grid-template-columns: 65% 1% 33%;
+  grid-gap: 1rem;
 }
 
 .bericht-overview {
   color: gray;
-  flex: 20;
   background-color: white;
   padding-bottom: 20px;
 }
 
-.berichten-divider {
-  flex: 1;
-}
-
 .berichten-links {
   color: gray;
-  flex: 10;
 }
 
 .bericht {
@@ -805,6 +900,11 @@ input:focus {
   .news {
     margin: 0 auto;
   }
+  .bericht-container,
+  .row {
+    grid-template-columns: none;
+    grid-auto-flow: row;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -814,11 +914,30 @@ input:focus {
   .nav-desktop {
     display: none;
   }
+  .bericht-container,
+  .row {
+    grid-template-columns: none;
+    grid-auto-flow: row;
+  }
 }
 
 @media (max-width: 1536px) {
   .info-menu {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1536px) {
+  .info-menu {
+    grid-template-columns: 1fr;
+  }
+
+  .login-container {
+    background-image: url('./assets/login-bg.png');
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    display: flex;
   }
 }
 

@@ -57,6 +57,8 @@ $lang["search-students-searchbar-text"] = "Please enter a students name";
 /* ----- END BERICHTEN SECTION ------ */
 
 /* ----- BEGIN VLIEGROUTES SECTION ------ */
+$lang["cant-find-person"] = "That person does not exist";
+
 /* ----- END VLIEGROUTES SECTION ------ */
 
 /* ----- BEGIN GALLERIJ + UPLOAD SECTION ------ */

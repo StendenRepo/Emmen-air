@@ -74,7 +74,6 @@
     transition: visibility 0s, opacity 0.5s linear;
 }
 
-
 /* Hover on Parent Container */
 
 .gallerij-image:hover {
@@ -123,6 +122,7 @@
 }
 
 .upload {
+    width: 100%;
     text-align: center;
     background-color: white;
     height: 100px;
@@ -144,10 +144,6 @@
     font-size: medium;
     justify-content: center;
     align-self: center;
-}
-
-.upload {
-    width: 100%;
 }
 
 .uploadgallerij-knop a {
@@ -805,8 +801,7 @@ input:focus {
         margin: 0 auto;
     }
     .bericht-container,
-    .row-1,
-    .row-2 {
+    .row {
         grid-template-columns: none;
         grid-auto-flow: row;
     }

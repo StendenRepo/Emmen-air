@@ -6,7 +6,7 @@
 </head>
 <body>
   <?php include '../templates/navbar.php'; ?>
-  <main class="main-gallerij">
+  <main>
     <div id="main-body">
       <div id="main-column">
         <form class="input-form" action="user/uploadImage.php" method="POST" enctype="multipart/form-data">
@@ -17,10 +17,12 @@
           <button id="submit-image" type="submit" name="submit"></button>
           <div class="message">
             <div class="english">
-              <textarea name="messageEN" class="message-area" placeholder="EN"></textarea>
+              <label for="message-eng"> Bericht Engels </label>
+              <textarea id="message-eng" name="messageEN" class="message-area" placeholder="EN"></textarea>
             </div>
             <div class="dutch">
-              <textarea name="messageNL" class="message-area" placeholder="NL"></textarea>
+              <label for="message-nl"> Bericht Nederlands </label>
+              <textarea id="message-nl" name="messageNL" class="message-area" placeholder="NL"></textarea>
             </div>
           </div>
           <div class="upload">

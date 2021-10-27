@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto &display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto &display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -7,35 +7,99 @@
   font-family: "Roboto", sans-serif;
 }
 
-#containergallerij {
-  background-color: midnightblue;
-  color: #616161;
+/* gallerij pagina (Akash & Michel) */
+
+.gallerij-container {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.homegallerij {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.row {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
 }
+
+.gallerij-image {
+    padding: 20px;
+}
+
+.gallerij-image>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: auto 0;
+}
+
+.gallery-title {
+    text-align: center;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    background-color: midnightblue;
+}
+
+.gallery-title a h2 {
+    color: white;
+    padding: 2px 0;
+    background-color: midnightblue;
+    text-decoration: none;
+}
+
+.gallery-title div {
+    background-color: white;
+    padding: 20px;
+}
+
+
+/* Parent Container */
+
+.gallerij-image {
+    position: relative;
+}
+
+
+/* Child Text Container */
+
+.gallerij-image div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.gallerij-image:hover {
+    cursor: pointer;
+}
+
+.gallerij-image:hover div {
+    width: 150px;
+    padding: 8px 15px;
+    margin: 22px 0 0 20px;
+    visibility: visible;
+    opacity: 0.7;
+}
+
 
 /* foto's */
 
-.plaatjegallerij {
-  background-color: #f4f4f4;
-  margin: 1rem 1rem 2.5rem;
-  width: 90%;
-  height: 90%;
+.textareaBerichtenEN,
+.textareaBerichtenNL {
+    outline: none;
 }
 
-.plaatjegallerij img {
-  width: 180%;
-  border-radius: 10px;
-}
-
-.main-gallerij {
-  background-color: #191971;
-  display: grid;
-  justify-content: center;
-  align-content: center;
+.message .english label,
+.message .dutch label {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 #main-body {
@@ -57,31 +121,28 @@
 }
 
 .upload {
-  text-align: center;
-  background-color: white;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .message {
-  text-align: center;
-  background-color: #191971;
-  height: 200px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  display: grid;
-  column-count: 2;
-  grid-template-columns: 525px 525px;
-  column-gap: 50px;
-  font-size: medium;
-  justify-content: center;
-  align-self: center;
-}
-
-.upload {
-  width: 100%;
+    text-align: center;
+    background-color: #191971;
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: grid;
+    column-count: 2;
+    grid-template-columns: 525px 525px;
+    column-gap: 50px;
+    font-size: medium;
+    justify-content: center;
+    align-self: center;
 }
 
 .uploadgallerij-knop a {
@@ -163,21 +224,22 @@ body {
 }
 
 .home {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-gap: 4rem;
-  padding: 0 3rem 3rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 3rem;
+    padding: 0 3rem 3rem;
 }
 
 header {
-  padding: 2px 3rem;
-  position: fixed;
-  width: 100%;
-  background-color: #f4f4f4;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
+    padding: 2px 3rem;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
 }
 
 header i {
@@ -274,17 +336,18 @@ header .logo a {
   padding-top: 100px;
 }
 
+
 /* informatie */
 
 .info-news {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
 }
 
 .info {
-  background-color: #f4f4f4;
-  padding-bottom: 1rem;
+    background-color: #f4f4f4;
+    padding-bottom: 1rem;
 }
 
 .info img {
@@ -335,54 +398,23 @@ header .logo a {
 
 /* Upload knop */
 
-.uploadgallerijvak {
-  background-color: #f4f4f4;
-  margin: 1rem;
-  width: 90%;
-  height: 60%;
-}
-
-.uploadgallerij {
-  background-color: #f4f4f4;
-  width: 40%;
-  margin-top: 8%;
-}
-
-.uploadgallerij-header {
-  width: 170%;
-  margin: 0 auto 0 42%;
-  font-size: 0.9rem;
-  padding: 0.5rem;
-  text-align: center;
-}
-
-.uploadgallerij-knop {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: midnightblue;
-  color: #f4f4f4;
-  width: 205%;
-  margin-left: 20%;
-}
-
 .uploadgallerij-knop h2 {
   margin: 0 0.5rem 0 auto;
 }
 
 .info-header {
-  font-size: 1.25rem;
-  margin: 0 0.5rem;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #616161;
+    font-size: 1.25rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #616161;
 }
 
 .info-menu {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 0.5rem 0.5rem 0;
-  grid-gap: 0.5rem 4rem;
-  background-color: #f4f4f4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0.5rem 0.5rem 0;
+    grid-gap: 0.5rem 4rem;
+    background-color: #f4f4f4;
 }
 
 .info-element {
@@ -391,57 +423,58 @@ header .logo a {
 }
 
 .info-text h2 {
-  margin-bottom: 1rem;
-  text-decoration: underline #616161;
-  padding-bottom: 0.5rem 0;
-  border-bottom: 1px solid #616161;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem 0;
+    border-bottom: 1px solid #616161;
 }
 
 .info-text a {
-  text-decoration: none;
-  color: #616161;
+    text-decoration: none;
+    color: #616161;
 }
 
 /* snelle links */
 
 .links {
-  background-color: #f4f4f4;
-  padding-bottom: 1rem;
+    background-color: #f4f4f4;
+    padding-bottom: 1rem;
 }
 
 .link-header {
-  margin: 0 0.5rem;
-  font-size: 1.25rem;
-  border-bottom: 1px solid black;
-  padding: 0.5rem 0;
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+    border-bottom: 1px solid black;
+    padding: 0.5rem 0;
 }
 
 .links a {
-  color: gray;
+    color: gray;
+    text-decoration: none;
 }
 
 .links p {
-  margin: 0 0.5rem;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid black;
+    margin: 0 0.5rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid black;
 }
+
 
 /* news */
 
 .news {
-  background-color: #f4f4f4;
-  padding-bottom: 1rem;
+    background-color: #f4f4f4;
+    padding-bottom: 1rem;
 }
 
 .news-header {
-  font-size: 1.25rem;
-  margin: 0 0.5rem;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #616161;
+    font-size: 1.25rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #616161;
 }
 
 .news-image {
-  margin: 0.5rem 0.5rem;
+    margin: 0.5rem;
 }
 
 .news-image img {
@@ -449,7 +482,7 @@ header .logo a {
 }
 
 .news-text {
-  margin: 0 0.5rem;
+    margin: 0 0.5rem;
 }
 
 .news-text h2 {
@@ -458,13 +491,8 @@ header .logo a {
 }
 
 .news-text a {
-  color: #616161;
-}
-
-/* vliegroutes */
-#flightcontainer {
-  width: 1197px;
-  margin: 0 auto;
+    color: #616161;
+    text-decoration: none;
 }
 
 .flightroutes {
@@ -532,33 +560,33 @@ header .logo a {
 /* evenementen */
 
 .event {
-  margin: 3rem 0;
-  background-color: #f4f4f4;
-  padding-bottom: 1rem;
+    margin: 3rem 0;
+    background-color: #f4f4f4;
+    padding-bottom: 1rem;
 }
 
 .event-header {
-  margin: 0 0.5rem;
-  font-size: 1.25rem;
-  border-bottom: 1px solid #616161;
-  padding: 0.5rem 0;
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+    border-bottom: 1px solid #616161;
+    padding: 0.5rem 0;
 }
 
 .event-element {
-  display: flex;
-  border-bottom: 1px solid #616161;
-  margin: 0 0.5rem;
+    display: flex;
+    border-bottom: 1px solid #616161;
+    margin: 0 0.5rem;
 }
 
 .event-date {
-  margin: 0.5rem 0;
-  font-size: 0.75rem;
-  background-color: #87ceeb;
-  color: #f4f4f4;
-  border-radius: 50%;
-  width: 3rem;
-  text-align: center;
-  padding: 0.25rem;
+    margin: 0.5rem 0;
+    font-size: 0.75rem;
+    background-color: #87ceeb;
+    color: #f4f4f4;
+    border-radius: 50%;
+    width: 3rem;
+    text-align: center;
+    padding: 0.25rem;
 }
 
 .event-time {
@@ -573,25 +601,25 @@ header .logo a {
 /* studentnummer */
 
 .number {
-  background-color: #f4f4f4;
-  padding-bottom: 1rem;
+    background-color: #f4f4f4;
+    padding-bottom: 1rem;
 }
 
 .number-header {
-  border-bottom: 1px solid #616161;
-  padding: 0.5rem 0;
-  margin: 0 0.5rem;
-  font-size: 1.25rem;
+    border-bottom: 1px solid #616161;
+    padding: 0.5rem 0;
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
 }
 
 .number-search {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #191971;
-  color: #f4f4f4;
-  margin: 0 0.5rem;
-  padding: 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191971;
+    color: #f4f4f4;
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
 }
 
 .number-search i {
@@ -611,50 +639,56 @@ header .logo a {
   padding: 12px 20px;
 }
 
-.item-1 {
-  background-color: #f4f4f4;
-  margin: 50px auto;
-  max-width: 75%;
-  height: 100px;
-  color: #f4f4f4;
+.number-submit {
+    margin: 0 0.5rem;
+}
+
+.number-submit input[type="submit"] {
+    display: block;
+    margin-top: 0.5rem;
+    width: 100%;
+    background-color: #87ceeb;
+    color: #535353;
+    padding: 12px 20px;
+    border: none;
 }
 
 .item-2,
 .item-2-en {
-  margin: 10px auto 50px;
-  max-width: 75%;
-  text-align: left;
-  color: #f4f4f4;
+    margin: 20px auto;
+    width: 75%;
+    text-align: left;
+    color: #f4f4f4;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item-2 {
+    margin-top: 40px;
 }
 
 .item-2 label {
-  padding-bottom: 20px;
-  background-color: #f4f4f4;
-  margin: 10px auto 50px;
-  max-width: 75%;
-  color: gray;
-}
-
-.item-1 {
-  background-color: #f4f4f4;
-  margin: 50px auto;
-  max-width: 75%;
-  height: 100px;
+    max-width: 75%;
+    color: #f4f4f4;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .item-3 {
-  background-color: #f4f4f4;
-  margin: 50px auto;
-  max-width: 75%;
-  height: 100px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    max-width: 75%;
+    height: 100px;
 }
 
 .titel-bericht {
-  margin: 0 auto;
-  max-width: 75%;
-  height: 40px;
-  text-align: left;
-  color: white;
+    margin: 0 auto;
+    max-width: 75%;
+    height: 40px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 #titelAfbeelding {
@@ -669,26 +703,21 @@ input[type="submit"] {
 }
 
 .bericht-container {
-  display: flex;
-  flex-direction: row;
-  width: 95%;
-  margin: 0 auto;
+    margin: 0 auto;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 65% 1% 33%;
+    grid-gap: 1rem;
 }
 
 .bericht-overview {
-  color: gray;
-  flex: 20;
-  background-color: white;
-  padding-bottom: 20px;
-}
-
-.berichten-divider {
-  flex: 1;
+    color: gray;
+    background-color: white;
+    padding-bottom: 20px;
 }
 
 .berichten-links {
-  color: gray;
-  flex: 10;
+    color: gray;
 }
 
 .bericht {
@@ -829,10 +858,16 @@ p {
 }
 
 input[type="text"].studentSearchField {
-  width: 100%;
-  padding: 12px 20px;
-  background-color: #191971;
-  color: white;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 0.75rem 0;
+    border: none;
+    border-bottom: 1px solid #616161;
+    color: #535353;
+}
+
+input[type="text"].studentSearchField::placeholder {
+    color: #535353;
 }
 
 input:focus {
@@ -840,7 +875,7 @@ input:focus {
 }
 
 .number-input {
-  margin: 0.5rem 0.5rem;
+    margin: 0 0.5rem 0.5rem;
 }
 
 .artikel p {
@@ -849,45 +884,58 @@ input:focus {
 
 /* mobiel gedeelte */
 
-@media (max-width: 896px) {
-  .home {
-    grid-template-columns: 1fr;
-    padding: 2rem;
-  }
-  .info {
-    margin: 0 auto;
-  }
-  .image {
-    width: 100%;
-  }
-  .info img {
-    width: 100%;
-  }
-  .info-menu {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
-  }
-  .info-element {
-    display: block;
-  }
-  .info-text {
-    padding-top: 0.25rem;
-  }
-  .news {
-    margin: 0 auto;
-  }
-  header {
-    padding: 2px 1rem;
-  }
+@media(max-width: 896px) {
+    .home {
+        grid-template-columns: 1fr;
+        padding: 0 2rem 2rem;
+    }
+    .info {
+        margin: 0 auto;
+    }
+    .image {
+        width: 100%;
+    }
+    .info img {
+        width: 100%;
+    }
+    .info-menu {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
+    .info-element {
+        display: block;
+    }
+    .info-text {
+        padding-top: 0.25rem;
+    }
+    .news {
+        margin: 0 auto;
+    }
+    .bericht-container,
+    .row {
+        grid-template-columns: none;
+        grid-auto-flow: row;
+    }
 }
 
-@media (max-width: 1024px) {
-  .openMenu {
-    display: flex;
-  }
-  .nav-desktop {
-    display: none;
-  }
+@media(max-width: 1024px) {
+    .openMenu {
+        display: flex;
+    }
+    .nav-desktop {
+        display: none;
+    }
+    .bericht-container,
+    .row {
+        grid-template-columns: none;
+        grid-auto-flow: row;
+    }
+}
+
+@media(max-width: 1536px) {
+    .info-menu {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 1536px) {

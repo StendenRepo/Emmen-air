@@ -6,44 +6,40 @@
 </head>
 <body>
 <?php include '../templates/navbar.php'; ?>
-    <div id="containergallerij">
-        <main class="homegallerij">
-            <div class="plaatjegallerij">
-                <div class="image">
-                    <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
-                </div>
+    <main class="gallerij-container">
+        <div class="gallery-title">
+            <div>
+                <a href="title"><h2> Upload een afbeelding  </h2></a>
             </div>
-            <div class="plaatjegallerij">
-                <div class="image">
-                    <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
-                </div>
+        </div>
+        <div class="row"> 
+            <div class="gallerij-image">
+                <img src="./assets/auto-verticaal.jpg" alt="plaatje" >
+                <div> test </div>
             </div>
-            <div class="uploadgallerijvak">
-                <div class="uploadgallerij">
-                    <div class="uploadgallerij-knop">
-                        <a href="uploadimage.php"><h2>Uploadgallerij</h2></a>
-                    </div>
-                    <div class="uploadgallerij-header">
-                        <h2>Upload ook jouw eigen foto's</h2>
-                    </div>
-                </div>
+            <div class="gallerij-image">
+                <img src="./assets/auto-horizontaal.jpg" alt="plaatje">
+                <div> test </div>
             </div>
-            <div class="plaatjegallerij">
-                <div class="image">
-                    <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
-                </div>
+            <div class="gallerij-image">
+                <img src="./assets/auto-horizontaal.jpg" alt="plaatje">
+                <div> test </div>
             </div>
-            <div class="plaatjegallerij">
-                <div class="image">
-                    <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
-                </div>
+        </div>
+        <div class="row">
+            <div class="gallerij-image">
+                <img src="./assets/auto-verticaal.jpg" alt="plaatje">
+                <div> test </div>
             </div>
-            <div class="plaatjegallerij">
-                <div class="image">
-                    <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
-                </div>
+            <div class="gallerij-image">
+                <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
+                <div> test </div>
             </div>
-        </main>
-    </div>
+            <div class="gallerij-image">
+                <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
+                <div> test </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

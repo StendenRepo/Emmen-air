@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": "cedric.smit@emmenair.com",
+    "name": "Cedric Smit",
+    "imageName": "6179c59d8f2e7.jpeg",
+    "hoverTextNl": "test nl\r\n",
+    "hoverTextEn": "test"
+  }
+]

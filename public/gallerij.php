@@ -9,8 +9,8 @@
   <main class="gallerij-container">
     <div class="gallery-title">
       <div>
-        <a href="title">
-          <h2> Upload een afbeelding </h2>
+        <a href="uploadimage.php">
+          <h2> <?php echo $lang["quick-links-inputForm-image"]; ?> </h2>
         </a>
       </div>
     </div>
@@ -25,20 +25,6 @@
       </div>
       <div class="gallerij-image">
         <img src="./assets/auto-horizontaal.jpg" alt="plaatje">
-        <div> test </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="gallerij-image">
-        <img src="./assets/auto-verticaal.jpg" alt="plaatje">
-        <div> test </div>
-      </div>
-      <div class="gallerij-image">
-        <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
-        <div> test </div>
-      </div>
-      <div class="gallerij-image">
-        <img src="./assets/F-16_June_2008.jpg" alt="plaatje">
         <div> test </div>
       </div>
     </div>

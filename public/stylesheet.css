@@ -7,35 +7,97 @@
   font-family: "Roboto", sans-serif;
 }
 
-#containergallerij {
+/* gallerij pagina (Akash & Michel) */
+
+.gallerij-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row-1 .gallerij-image,
+.row-2 .gallerij-image {
+  display: inline-block;
+}
+
+.row-1,
+.row-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.gallerij-image {
+  padding: 20px;
+  flex: 1;
+  overflow: hidden;
+}
+
+.gallerij-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: auto 0;
+}
+
+.gallery-title {
+  text-align: center;
+  width: calc(100% - 40px);
+  margin: 0 auto;
   background-color: midnightblue;
-  color: #616161;
 }
 
-.homegallerij {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.gallery-title a h2 {
+  color: white;
+  padding: 2px 0;
+  background-color: midnightblue;
+  text-decoration: none;
 }
 
-/* foto's */
-
-.plaatjegallerij {
-  background-color: #f4f4f4;
-  margin: 1rem 1rem 2.5rem;
-  width: 90%;
-  height: 90%;
+.gallery-title div {
+  background-color: white;
+  padding: 20px;
 }
 
-.plaatjegallerij img {
-  width: 180%;
-  border-radius: 10px;
+/* Parent Container */
+
+.gallerij-image {
+  position: relative;
+}
+
+/* Child Text Container */
+
+.gallerij-image div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
 }
 
 .main-gallerij {
   background-color: #191971;
   display: grid;
   align-content: center;
+/* Hover on Parent Container */
+
+.gallerij-image:hover {
+  cursor: pointer;
 }
+
+.gallerij-image:hover div {
+  width: 150px;
+  padding: 8px 15px;
+  margin: 22px 0 0 20px;
+  visibility: visible;
+  opacity: 0.7;
+}
+
+/* foto's */
 
 #main-body {
   min-width: 75%;
@@ -158,6 +220,7 @@ body {
 header {
   padding: 2px 3rem;
   position: fixed;
+  z-index: 100;
   width: 100%;
   background-color: #f4f4f4;
   display: flex;
@@ -284,37 +347,6 @@ header .logo a {
 
 /* Upload knop */
 
-.uploadgallerijvak {
-  background-color: #f4f4f4;
-  margin: 1rem;
-  width: 90%;
-  height: 60%;
-}
-
-.uploadgallerij {
-  background-color: #f4f4f4;
-  width: 40%;
-  margin-top: 8%;
-}
-
-.uploadgallerij-header {
-  width: 170%;
-  margin: 0 auto 0 42%;
-  font-size: 0.9rem;
-  padding: 0.5rem;
-  text-align: center;
-}
-
-.uploadgallerij-knop {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: midnightblue;
-  color: #f4f4f4;
-  width: 205%;
-  margin-left: 20%;
-}
-
 .uploadgallerij-knop h2 {
   margin: 0 0.5rem 0 auto;
 }
@@ -341,7 +373,6 @@ header .logo a {
 
 .info-text h2 {
   margin-bottom: 1rem;
-  text-decoration: underline #616161;
   padding-bottom: 0.5rem 0;
   border-bottom: 1px solid #616161;
 }
@@ -367,6 +398,7 @@ header .logo a {
 
 .links a {
   color: gray;
+  text-decoration: none;
 }
 
 .links p {
@@ -390,7 +422,7 @@ header .logo a {
 }
 
 .news-image {
-  margin: 0.5rem 0.5rem;
+  margin: 0.5rem;
 }
 
 .news-image img {
@@ -408,6 +440,7 @@ header .logo a {
 
 .news-text a {
   color: #616161;
+  text-decoration: none;
 }
 
 /* evenementen */
@@ -487,9 +520,10 @@ header .logo a {
   display: block;
   margin-top: 0.5rem;
   width: 100%;
-  background-color: #191971;
-  color: #f4f4f4;
+  background-color: #87ceeb;
+  color: #535353;
   padding: 12px 20px;
+  border: none;
 }
 
 .item-1 {
@@ -510,10 +544,9 @@ header .logo a {
 
 .item-2 label {
   padding-bottom: 20px;
-  background-color: #f4f4f4;
   margin: 10px auto 50px;
   max-width: 75%;
-  color: gray;
+  color: #f4f4f4;
 }
 
 .item-3 {
@@ -704,9 +737,15 @@ p {
 
 input[type="text"].studentSearchField {
   width: 100%;
-  padding: 12px 20px;
-  background-color: #191971;
-  color: white;
+  background-color: #f4f4f4;
+  padding: 0.75rem 0;
+  border: none;
+  border-bottom: 1px solid #616161;
+  color: #535353;
+}
+
+input[type="text"].studentSearchField::placeholder {
+  color: #535353;
 }
 
 input:focus {
@@ -714,7 +753,7 @@ input:focus {
 }
 
 .number-input {
-  margin: 0.5rem 0.5rem;
+  margin: 0 0.5rem 0.5rem;
 }
 
 .artikel p {

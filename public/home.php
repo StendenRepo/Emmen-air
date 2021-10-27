@@ -104,7 +104,7 @@
           </div>
         </div>
         <div class="number">
-          <form action="user/assignment.php" method="POST">
+          <form action="vliegroutes.php" method="POST">
             <div class="number-header">
               <h2><?php echo $lang["search-students-title"];?></h2>
             </div>
@@ -116,7 +116,9 @@
         </div>
       </div>
     </main>
+    <footer>
+      <p>copyright</p>
+    </footer>
   </div>
-  <?php include "../templates/footer.php"; ?>
 </body>
 </html>

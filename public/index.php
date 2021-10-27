@@ -32,6 +32,5 @@
       </form>
     </div>
   </div>
-  <?php include "../templates/footer.php"; ?>
 </body>
-</html> 
+</html>

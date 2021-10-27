@@ -3,7 +3,7 @@ const mainMenu = document.querySelector(".nav-mobile");
 const openMenu = document.querySelector(".openMenu");
 const overlay = document.querySelector(".overlay");
 
-// functies toevoegen aan het hamburgermenu knopje en de donkere overlay
+// functies toeveoegen aan het hamburgermenu knopje en de donkere overlay
 openMenu.addEventListener("click", show);
 overlay.addEventListener("click", close);
 

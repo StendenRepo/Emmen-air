@@ -661,7 +661,7 @@ input[type='submit'] {
 
 .uploadImage,
 .submitImageButton {
-  background-color: #191971;
+  background-color: #7d7c84;
   color: white;
   display: inline-block;
   margin-top: 25px;
@@ -679,7 +679,7 @@ input[type='submit'] {
 }
 
 .submitImageButton:hover {
-  background-color: #282875;
+  background-color: #46454a;
 }
 
 .submitImageButton:active {
@@ -688,7 +688,7 @@ input[type='submit'] {
 }
 
 .uploadImage:hover {
-  background-color: #282875;
+  background-color: #46454a;
 }
 
 .uploadImage:active {

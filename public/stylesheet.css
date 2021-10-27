@@ -763,6 +763,13 @@ input:focus {
   .news {
     margin: 0 auto;
   }
+  .bericht-container {
+    flex-direction: column;
+  }
+  .berichten-divider {
+    flex: none;
+    height: 2rem;
+  }
 }
 
 @media (max-width: 1024px) {

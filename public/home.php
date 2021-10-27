@@ -1,4 +1,7 @@
-<?php include "../src/preload.php"; ?>
+<?php
+include "../src/preload.php";
+include "../src/messages.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,33 +17,25 @@
             <h2><?php echo $lang["information-title"];?></h2>
           </div>
           <div class="info-menu">
-            <div class="info-element">
-              <div class="image">
-                <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
-              </div>
-              <div class="info-text">
-                <h2><a href="berichten.php#message-1">Lorem Ipsum</a></h2>
-                <p><?php echo $lang["information-article-text-general"];?></p>
-              </div>
-            </div>
-            <div class="info-element">
-              <div class="image">
-                <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
-              </div>
-              <div class="info-text">
-                <h2><a href="berichten.php#message-2">Lorem Ipsum</a></h2>
-                <p><?php echo $lang["information-article-text-general"];?></p>
-              </div>
-            </div>
-            <div class="info-element">
-              <div class="image">
-                <img src="assets/plane-841441_1920.jpg" alt="vliegtuig" />
-              </div>
-              <div class="info-text">
-                <h2><a href="berichten.php#message-3">Lorem Ipsum</a></h2>
-                <p><?php echo $lang["information-article-text-general"];?></p>
-              </div>
-            </div>
+            <?php
+            $messages = getAllMessages(4);
+
+            foreach ($messages as $message) {
+              echo "<div class='info-element'>
+                      <div class='image'>
+                        <img src='assets/plane-841441_1920.jpg' alt='vliegtuig' />
+                      </div>
+                      <div class='info-text'>
+                      <h2><a href='berichten.php#{$message["id"]}'>{$message["title"]}</a></h2>
+                      <p>";
+              echo ($_SESSION["language"] === "eng") ?
+                    $message["content_en"] :
+                    $message["content_nl"];
+              echo   "</p>
+                      </div>
+                    </div>";
+            }
+            ?>
           </div>
         </div>
         <div class="news">

@@ -3,10 +3,7 @@
 include dirname(__FILE__). "/../utils/mailSeperator.php";
 
 function getAllMessages($limit = null) {
-
-
-
-  return getParsedData();
+  return array_slice(getParsedData(), 0, $limit);
 }
 
 function setMessage($userId, $title ,$contentNl, $contentEn) {

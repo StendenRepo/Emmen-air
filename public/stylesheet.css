@@ -634,7 +634,7 @@ input[type='submit'] {
 }
 
 .bericht .bericht-text {
-  padding: 5px 2px;
+  line-height: 1.35rem;
   margin-bottom: 10px;
 }
 

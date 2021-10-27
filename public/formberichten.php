@@ -11,21 +11,21 @@ Opdracht: Project, berichten pagina.
 </head>
 <body>
   <?php include '../templates/navbar.php'; ?>
-  <form action="berichten.php" method="post" enctype="multipart/form-data">
+  <form action="user/uploadMessage.php" method="post" enctype="multipart/form-data">
     <div id="container-berichten">
       <div class="titel-bericht">
-        <input type="text" id="titelAfbeelding" name="titel_berichten" autocomplete="off" placeholder="Titel">
+        <input type="text" id="titelAfbeelding" name="titel_berichten" autocomplete="off" placeholder="Titel" required>
       </div>
       <div class="item-1">
         <label class="uploadImage" for="fotoFile">Upload een afbeelding</label>
-        <input id="fotoFile" name="foto_berichten" type="file">
+        <input id="fotoFile" name="file" type="file">
       </div>
       <div class="item-2">
-        <textarea class="textareaBerichtenNL" name="textarea_nl" autocomplete="off"
+        <textarea class="textareaBerichtenNL" name="messageNL" autocomplete="off"
           placeholder="Vul hier uw bericht in..." required></textarea>
       </div>
       <div class="item-2-en">
-        <textarea class="textareaBerichtenEN" name="textarea_EN" autocomplete="off" placeholder="Type your message..."
+        <textarea class="textareaBerichtenEN" name="messageEN" autocomplete="off" placeholder="Type your message..."
           required></textarea>
       </div>
       <div class="item-3">

@@ -19,4 +19,5 @@ function findUser($email, $userArray) {
   }
   return NULL;
 }
+
 ?>

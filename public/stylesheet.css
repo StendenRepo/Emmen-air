@@ -524,6 +524,7 @@ header .logo a {
   background-color: #87ceeb;
   color: #535353;
   padding: 12px 20px;
+  border: none;
 }
 
 .item-1 {

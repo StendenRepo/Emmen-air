@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "61796971c9134",
+    "user": "John Doe",
+    "userMail": "john.doe@student.emmenair.com",
+    "title": "fancy berict 2",
+    "content_nl": "nog meer fancy nederlands bericht",
+    "content_en": "en een nog meer fancy engels bericht"
+  },
+  {
+    "id": "617968fc6c321",
+    "user": "John Doe",
+    "userMail": "john.doe@student.emmenair.com",
+    "title": "fancy title",
+    "content_nl": "fancy nederlands bericht",
+    "content_en": "fancy engels bericht"
+  }
+]

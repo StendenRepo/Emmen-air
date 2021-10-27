@@ -19,7 +19,7 @@ if (isset($_POST["submit_berichten"])) {
   }
 
   setMessage($userId, $title, $contentNl, $contentEn);
-  header("Location: ../home.php");
+  header("Location: ../berichten.php");
   exit;
 }
 

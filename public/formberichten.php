@@ -12,7 +12,7 @@ Opdracht: Project, berichten pagina.
 <body>
   <?php include '../templates/navbar.php'; ?>
   <main>
-    <form action="berichten.php" method="post" enctype="multipart/form-data">
+    <form action="user/uploadMessage.php" method="post" enctype="multipart/form-data">
       <div id="container-berichten">
         <div class="titel-bericht">
           <label for="titelAfbeelding"> Titel </label>
@@ -25,12 +25,12 @@ Opdracht: Project, berichten pagina.
         </div>
         <div class="item-2">
           <label for="text-nl"> Nederlands bericht </label>
-          <textarea id="text-nl" class="textareaBerichtenNL" name="textarea_nl" autocomplete="off"
+          <textarea id="text-nl" class="textareaBerichtenNL" name="messageNL" autocomplete="off"
             placeholder="Vul hier uw bericht in..." required></textarea>
         </div>
         <div class="item-2-en">
           <label for="text-eng"> Engels bericht </label>
-          <textarea class="textareaBerichtenEN" id="text-eng" name="textarea_EN" autocomplete="off"
+          <textarea class="textareaBerichtenEN" id="text-eng" name="messageEN" autocomplete="off"
             placeholder="Type your message..." required></textarea>
         </div>
         <div class="item-3">

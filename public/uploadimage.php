@@ -17,10 +17,12 @@
           <button id="submit-image" type="submit" name="submit"></button>
           <div class="message">
             <div class="english">
-              <textarea name="messageEN" class="message-area" placeholder="EN"></textarea>
+              <label for="message-eng"> Bericht Engels </label>
+              <textarea id="message-eng" name="messageEN" class="message-area" placeholder="EN"></textarea>
             </div>
             <div class="dutch">
-              <textarea name="messageNL" class="message-area" placeholder="NL"></textarea>
+              <label for="message-nl"> Bericht Nederlands </label>
+              <textarea id="message-nl" name="messageNL" class="message-area" placeholder="NL"></textarea>
             </div>
           </div>
           <div class="upload">

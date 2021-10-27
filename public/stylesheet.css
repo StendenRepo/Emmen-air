@@ -34,54 +34,48 @@
 .main-gallerij {
   background-color: #191971;
   display: grid;
-  justify-content: center;
   align-content: center;
 }
 
 #main-body {
+  min-width: 75%;
   height: 92vh;
   background-color: #191971;
   display: grid;
   align-items: center;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 #main-column {
   display: grid;
-  justify-content: center;
-  grid-template-columns: 1100px;
+  /* justify-content: center; */
   grid-template-rows: repeat(3, 150px);
   row-gap: 30px;
   background-color: #191971;
-  margin-top: -100px;
+  margin: -100px auto 0;
 }
 
 .upload {
   text-align: center;
   background-color: white;
+  width: 100%;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 30px 0;
 }
 
 .message {
   text-align: center;
   background-color: #191971;
   height: 200px;
-  margin-top: 30px;
-  margin-bottom: 30px;
   display: grid;
-  column-count: 2;
   grid-template-columns: 525px 525px;
-  column-gap: 50px;
+  grid-gap: 30px;
   font-size: medium;
   justify-content: center;
-  align-self: center;
-}
-
-.upload {
-  width: 100%;
+  /* align-self: center; */
 }
 
 .uploadgallerij-knop a {
@@ -522,13 +516,6 @@ header .logo a {
   color: gray;
 }
 
-.item-1 {
-  background-color: #f4f4f4;
-  margin: 50px auto;
-  max-width: 75%;
-  height: 100px;
-}
-
 .item-3 {
   background-color: #f4f4f4;
   margin: 50px auto;
@@ -778,6 +765,10 @@ input:focus {
   }
   .nav-desktop {
     display: none;
+  }
+  .message {
+    grid-template-columns: 525px;
+    height: 400px;
   }
 }
 

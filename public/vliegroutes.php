@@ -11,7 +11,7 @@
       <ul class="studentlist">
         <li>
           <div>
-            <p class="studentname"><?php echo $_GET["name"] ?></p>
+            <p class="studentname">Naam: <?php echo $_GET["name"] ?></p>
           </div>
         </li>
       </ul>
@@ -19,12 +19,12 @@
       <ul class="studentlist">
         <li>
           <div>
-            <h3 class="studentname">Error</h3>
+            <h3 class="studentnameerror">Error</h3>
           </div>
         </li>
       </ul>
       <?php endif ?>
-      <hr>
+      <hr class="flightrouteline">
     </div>
   </div>
 </body>

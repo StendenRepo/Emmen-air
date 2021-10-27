@@ -469,13 +469,20 @@ header .logo a {
 
 .flightroutes {
   width: 1197px;
-  padding-bottom: 21px;
+  padding: 21px;
   background-color: #f4f4f4;
   margin-bottom: 2rem;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
 }
+
+.flightrouteline {
+  margin-top: 21px;
+  height: 1px;
+  background-color: #707070;
+  border-style: none;
+}
 .routeimage {
-  margin: 21px;
+  margin-bottom: 21px;
   border-radius: 15px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
 }
@@ -485,9 +492,14 @@ header .logo a {
   margin-left: 5px;
 }
 
+.studentnameerror {
+  font-family: "Montserrat", sans-serif;
+  color: red;
+  text-align: center;
+}
+
 .studentlist {
   list-style-type: none;
-  margin-left: 21px;
 }
 
 .studentlist li {

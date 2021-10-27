@@ -6,7 +6,7 @@
 </head>
 <body>
   <?php include '../templates/navbar.php'; ?>
-  <main class="main-gallerij">
+  <main>
     <div id="main-body">
       <div id="main-column">
         <form class="input-form" action="user/upload.php" method="POST" enctype="multipart/form-data">

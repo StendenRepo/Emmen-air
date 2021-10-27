@@ -739,7 +739,7 @@ input:focus {
 @media (max-width: 896px) {
   .home {
     grid-template-columns: 1fr;
-    padding: 2rem;
+    padding: 0 2rem 2rem;
   }
   .info {
     margin: 0 auto;

@@ -46,3 +46,4 @@
   </ul>
   <!-- mobile navbar start -->
 </header>
+<div class="navbar-spacing"> </div>

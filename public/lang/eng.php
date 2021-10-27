@@ -7,6 +7,9 @@ $lang["nav-flightroutes"] = "Flight routes";
 $lang["nav-gallery"] = "Gallery";
 $lang["nav-logout"] = "Logout";
 
+// form
+$lang["searchBtnForm"] = "Search";
+$lang["submitForm"] = "Post Message";
 /* ----- END General SECTION (General usage) ----- */
 
 /* ----- BEGIN LOGIN SECTION (index.php) ----- */
@@ -15,6 +18,7 @@ $lang["password"] = "Password";
 $lang["login-button"] = "Login";
 $lang["error-message-1"] = "Please fill in all fields";
 $lang["error-message-2"] = "Incorrect login details";
+$lang["error-message-3"] = "Please login to view that page";
 
 /* ----- END LOGIN SECTION ----- */
 
@@ -44,7 +48,7 @@ $lang["events-month-may"] = "may";
 
 // right side bottom
 $lang["search-students-title"] = "Search for other students";
-$lang["search-students-searchbar-text"] = "Search...";
+$lang["search-students-searchbar-text"] = "Please enter a students name";
 
 /* ----- END HOME SECTION ------ */
 

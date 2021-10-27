@@ -106,7 +106,7 @@ include "../src/messages.php";
                 placeholder="<?php echo $lang["search-students-searchbar-text"];?>" />
             </div>
             <div class="number-submit">
-              <input type="submit" value="Verstuur" name="submit">
+              <input type="submit" value="<?php echo $lang["searchBtnForm"]?>" name="submit">
             </div>
           </form>
         </div>

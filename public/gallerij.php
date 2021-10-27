@@ -8,9 +8,9 @@
   <?php include '../templates/navbar.php'; ?>
   <main class="gallerij-container">
     <div class="gallery-title">
-      <div>
+      <div class="uploadgallerij-knop">
         <a href="uploadimage.php">
-          <h2> Upload een afbeelding </h2>
+          <h2> <?php echo $lang["quick-links-inputForm-image"]; ?> </h2>
         </a>
       </div>
     </div>

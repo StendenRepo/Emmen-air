@@ -15,9 +15,8 @@ Opdracht: Project, berichten pagina.
   <?php include '../templates/navbar.php'; ?>
   <div class="bericht-container">
     <div class="bericht-overview">
-
       <div class="bericht-title">
-        <h2> Berichten </h2>
+        <h2> <?php echo $lang["nav-messages"]; ?> </h2>
       </div>
       <?php
       $messages = getAllMessages();

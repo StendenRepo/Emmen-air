@@ -34,7 +34,9 @@ Opdracht: Project, berichten pagina.
             placeholder="Type your message..." required></textarea>
         </div>
         <div class="item-3">
-          <label class="submitImageButton" for="submitImage">Plaats Bericht</label>
+          <label class="submitImageButton" for="submitImage">
+            <?php echo $lang["submitForm"] ?>
+          </label>
           <input id="submitImage" name="submit_berichten" type="submit">
         </div>
       </div>

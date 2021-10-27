@@ -1,23 +1,19 @@
 <?php
-
     require("../../src/preload.php");
     require "../../src/translate.php";
     require "../../src/flightroutes.php";
 
     if (isset($_POST["number-finder"])) {
-
         $student = $_POST["number-finder"];
+        $studentLowerChars = strtolower($student);
+        $flightCode = getFlightCode($studentLowerChars);
 
-        $flightCode = setAssignment($student);
-
-        if (empty($student)) {
-            echo "Please enter a name";
+        if($flightCode === false) {
+            header("Location: ../vliegroutes.php?error=invalidPerson");
             exit;
         }
 
-        echo $flightCode;
-
-        header("../vliegroutes.php");
+        header("Location: ../vliegroutes.php?flightCode={$flightCode}&name={$student}");
         exit;
     }
 ?>

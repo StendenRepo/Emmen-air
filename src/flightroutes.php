@@ -2,13 +2,16 @@
 /**
  * input "Cedric Smit"
  */
-    function setAssignment($student) {
+    function getFlightCode($student) {
         $data = getParsedData();
-        echo "<pre>";
-        print_r($data);
-        echo "</pre>";
 
-        return $flightCode;
+        foreach ($data as $flightCode => $arrayOfNames) {
+            foreach ($arrayOfNames as $person) {
+                if($person["name"] === $student)
+                return $flightCode;
+            }
+        }
+        return false;
     }
 
     function getParsedData() {

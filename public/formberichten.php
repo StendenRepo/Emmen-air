@@ -19,14 +19,18 @@ Opdracht: Project, berichten pagina.
           <input type="text" id="titelAfbeelding" name="titel_berichten" autocomplete="off"
             placeholder="Vul hier de titel in van het bericht">
         </div>
+        <div class="item-1">
+          <label class="uploadImage" for="fotoFile">Upload een afbeelding</label>
+          <input id="fotoFile" name="foto_berichten" type="file">
+        </div>
         <div class="item-2">
           <label for="text-nl"> Nederlands bericht </label>
-          <textarea id="text-nl" class="textareaBerichtenNL" name="messageNL" autocomplete="off"
+          <textarea id="text-nl" class="textareaBerichtenNL" name="textarea_nl" autocomplete="off"
             placeholder="Vul hier uw bericht in..." required></textarea>
         </div>
         <div class="item-2-en">
           <label for="text-eng"> Engels bericht </label>
-          <textarea class="textareaBerichtenEN" id="text-eng" name="messageEN" autocomplete="off"
+          <textarea class="textareaBerichtenEN" id="text-eng" name="textarea_EN" autocomplete="off"
             placeholder="Type your message..." required></textarea>
         </div>
         <div class="item-3">

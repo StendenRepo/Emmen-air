@@ -22,8 +22,8 @@ Opdracht: Project, berichten pagina.
       <?php
       $messages = getAllMessages();
       foreach ($messages as $message) {
-        echo "<div class='bericht' id='". $message["id"] ."'>
-              <h3>". $message["title"]."</h3>
+        echo "<div class='bericht' id='{$message["id"]}'>
+              <h3>{$message["title"]}</h3>
               <p class='bericht-text'>";
 
         echo ($_SESSION["language"] === "eng") ?
@@ -31,7 +31,7 @@ Opdracht: Project, berichten pagina.
               $message["content_nl"];
 
         echo "</p>
-        <p class='berichten-author'>Docent: ". $message["user"] ."</p>
+        <p class='berichten-author'>Docent: {$message["user"]}</p>
       </div>";
       }
     ?>
@@ -47,10 +47,6 @@ Opdracht: Project, berichten pagina.
       <p><a href="#"><?php echo $lang["quick-links-schedule"]?></a></p>
       <p><a href="#"><?php echo $lang["quick-links-grades"]?></a></p>
       <p><a href="#"><?php echo $lang["quick-links-yearcalendar"]?></a></p>
-      <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
-      <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
-      <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
-      <p><a href="#"><?php echo $lang["quick-links-example"]; ?></a></p>
     </div>
   </div>
   <?php include "../templates/footer.php"; ?>

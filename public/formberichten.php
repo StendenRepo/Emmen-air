@@ -11,28 +11,31 @@ Opdracht: Project, berichten pagina.
 </head>
 <body>
   <?php include '../templates/navbar.php'; ?>
-  <form action="user/uploadMessage.php" method="post" enctype="multipart/form-data">
-    <div id="container-berichten">
-      <div class="titel-bericht">
-        <input type="text" id="titelAfbeelding" name="titel_berichten" autocomplete="off" placeholder="Titel" required>
+  <main>
+    <form action="berichten.php" method="post" enctype="multipart/form-data">
+      <div id="container-berichten">
+        <div class="titel-bericht">
+          <label for="titelAfbeelding"> Titel </label>
+          <input type="text" id="titelAfbeelding" name="titel_berichten" autocomplete="off"
+            placeholder="Vul hier de titel in van het bericht">
+        </div>
+        <div class="item-2">
+          <label for="text-nl"> Nederlands bericht </label>
+          <textarea id="text-nl" class="textareaBerichtenNL" name="messageNL" autocomplete="off"
+            placeholder="Vul hier uw bericht in..." required></textarea>
+        </div>
+        <div class="item-2-en">
+          <label for="text-eng"> Engels bericht </label>
+          <textarea class="textareaBerichtenEN" id="text-eng" name="messageEN" autocomplete="off"
+            placeholder="Type your message..." required></textarea>
+        </div>
+        <div class="item-3">
+          <label class="submitImageButton" for="submitImage">Plaats Bericht</label>
+          <input id="submitImage" name="submit_berichten" type="submit">
+        </div>
       </div>
-      <div class="item-1">
-        <label class="uploadImage" for="fotoFile">Upload een afbeelding</label>
-        <input id="fotoFile" name="file" type="file">
-      </div>
-      <div class="item-2">
-        <textarea class="textareaBerichtenNL" name="messageNL" autocomplete="off"
-          placeholder="Vul hier uw bericht in..." required></textarea>
-      </div>
-      <div class="item-2-en">
-        <textarea class="textareaBerichtenEN" name="messageEN" autocomplete="off" placeholder="Type your message..."
-          required></textarea>
-      </div>
-      <div class="item-3">
-        <label class="submitImageButton" for="submitImage">Plaats Bericht</label>
-        <input id="submitImage" name="submit_berichten" type="submit">
-      </div>
-    </div>
-  </form>
+    </form>
+  </main>
+  <?php include "../templates/footer.php"; ?>
 </body>
 </html>

@@ -1,11 +1,11 @@
 {
   "users": [
     {
-      "email": "test@email.com",
+      "email": "john.doe@student.emmenair.com",
       "pwd": "123"
     },
     {
-      "email": "test1@email.com",
+      "email": "cedric.smit@emmenair.com",
       "pwd": "123"
     }
   ]

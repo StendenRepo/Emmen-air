@@ -6,7 +6,8 @@
   <?php include "../templates/navbar.php"; ?>
   <div id="flightcontainer">
     <div class="flightroutes">
-      <?php if(!isset($_GET["error"])) : ?>
+      
+      <?php if(!isset($_GET["error"]) && isset($_GET['flightCode'])) : ?>
       <img src="assets/flightroutes/<?php echo $_GET["flightCode"]; ?>.png" alt="Jouw fliegroute" class="routeimage">
       <ul class="studentlist">
         <li>
@@ -15,6 +16,21 @@
           </div>
         </li>
       </ul>
+
+      <?php elseif (empty($_GET)):?>
+        <form action="user/assignment.php" method="POST">
+            <div class="number-header">
+              <h2><?php echo $lang["search-students-title"];?></h2>
+            </div>
+            <div class="number-input">
+              <input type="text" name="number-finder" class="studentSearchField" id="number-finder"
+                placeholder="<?php echo $lang["search-students-searchbar-text"];?>" />
+            </div>
+            <div class="number-submit">
+              <input type="submit" value="<?php echo $lang["searchBtnForm"]?>" name="submit">
+            </div>
+          </form>
+
       <?php else : ?>
       <ul class="studentlist">
         <li>

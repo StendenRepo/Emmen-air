@@ -16,6 +16,7 @@ if (!empty($_SESSION['language'])) {
 
         }
 } else {
+    $_SESSION["language"] = "eng";
     include dirname(__FILE__)."/../public/lang/nl.php";
 }
 

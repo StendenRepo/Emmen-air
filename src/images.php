@@ -10,7 +10,7 @@ function setImage($id, $imageName, $hoverTextNl, $hoverTextEn) {
   $data = getParsedData();
   $userName = seperateNameFromMail($id);
 
-  $tmpData = array("id" => $id, "user" => $user, "imageName" => $imageName,
+  $tmpData = array("id" => $id, "user" => $userName, "imageName" => $imageName,
   "hoverTextNl" => $hoverTextNl, "hoverTextEn" => $hoverTextEn);
 
   array_unshift($data, $tmpData);

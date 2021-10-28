@@ -24,7 +24,7 @@
         <img width="30px" height="20px" src="assets/flag-nl.png" alt="flag-nl">
       </a>
     </li>
-    <li><a href="index.php"><?php echo $lang["nav-logout"]; ?></a></li>
+    <li><a href="user/logout.php"><?php echo $lang["nav-logout"]; ?></a></li>
   </ul>
   <!-- desktop navbar end -->
   <!-- mobile navbar start -->
@@ -42,7 +42,7 @@
         <img width="30px" height="20px" src="assets/flag-nl.png" alt="flag-nl">
       </a>
     </li>
-    <li><a href="index.php"><?php echo $lang["nav-logout"]; ?></a></li>
+    <li><a href="user/logout.php"><?php echo $lang["nav-logout"]; ?></a></li>
   </ul>
   <!-- mobile navbar start -->
 </header>

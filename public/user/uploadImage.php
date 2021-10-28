@@ -19,7 +19,7 @@ if (isset($_POST["submit"])) {
   $savedImageName = validateImageAndMove($file);
 
   setImage($userId, $savedImageName, $hoverTextNl, $hoverTextEn);
-  header("Location: ../home.php");
+  header("Location: ../gallerij.php");
   exit;
 }
 ?>

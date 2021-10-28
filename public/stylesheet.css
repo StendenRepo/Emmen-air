@@ -155,7 +155,6 @@
   color: white;
   text-decoration: none;
   margin: 0 auto;
-  padding: 5px;
 }
 
 .label-form {
@@ -742,7 +741,7 @@ input[type='submit'] {
 }
 
 .bericht .bericht-text {
-  padding: 5px 2px;
+  line-height: 1.35rem;
   margin-bottom: 10px;
 }
 
@@ -757,7 +756,6 @@ input[type='submit'] {
   flex-direction: column;
   width: 100%;
 }
-
 .bericht-1,
 .bericht-2 {
   background-color: white;
@@ -768,7 +766,7 @@ input[type='submit'] {
 
 .uploadImage,
 .submitImageButton {
-  background-color: #191971;
+  background-color: #7d7c84;
   color: white;
   display: inline-block;
   margin-top: 25px;
@@ -786,7 +784,7 @@ input[type='submit'] {
 }
 
 .submitImageButton:hover {
-  background-color: #282875;
+  background-color: #46454a;
 }
 
 .submitImageButton:active {
@@ -795,7 +793,7 @@ input[type='submit'] {
 }
 
 .uploadImage:hover {
-  background-color: #282875;
+  background-color: #46454a;
 }
 
 .uploadImage:active {
@@ -954,9 +952,8 @@ input:focus {
 }
 
 .login-container {
-  background-image: url('./assets/login-bg.png');
+  background-image: url('./assets/login-bg.jpg');
   background-size: cover;
-  background-position: bottom center;
   background-repeat: no-repeat;
   display: flex;
   min-height: 100vh;

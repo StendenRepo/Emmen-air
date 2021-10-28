@@ -1,13 +1,16 @@
 <?php
 
+include dirname(__FILE__). "/../utils/mailSeperator.php";
+
 function getAllImages($limit = null) {
-  return getParsedData();
+  return array_slice(getParsedData(), 0, $limit);
 }
 
 function setImage($id, $imageName, $hoverTextNl, $hoverTextEn) {
   $data = getParsedData();
+  $userName = seperateNameFromMail($id);
 
-  $tmpData = array("id" => $id, "imageName" => $imageName,
+  $tmpData = array("id" => $id, "user" => $userName, "imageName" => $imageName,
   "hoverTextNl" => $hoverTextNl, "hoverTextEn" => $hoverTextEn);
 
   array_unshift($data, $tmpData);

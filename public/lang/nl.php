@@ -7,6 +7,9 @@ $lang["nav-flightroutes"] = "Vliegroutes";
 $lang["nav-gallery"] = "Gallerij";
 $lang["nav-logout"] = "Uitloggen";
 
+// form
+$lang["searchBtnForm"] = "Zoeken";
+$lang["submitForm"] = "Plaats Bericht";
 /* ----- END GENERAL SECTION (General usage) ----- */
 
 /* ----- BEGIN LOGIN SECTION ----- */
@@ -15,6 +18,8 @@ $lang["password"] = "Wachtwoord";
 $lang["login-button"] = "Inloggen";
 $lang["error-message-1"] = "Vul alle velden in svp!";
 $lang["error-message-2"] = "Onjuiste gegevens ingevuld!";
+$lang["error-message-3"] = "Je moet inloggen om deze pagina te bekijken";
+
 
 /* ----- END LOGIN SECTION ----- */
 
@@ -44,7 +49,7 @@ $lang["events-month-may"] = "mei";
 
 // right side bottom
 $lang["search-students-title"] = "Zoek je schoolgenoten";
-$lang["search-students-searchbar-text"] = "Zoek...";
+$lang["search-students-searchbar-text"] = "Vul hier de naam van een student in";
 
 /* ----- END HOME SECTION ------ */
 

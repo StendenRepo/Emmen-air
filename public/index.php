@@ -1,7 +1,4 @@
-<?php
-  include "../src/preload.php";
-  include "../src/translate.php";
-?>
+<?php include "../src/preload.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,16 +1,16 @@
 <?php
 
+include dirname(__FILE__). "/../utils/mailSeperator.php";
+
 function getAllMessages($limit = null) {
-
-
-
-  return getParsedData();
+  return array_slice(getParsedData(), 0, $limit);
 }
 
 function setMessage($userId, $title ,$contentNl, $contentEn) {
   $data = getParsedData();
+  $userName = seperateNameFromMail($userId);
 
-  $tmpData = array("id" => $userId, "title" => $title, "content_nl" => $contentNl, "content_en" => $contentEn);
+  $tmpData = array("id" => uniqid(), "user" => $userName, "userMail" => $userId, "title" => $title, "content_nl" => $contentNl, "content_en" => $contentEn);
   array_unshift($data, $tmpData);
   $jsonParsedData = json_encode($data);
 

@@ -1,4 +1,5 @@
 <?php include "../src/preload.php"; ?>
+<?php include "../src/images.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,18 +16,21 @@
       </div>
     </div>
     <div class="row">
-      <div class="gallerij-image">
-        <img src="./assets/auto-verticaal.jpg" alt="plaatje">
-        <div> test </div>
-      </div>
-      <div class="gallerij-image">
-        <img src="./assets/auto-horizontaal.jpg" alt="plaatje">
-        <div> test </div>
-      </div>
-      <div class="gallerij-image">
-        <img src="./assets/auto-horizontaal.jpg" alt="plaatje">
-        <div> test </div>
-      </div>
+      <?php
+    $images = getAllImages();
+      foreach($images as $image) {
+        echo "
+        <div class='gallerij-image'>
+          <img src='assets/uploaded_images/{$image["imageName"]}' alt='{$image["imageName"]}'>
+          <div>";
+        echo ($_SESSION["language"] === "eng") ?
+              $image["hoverTextEn"] :
+              $image["hoverTextNl"];
+        echo '
+          </div>
+        </div>';
+      }
+    ?>
     </div>
   </main>
   <?php include "../templates/footer.php";?>

@@ -634,6 +634,19 @@ header .logo a {
   display: block;
   margin-top: 0.5rem;
   width: 100%;
+  background-color: #191971;
+  color: #f4f4f4;
+  padding: 12px 20px;
+}
+
+.number-submit {
+  margin: 0 0.5rem;
+}
+
+.number-submit input[type='submit'] {
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
   background-color: #87ceeb;
   color: #535353;
   padding: 12px 20px;
@@ -710,13 +723,10 @@ input[type='submit'] {
 .bericht {
   background-color: white;
   width: 60%;
-  margin: 1rem auto 0;
+  margin: 20px auto 0;
   font-family: 'Roboto', sans-serif;
-  border-bottom: 1px solid gray;
-}
-
-.bericht > h3 {
-  padding-bottom: 0.75rem;
+  padding: 10px;
+  border-bottom: 2px dashed gray;
 }
 
 .bericht:last-of-type {

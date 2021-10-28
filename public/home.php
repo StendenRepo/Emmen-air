@@ -113,6 +113,6 @@ include "../src/messages.php";
       </div>
     </main>
   </div>
-  <?php include "../templates/footer.php"; ?>
+  <?php include "../templates/footer.php";?>
 </body>
 </html>

@@ -27,6 +27,9 @@
           </div>
         </li>
       </ul>
+      <?php elseif(empty($_GET)): 
+        // ñothing happens, only the forms shows up
+      ?>  
       <?php else : ?>
       <ul class="studentlist">
         <li>

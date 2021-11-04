@@ -46,8 +46,7 @@ switch (currentFile) {
         document.getElementsByClassName("nav-home")[1].className += " nav-active";
         break;
     case "vliegroutes.php":
-        // yet to add
-        // document.getElementsByClassName("nav-flightroutes")[0].className += " nav-active";
-        // document.getElementsByClassName("nav-flightroutes")[1].className += " nav-active";
+        document.getElementsByClassName("nav-flightroutes")[0].className += " nav-active";
+        document.getElementsByClassName("nav-flightroutes")[1].className += " nav-active";
         break;
 }
